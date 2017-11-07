@@ -1,2 +1,2 @@
-# website
-Official website for Rolisteam
+# documentation
+Pelican website to generate documentation
