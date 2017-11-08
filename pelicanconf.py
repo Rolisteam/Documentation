@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u''
 SITENAME = u'Documentation of Rolisteam'
-SITEURL = 'http://wiki.rolisteam.org'
+SITEURL = 'http://anima.rolisteam.org'
 
 PATH = 'content'
 STATIC_PATHS = ['iconfiles','images']
