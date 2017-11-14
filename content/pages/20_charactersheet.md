@@ -5,16 +5,11 @@ status: hidden
 lang: en
 
 
-Character Sheet
-===============
-
-Rolisteam CharacterSheet Editor (RCSE)
-======================================
+## Rolisteam CharacterSheet Editor (RCSE)
 
 Making character sheet required to follow several steps:
 
-1/ Import image
----------------
+### 1/ Import image
 
 The first step is to drop background image. This image can be created
 from the PDF file of the official charactersheet of your game or you can
@@ -30,8 +25,7 @@ can easily add pages with the button dedicated to this task. Then you
 will have to define the background of new pages by importing background
 images.
 
-2/ Put fields on the sheet
---------------------------
+### 2/ Put fields on the sheet
 
 Then, it is important to set the position of each text field. This work
 can be really long but thanks to RCSE you can make it graphically.
@@ -50,14 +44,13 @@ There are many field kinds available into RCSE :
 | Button    | it stores a dice command. Clicking on it, run the command.                                               |      |
 | Image     | Display a image, the path to the image should be url, such as <http://myimage.org/character.jpg>         |      |
 
-### Change Textinput to selector
+#### Change Textinput to selector
 
 Easy Peasy, you just have to set possible values in the dedicated column
 into the right table. Values are separated by comma. Example: red,blue,
 green, brown, yellow, black,white, orange, purple.
 
-3/ Edit fields
---------------
+### 3/ Edit fields
 
 when all yours field are set, it is important to name them. This name
 can be use into formula.
@@ -67,77 +60,76 @@ do is to edit from the right table on the first tab.
 
 Columns:
 
-### Id
+#### Id
 
 This property is the unique id for that data. By default, RCSE generates
 automatically the value. It is recommended to keep the default value. It
 is possible to get access to the data by its id. Example: =${id_5}+4
 
-### Label
+#### Label
 
 This property is a human readable id for that data. It is left empty
 when you add new field. The writer of the character sheet must set this
 value. It is possible to get access to the data by its label. Example:
 =${intelligence}+4
 
-### Value
+#### Value
 
 The value is displayed into the character sheet. It is also the element
 which is used into formula or dice command.
 
-### Possible values
+#### Possible values
 
 This field is only useful for TextInput. It allows to change a TextInput
 to selector. Selector (also known as Combobox) are items dedicated to
 select one value from limited list.
 
-### Type
+#### Type
 
 This column give you a reminder of the type of the field: TextInput,
 TextField, checkbox, TextArea, Button, Image…
 
-### X
+#### X
 
 Field Position on X-axis (width). You can change it to align the field
 precisely.
 
-### Y
+#### Y
 
 Field Position on Y-axis (height). You can change it to align the field
 precisely.
 
-### width
+#### width
 
 Width of the field. You can change it to align the field precisely.
 
-### Height
+#### Height
 
 Height of the field. You can change it to align the field precisely.
 
-### Font adaptation
+#### Font adaptation
 
 This option can be enable to adapt font size to the size of the
 character sheet.
 
-### Text Alignment
+#### Text Alignment
 
 You can set where the text should be displayed in the field.
 
-### Text color
+#### Text color
 
 You can set the text color.
 
-### Background Color
+#### Background Color
 
 You can set the background color
 
-### Border
+#### Border
 
 You can set where the border should display (Top, right, left bottom,
 all or no border)
 
-4/ Generate sheet
------------------
+## Generate sheet
 
 When you have added all the fields you want, you may generate the sheet
 by clicking on « **edit &gt; Generate Code and Sheet** ».
@@ -150,15 +142,14 @@ The code tab sees its content changed by this action. It shows qml code.
 You can adjust the sheet (in the editor tab) and generate again and
 again until it fits your needs.
 
-### For veterans / experts
+#### For veterans / experts
 
 It is also possible to amend QML code directly to add new features to
 the sheet. You can play music, videos or add animations and many other
 stuffs. Be careful, when you modify the generated code, you must not ask
 to generate code and sheet. It will erase all your modifications.
 
-5/ Add character
-----------------
+### 5/ Add character
 
 When your charactersheet is all set. As last step, you must add
 characters. There are two ways to do so.
@@ -173,11 +164,9 @@ make the edition easier. There are reachable from the contextual menu.
 The second method is to share character with their owners thanks to
 rolisteam and let them set all the values.
 
-Rolisteam
-=========
+## Rolisteam
 
-Open/load character sheet
--------------------------
+### Open/load character sheet
 
 When you save character sheet with RCSE, you get a .rcs file. This file
 must be loaded in Rolisteam (**File &gt; Open &gt; Character Sheet** or
@@ -187,8 +176,7 @@ all values from characters. GM can have a good overview about all
 PCs/NPCs at once. Then, other tabs show the character sheet of one
 character in the view mode.
 
-Share sheet to Character
-------------------------
+### Share sheet to Character
 
 GM must share the character sheet with their player's character in order
 to make it appear to the player. To do that, you must click on the Share
@@ -197,24 +185,21 @@ The tab title is changed to the name of the chosen character. On player
 screen, the charactersheet window appears with two tabs: data and view.
 The player can change values from both view.
 
-many pages
-----------
+### many pages
 
 As we saw, it is possible to create character sheet with several pages.
 In the view tab, you can change page by pressing **Left** or **Right**
 key. You can also copy the view and/or detach the tab. This is the way
 to show several pages at once.
 
-Computation formula
-===================
+## Computation formula
 
 Charactersheet embeds formula engine. You can compute automatically
 values. It may be useful to make game mechanism easier. To add a new
 formula, you just have to start the line with :**=** such as any
 spreadsheet software.
 
-Possible Operation
-------------------
+### Possible Operation
 
 The formula system can manage many functions and operations.
 
@@ -229,114 +214,112 @@ You can do all usual operations.
 
 Examples:
 
-**Sum**
+#### Sum
 
-4+4
-====
+> 4+4
 
-${intelligence}+3
-**Subtraction**
+> ${intelligence}+3
 
-12-3
-=====
 
-${intelligence}-3
+#### Subtraction
 
-**Multiplication**
+> 12-3
 
-2\*7
-=====
+> ${intelligence}-3
 
-2x7
-=${intelligence}\*3
+#### Multiplication
 
-**Division**
+> 2\*7
 
-15/5
-=====
+> 2x7
+> =${intelligence}\*3
 
-15÷5
-=${intelligence}/3
-=${intelligence}÷3
+#### Division
 
-### abs
+> 15/5
+
+> 15÷5
+> =${intelligence}/3
+> =${intelligence}÷3
+
+#### abs
 
 Absolue value takes only one argument.
 
-=abs(-3)
+> =abs(-3)
 3
 
-=abs(3)
+> =abs(3)
 3
 
-=abs(${intellegence}-11)
+> =abs(${intellegence}-11)
 8
 
-### min
+#### min
 
 This function takes several arguments.
 
-=min(3,8,10,1)
+> =min(3,8,10,1)
 1
 
-=min(${wits},${dexterity})
+> =min(${wits},${dexterity})
 3
 
-### max
+#### max
 
 This function takes several arguments.
 
-=max(3,8,10,1)
+> =max(3,8,10,1)
 10
 
-=min(${wits},${dexterity})
+> =min(${wits},${dexterity})
 4
 
-### concat
+#### concat
 
 This function takes several arguments.
 
-=concat(${investigation}+${perception},"G",${perception})
+> =concat(${investigation}+${perception},"G",${perception})
 7G3
 
-=concat(${investigation},"d10k",${perception})
+> =concat(${investigation},"d10k",${perception})
 4d10k3
 
-### floor
+#### floor
 
 the function takes one argument.
 
-=floor(3.9)
+> =floor(3.9)
 3
 
-=floor(3.1)
+> =floor(3.1)
 3
 
-=floor(${force}/2)
+> =floor(${force}/2)
 1
 
-### ceil
+#### ceil
 
 the function takes one argument.
 
-=ceil(3.9)
+> =ceil(3.9)
 4
 
-=ceil(3.1)
+> =ceil(3.1)
 4
 
-=ceil(${force}/2)
+> =ceil(${force}/2)
 2
 
-### avg
+#### avg
 
 This function takes several arguments.
 
-=avg(10,10)
+> =avg(10,10)
 10
 
-=avg(8,4)
+> =avg(8,4)
 6
 
-=avg(${intelligence},${dexterity})
+> =avg(${intelligence},${dexterity})
 3.5

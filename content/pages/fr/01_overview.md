@@ -4,10 +4,9 @@ slug: overview
 status: hidden
 lang: fr
 
-[center\|frameless\|600px\|\|logo](/Image:_Pixture_reloaded_logo.png "wikilink")
-
-Présentation
-------------
+<!--
+![images]({filename}/images/logo_rolisteam.png)
+-->
 
 [Rolisteam](/Rolisteam "wikilink") est un logiciel libre et gratuit
 destiné aux joueurs de jeux de rôles qui souhaitent faire des parties

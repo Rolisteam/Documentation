@@ -4,8 +4,6 @@ slug: vectorialMap
 status: hidden
 lang: en
 
-Warning!! This page is about version 1.8 under development
-
 Vectorial Maps
 ==============
 
@@ -303,8 +301,7 @@ mouse cursor. There are many contexts.
     these rules: as the smallest, as the biggest, as average or as the
     one under the mouse.
 
-Layers management
------------------
+## Layers management
 
 Layers are set of items. There are dedicated to define interactions you
 can have with them. We recommend to add first ground items, then to put
