@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u''
-SITENAME = u'Documentation of Rolisteam'
+SITENAME = u'Documentation'
 SITEURL = 'http://anima.rolisteam.org'
 
 PATH = 'content'
@@ -15,7 +15,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-THEME = "/home/renaud/www/pelican-themes/rolisteam_theme"
+THEME = "/home/renaud/www/pelican-themes/rolisteam_doc_theme"
 #bootstrap*
 #bricks* red to blue
 # Flex
@@ -74,6 +74,7 @@ MARKDOWN = {
     # https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/
     # See: https://pythonhosted.org/Markdown/reference.html#lazy_ol
     'lazy_ol': False,
+    'extentions': ['toc','codehilite','tables'],
 }
 
 MENUITEMS = (
@@ -82,11 +83,20 @@ MENUITEMS = (
 )
 #THEME_STATIC_PATHS (['static'])
 
-PLUGINS = ['i18n_subsites',]
+PLUGINS = ['i18n_subsites','pelican-toc']
+
+TOC = {
+    'TOC_HEADERS'       : '^h[1-2]',
+    'TOC_RUN'           : 'true',  
+    'TOC_INCLUDE_TITLE': 'false',  
+}
+
+
+
 I18N_SUBSITES = {
 'fr': {
-        'SITENAME': 'Rolisteam',
+        'SITENAME': 'Documentation',
 		'THEME' : '/home/renaud/www/pelican-themes/rolisteam_theme',	
-		'LINKS' : (('Actualités','blog/index.html'),('Captures', 'screenshots.html'),('Tutoriaux', 'tutoriallist.html'),('Contact', 'contact.html'),('Références', 'references.html'),('Dés dans Discord', 'discord.html'),('Dés dans twitter', 'twitter.html'),('Partenaires', 'friends.html'))
+		'LINKS' : ()
        }
 }
