@@ -7,6 +7,150 @@ lang: en
 
 # File
 
+## New 
+
+### Map 
+
+### Chat 
+
+### Notes
+
+### Vectorial Map
+
+### Character sheet
+
+### Shared notes
+
+## Open
+
+### Map
+
+### Picture
+
+### Picture On Line
+
+### Note
+
+### Scenario
+
+### Vectorial Map
+
+### CharacterSheet
+
+### Shared notes
+
+
+## Recent files
+
+
+## Save 
+
+## Save As…
+
+## Save All
+
+## Save Scenario
+
+## Save Scenario As…
+
+## Close
+
+## Preferences
+
+## Quit
+
+# Edit
+
+## Undo
+
+Undo the latest action.
+
+## Redo
+
+Perform the latest canceled action
+
+## Shortcuts viewer
+
+Displays a panel with all shortcuts.
+Best way to learn how to do thing quickly with Rolisteam.
+
+
+# Subwindows
+
+## Reorganize
+
+submenu which allow you to rearrange the contents of the workspace.
+
+### Tab
+
+
+
+### Cascade
+
+Subwindows are arranged one over the others with a slight gap between each one.
+
+### Tile
+
+The windows are arranged next to each other.
+
+## Map
+
+### Show PC Name
+
+### Show NPC Name
+
+### Show NPC Number 
+
+### Show health state
+
+## Background Music
+
+## Notification Zone
+
+## Resources Explorer
+
+## Chatroom list
+
+## Player list
+
+## Any Opened media
+
+
+# Network
+
+## Disconnect
+## Reconnect
+## Change Profile
+## RoomList
+
+# GM tool box
+
+## Name Generator
+
+## Unit Converter
+
+## Dice Bookmark
+
+# Help
+
+##   Help Rolisteam
+Open up this documentation
+
+##  Support Rolisteam
+
+##  About
+ show informations about rolisteam like authors, version, license, etc...
+
+
+
+
+
+
+
+
+
+
+
 New empty map
 Opens a window for setting the size and background color of the map.
 After validating the map is created among all users. Is accessible only
@@ -69,20 +213,7 @@ Lets you set the different folders used by Rolisteam .
 
 Closes the application after saving all chats.
 
-# Edit
 
-## Undo
-
-Undo the latest action.
-
-## Redo
-
-Perform the latest canceled action
-
-## Shortcuts viewer
-
-Displays a panel with all shortcuts.
-Best way to learn how to do thing quickly with Rolisteam.
 
 # Subwindows
 
@@ -96,11 +227,9 @@ Best way to learn how to do thing quickly with Rolisteam.
 
 # Dialogs
 
--   Reorganize: submenu which allow you to rearrange the contents of the
-    workspace. It contains the following items :
--   Cascade : windows are arranged one over the other with a slight gap
-    between each one. ·
--   Tiles: the windows are arranged next to each other.
+-   Reorganize:  It contains the following items :
+-   Cascade : 
+-   Tiles: 
 -   Events: Shows or hides the window reporting the events integrated
     into the workspace.
 -   Connected players show or hide the list of connected players. Note
@@ -115,23 +244,4 @@ Best way to learn how to do thing quickly with Rolisteam.
 -   List of maps and pictures: All pictures and maps are open later in
     the menu, you can show or hide each one by checking / unchecking.
 
-# Network
 
-* Disconnect
-* Reconnect
-* RoomList
-
-# GM tool box
-
-## Name Generator
-
-## Unit Converter
-
-## Dice Bookmark
-
-# Help
-
-*   Help : show software help.
-*   About : show informations about rolisteam like authors, version,
-    license, etc...
-*  Support Rolisteam
