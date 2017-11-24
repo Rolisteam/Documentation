@@ -1,51 +1,58 @@
-Title: Connected
+Title: List of players
 Date: 2017-06-11 10:20
 slug: connected
 status: hidden
 lang: en
 
-List of players
-===============
+# List of players
+
+![Players list]({filename}/images/list_of_player.jpg)
 
 This window lists all connected players and their characters. The first
-player on the list is always the local player (ie you). The GM is
-indicated by a green background (on the example, it is 'Jogo'). The
-names of the first level of the tree are the players ('Jogo', 'Paul' and
-'James'). The names of the second level are the characters of the
-players ('Aramis' is Paul PC).
+player on the list is always the local player. 
+The GM is indicated by a darker background (on standard look and feel).
+The first level of names are players.
+Player can have many characters.
 
-Change the name or color
-========================
+# Change the name
 
-By double-clicking your name or the name of one of your characters, you
-can change them. The same way, by double-clicking on the color you can
-change it.
+Double-click on name of your characters or your player.  
+Start editing the cell.
 
-Create a character
-==================
+# Change the color
 
-At the launch of Rolisteam you have no character. In order to create
-one:
+Double-click on the color, a color selector dialog appears.  
 
--   Click on the bottom left button of the player’s window. Whether you
-    are GM or not, this button is called Add a PC or Add NPC. A dialog
-    box appears.
--   Enter the name of your new character in the first box.
--   Eventually change the color to represent it on maps and in chats by
-    clicking on the colored button.
+# Change the avatar
 
-Remove one of his characters
-============================
+Rigth-click on character, Select `Set Avatar…`.  
+A file selector dialog appears. Use it to select your avatar `*.jpg, *png, *.bmp`.  
 
--   Click its name in the list of players.
--   Click the bottom right button of the players window. Whether you are
-    GM or not, this button is called Delete NPC or Delete PJ.
+# Create a character
 
-Add or remove the character of a map
-====================================
+Any player may create character from the [profile connection dialog]({filename}03_firststeps.md)
+At any moment, players can add character.  
+Click on `Add PC` (`Add NPC` for GM).  
+A dialog box appears.  
+Enter the character name in the first field.  
+Eventually change the color to represent it on maps and in chats by clicking on the colored button.
 
-The check box on the line of a character indicates if his pawn is on the
-last selected map. In the example, there are only the Cardinal and
-Aramis on the map. To add or remove a character from the map, just check
-or uncheck this box. The GM may add or remove all the characters. And
-the players may act only on their own PCs.
+# Remove characters
+
+Click on the character.  
+then click on `Remove PC` (or `Remove NPC` for GM)
+
+
+# Character on map
+
+To put character on map, just check character.
+Players are only able to put their own characters on map.
+The GM may add or remove all the characters.  
+Token appears on the map center.
+
+Uncheck it to remove it from map.
+
+# Character on VMAP
+
+Just drag the character from *List of players* to the [vectorial map]({filename}17_VectorialMap.md).
+
