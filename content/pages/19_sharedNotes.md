@@ -4,3 +4,45 @@ slug: sharednotes
 status: hidden
 lang: en
 
+
+# How to use
+
+Open a new shared editor or load a file [details]({filename}05_menus.md)
+
+![shared editor]({filename}images/shared_editor.jpg)
+
+The first panel is the text editor. 
+Write text inside.
+
+## Permission panel
+
+The second panel is only visible for the editor's owner.
+He is in charge of permission management.
+By default, all the others have no permission.
+The owner may gives **read** permission. 
+The shared editor appears on player's screen. He can now read the text.
+
+The owner may gives **write** permission.
+then user may write on the document.
+
+The owner may remove permission. 
+Having no permission means the editor disappears from user's screen. 
+
+# Markdown Syntax
+
+[Markdown syntax](https://en.wikipedia.org/wiki/Markdown)
+
+**Rolisteam** treats markdown file as any text file. Its syntax highlight should help you to easily read file.
+Add titles and subtitles.
+Markdown file can be transform in any kind of document: webpage, pdf and many more.
+
+A lot of online tools may help you to do that.
+
+# Limitations
+
+
+# Authors
+
+
+
+
