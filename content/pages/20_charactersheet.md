@@ -323,3 +323,7 @@ This function takes several arguments.
 
 > =avg(${intelligence},${dexterity})
 3.5
+
+
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/sharednotes.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/webview.html">Next</a></p>

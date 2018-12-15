@@ -4,57 +4,76 @@ slug: preferences
 status: hidden
 lang: en
 
-Preferences
-===========
 
-There are 5 categories:
+Preferences are splited in 5 tabs. Each tab brings together settings about commun subject.
 
--   General
--   Themes
--   Application Path
--   Dice System
--   Diagnostic
+## General
 
-General
--------
+This tab has many settings to customize some behaviours.
 
-You may change the Fog of War color or its transparency. All changes
-will be applied for new maps.
+![general]({filename}/images/panel/rolisteam_Preferences_en_030.png)
 
-Additionally, this panel allows other modifications: -Enable/disable the
-check for updates (Default: Enable) -Start rolisteam in full screen
-(Default: selected) -Enable/disable the feature "fit on windows" for
-images (Default: enable) -Select default permission for plan. You will
-still be able to select permission you want, but the preselected will be
-the one define in preferences (Default: no permission). -Define the path
-to the translation file you wants. It will be used for the next
-starting.
+### Maps
 
-Themes
-------
+Those settings applay on all maps (Maps and vectorial maps).
 
-This part is described in the
-[Look_and_feel](/Look_and_feel "wikilink") page.
+* Define the Fog of War color.
+* Define the opacity of FOW
+* Define default permission for map. It is possible to override this settings when maps are added into **Rolisteam**.
 
-Application Path
-----------------
+### Behaviour 
 
-This panel allows users to select the default directory to open or save
-many kind of files. So, you can define directory for music (player and
-GM), images, maps, story (.sce), your minutes and your messages.
+* Enable/disable the check for updates (Default: Enabled) 
+* Start heartbeat feature. (default: disabled)
+* Heartbeat frequency (default: 60seconds)
+* Make subwindow title shorter when in tab mode (Default: Disabled)
+* Select maximum lenght for subwindow title (Default: 10)
+* Enable/disable the feature "fit on windows" for pictures (Default: enabled) 
+* Define the path to the translation file you wants. It will be used for the next starting.
+* Start rolisteam in full screen (Default: selected) 
 
-Dice System
------------
+### Chatwindow
 
+* Show timestamps in chatwindows (Default: disabled)
+* Color of timestamps (Default: black)
+* Hide long dice command (Default: disabled)
+* Treshold for long dice command (Default: 100)
+
+## Themes
+
+![theme]({filename}/images/panel/rolisteam_Preferences_en_029.png)
+
+This part is well-described on the [theme]({filename}18_theme.md) page.
+
+## Application Path
+
+![path]({filename}/images/panel/rolisteam_Preferences_en_031.png)
+Defines directory where **Rolisteam** should load/save its content.  
+**Rolisteam** deals with many file formats (pictures, maps, texts, character sheet...).  
+So, there are several paths to define. Rolisteam manages changes these path after each save.  
+Change directly this paths should be required in rare cases.  
+
+## Rule set
+
+![theme]({filename}/images/panel/rolisteam_Preferences_en_032.png)
 Thanks to this panel, it is possible to define new aliases in the dice
-system. If you think the syntax is a bit to complicated. Aliases are
-dedicated to make it really easier. You may add, modify aliases or
-change their priority. All aliases from the GM are automatically shared
+system.  
+ If you think the syntax is a bit to complicated.  
+Aliases are dedicated to make it really easier. You may add, modify aliases or
+change their priority.  
+All aliases from the GM are automatically shared
 to players.
 
-Diagnostic
-----------
+# Diagnostic
 
-This panel is dedicated to perform diagnostic of your system, regarding
-fonts, audio file and images. It will check support of many formats and
-list the available fonts on your computer.
+![diag]({filename}/images/panel/rolisteam_Preferences_en_033.png)
+This panel is dedicated to perform diagnostic of the host system.  
+It gathers information regarding fonts, supported audio file formats and supported image file format. 
+When reporting issue about **Rolisteam**, please provide us a diagnostic output.  
+Moreover when the problem is about unability to read or play some file formats.  
+
+
+
+
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/diceroller.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/look.html">Next</a></p>

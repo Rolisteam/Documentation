@@ -7,6 +7,8 @@ lang: en
 This panel is part of the rolisteam preferences panel. Its goal is to
 change and customize the graphical user interface of Rolisteam.
 
+![Image]({filename}/images/panel/rolisteam_Preferences_en_029.png)
+
 # Default Themes
 By default, Rolisteam ships three themes:
 
@@ -43,7 +45,9 @@ The theme is gathering all data to customize **Rolisteam**.
 ### Change font size in chatwindow
 
 <pre>
-
+QTextBrowser {
+   font-size: 25pt;
+}
 </pre>
 
 Import/Export
@@ -412,3 +416,6 @@ Example of rSkin file
    "stylename": "fusion"
    }
 </pre>
+
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/preferences.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/i18n.html">Next</a></p>

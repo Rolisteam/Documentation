@@ -16,38 +16,41 @@ Anyways, players can be all over the world or just around the corner, rolisteam 
 **Rolisteam** provides enough features to play in text mode.  
 Many people use audio conference software additionnaly with Rolisteam (such as Mumble, Teamspeak, Discord, Matrix or Skype).
 
+![image]({filename}/images/charactersheet2.jpg)
+
 ## Features
 
 **Rolisteam** has those following features:
 
--   Game hosting/Join game
--   Image sharing
--   Instant messaging
--   Draw and share map
--   Draw and share Vectorial map (v1.8)
--   Charactersheet management (v1.8)
--   [Dice roller]({filename}05_dice_roller.md)
--   Dice Alias
--   Permission management : Game Master (GM) or Playable Character (PC) 
--   Import images in map as background or item.
+-   Game hosting/Join game [more…]({filename}03_firststeps.md)
+-   Image sharing [more…]({filename}15_images.md)
+-   Instant messaging [more…]({filename}09_chat.md)
+-   Public and privates chat allowing users to talk to each others
+-   Draw and share map [more…]({filename}16_maps.md)
+-   Draw and share Vectorial map [more…]({filename}17_VectorialMap.md)
+-   Import images in map as background or item. 
 -   Multiple drawing tools to draw or annotate maps
 -   Fog of war on map, the GM can hide parts from maps
 -   Character tokens
+-   Charactersheet management [more…]({filename}20_charactersheet.md)
+-   Dice roller [more…]({filename}05_dice_roller.md)
+-   Dice Alias [more…]({filename}22_preferences.md)
+-   Permission management : Game Master (GM) or Playable Character (PC)
 -   Distinction between player and character
--   Character avatar
--   Dynamic character states
--   Resource manager
--   Stored Preferences
--   User Interface Customization (Look and feel)
+-   Character avatar [more…]({filename}08_connected_players.md)
+-   Dynamic character states [more…]({filename}22_preferences.md)
+-   Resource manager [more…]({filename}10_resources.md)
+-   Stored Preferences [more…]({filename}22_preferences.md)
+-   User Interface Customization (Look and feel) [more…]({filename}23_look_and_feel.md)
 -   Save/Load data as individual file (image, map, character sheet)
 -   Save/Load data into one file called "scenario" (.sce)
--   Minutes editor to keep tracks about your game
--   Public and privates chat allowing users to talk to each others
--   3 tracks Background music player.
 -   Update the workspace after new player connection.
--   Dice Bookmark
--   Unit convertor
--   Name generator
+-   Minutes editor to keep tracks about your game [more…]({filename}18_minutes_editor.md)
+-   Shared Text Editor to share the effort taking notes [more…]({filename}19_sharedNotes.md)
+-   3 tracks Background music player [more…]({filename}14_music.md)
+-   Dice Bookmark [more…]({filename}13_dicebookmark.md)
+-   Unit convertor [more…]({filename}12_unitConverter.md)
+-   Name generator [more…]({filename}11_nameGenerator.md)
 
 ## Tutorials
 *   [Let's get started](http://www.rolisteam.org/tutorial01.html)
@@ -92,3 +95,7 @@ later version.
 -   Windows
 -   MacOS
 -   Linux
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/install.html">Next</a></p>

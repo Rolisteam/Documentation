@@ -299,4 +299,5 @@ only have to click on its title from the Window menu. If you want to
 remove the map for the current game, ie it is permanently closed to all
 players, you must click Close map/picture from the File menu. The map
 disappears for all users. Only the GM can close down a map.
-
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/images.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/vectorialMap.html">Next</a></p>

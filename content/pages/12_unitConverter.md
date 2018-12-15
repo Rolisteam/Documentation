@@ -8,6 +8,8 @@ lang: en
 **Rolisteam** provides Unit Converters. 
 Role playing games are full of odd metrics, this panel is here to help in this case.
 
+![Unit converter]({filename}/images/panel/UnitConvertor_en_022.png)
+
 # Features
 
 Units are divided into categories.
@@ -29,7 +31,56 @@ Select the wanted unit
 Set the quantity to convert
 Click on convert
 
+
+# Possible convertions
+
+## Distance
+
+From and to any of those Units:
+
+1. Meter m
+2. Kilometer km
+3. Decameter dam
+4. Decimeter dm
+5. Hectometer hm
+6. Centimeter cm
+7. Millimeter mm
+8. Inch po
+9. Foot ft
+10. Yard yd
+11. Mile Mile
+
+# Temperature
+
+1. Celsius °C
+2. Kelvin K
+3. Fahrenheit °F
+
+# Currency
+
+From **Legend of the Five Rings**:
+
+1. Koku
+2. bu
+3. Zeni
+
+# Mass
+
+1. Gram g
+2. Kilogram kg
+3. Once oz
+4. Pound lb
+
+# Volume
+
+1. Cubic Meter m
+2. Cubic feet ft
+
 # Expending features
 
-We hope to implement a way for users to add their own convertion rules.
-To adapt **Rolisteam** to any game/universe.
+The units convertor provides a way to add new units and new convertion rules. 
+Click on this button ![button]({filename}/icone/add_rule.jpg). 
+The convertor changes to this window:
+![convertor_screen2]({filename}/edit_rules.jpg)
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/namegenerator.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/dicebookmark.html">Next</a></p>

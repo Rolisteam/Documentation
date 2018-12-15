@@ -6,7 +6,7 @@ lang: en
 
 # List of players
 
-![Players list]({filename}/images/list_of_player.jpg)
+![Players list]({filename}/images/tuto/18_playerlist_en.jpg)
 
 This window lists all connected players and their characters. The first
 player on the list is always the local player. 
@@ -56,3 +56,7 @@ Uncheck it to remove it from map.
 
 Just drag the character from *List of players* to the [vectorial map]({filename}17_VectorialMap.md).
 
+
+
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/events.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/chatting.html">Next</a></p>

@@ -79,4 +79,5 @@ The **GM** or the owner of the image may close it.
 This means the image will disappear from every player's workspace.
 To do so, Inside the `file` menu, click on `Close Map/image` 
 
-
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/music.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/map.html">Next</a></p>

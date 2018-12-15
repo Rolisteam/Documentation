@@ -21,24 +21,28 @@ Let's take a look about it:
 
 Please, remember it is important to prefix all you command by `!`. This will allow the system to identify your command. To clarify the documentation, the `!` is not repeated before all commands.
 
-| platform | start character(s)  | more information |
-| Rolisteam |```!```| [Documentation](http://wiki.rolisteam.org/index.php/En:Dice) |
-| Discord  |```!```|  |
-| Twitter  | ```#roll```  | Twit any message starting with #roll following by dice command (e.g: ```#roll 2d6```) |
-| IrcBot   |```!```|  |
-| webserver   | nothing |  No public published yet. Has dedicated text field |
-| dice   | nothing | dice is a command line application to roll dice: ```dice "2d6"``` |
+
+
+Platform | Start character(s)  | More information 
+-------- | ------------------- | ----------------
+Rolisteam |```!```| [Documentation](http://wiki.rolisteam.org/index.php/En:Dice) |
+Discord  |```!```|  
+Twitter  | ```#roll```  | Twit any message starting with #roll following by dice command (e.g: ```#roll 2d6```) 
+IrcBot   |```!```|  
+webserver   | none |  No public published yet. Has dedicated text field
+dice   | none | dice is a command line application to roll dice: ```dice "2d6"```
 
 
 ### Known Limitations
 
-| platform | descriptions |
-| Rolisteam | no support for comments yet. Rolisteam is a big software. You may not have all the most recent feature from diceparser. |
-| Discord  | no support for p operator. Color are badly managed by discord so we can't waste time about it.  If the command takes too much time. It is canceled.  There is really few aliases. You may ask for new aliases|
-| Twitter  | Result such be short. No aliases |
-| IrcBot   | No aliases |
-| webserver| No aliases |
-| dice     | No aliases |
+platform | descriptions 
+-------- |  ------------
+Rolisteam | no support for comments yet. Rolisteam is a big software. You may not have all the most recent feature from diceparser.
+Discord  | no support for p operator. Color are badly managed by discord so we can't waste time about it.  If the command takes too much time. It is canceled.  There is really few aliases. You may ask for new aliases
+Twitter  | Result such be short. No aliases
+IrcBot   | No aliases 
+webserver| No aliases 
+dice     | No aliases 
 
 We can't set some aliases for any platform but It has to be labelled with game's name.
 
@@ -82,6 +86,7 @@ Thanks of several operations and options, you can tune a bit your rolling comman
 * m : Merge
 * i : if
 * g : Group
+* w : Write
 
 ### Keep
 
@@ -156,7 +161,9 @@ For example:
 
 > 8D10c[>=7]+@c[=10]
 
-c[=10] in this command is counting the number of 10 in the result of 8D10, if you remove the @, it will try to count the number of 10 in the result of c[>=7]. The result of c[>=7] is a scalar number (1 or 2 ... (max value 8)); it is not dice list.
+c[=10] in this command is counting the number of 10 in the result of 8D10.
+Removing the @ makes it try to count the number of 10 in the result of c[>=7]. The result of c[>=7] is a scalar number.  
+it is not dice list.
 
 ### Painter
 
@@ -220,6 +227,10 @@ If you plan to use if operator to display text message. You must surround text w
 > 5d10g10 
 
 Roll 5 dice and then try to group them to make group of 10 [7th sea system].
+
+# Write
+
+> 4d10;$1c[>6];$1c[<2];$2-$3;w{"Success count: $4
 
 ## example:
 
@@ -350,6 +361,7 @@ The command counts how many dice are aboved 7.
 #### Logic Operator
 
 The Rolisteam Dice Parser allows you to use several logic operator:
+
 * Egual : =
 * Greater or egual :  >=
 * Lesser or egual : <=
@@ -441,4 +453,5 @@ The merge operator is useful when you want to use dice operator on all rolled di
 
 
 
-
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/pdf.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/preferences.html">Next</a></p>

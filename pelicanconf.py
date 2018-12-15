@@ -66,8 +66,9 @@ MARKDOWN = {
         'markdown.extensions.meta': {},
         'markdown.extensions.sane_lists': {},
         'markdown.extensions.smarty': {},
-  #      'markdown.extensions.toc': {'permalink': True},
+        'markdown.extensions.tables':{},
         'mdx_video': {},
+  #      'markdown.extensions.toc': {'permalink': True},
     },
     'output_format': 'html5',
     # Allow numbered lists to not start with 1. Used in following article:

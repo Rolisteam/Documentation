@@ -37,7 +37,7 @@ Make a new vectorial map
 You just have to go on **file** menu then to go in the **new** submenu
 then **Vectorial Map** A dialog opens:
 
-[frame\|left](/File:Open_vmap_en.png "wikilink")
+![new vmap]({filename}/images/tuto/13_newVMap_en.jpg)
 
 -   The title appears at the top of the map frame. It makes easier to
     find it in your workspace.
@@ -69,7 +69,7 @@ Graphic Item available
 
 ### Tool box
 
-[left](/File:Toolboxvmap_en.png "wikilink")
+![toolbox vmap]({filename}/images/tuto/ToolBox_009.jpg)
 
 #### Color selector
 
@@ -93,11 +93,14 @@ war).
 
 #### Pen
 
+![pen]({filename}/images/pictos/pen.png)
+
 You can paint line which follow your mouse.
 The diameter selector defines the width of the line.
 You can move the item but changing its curve is not supported.
 
 #### Straight Line
+![pen]({filename}/images/pictos/line.png)
 
 You must define two points to add straight line to the map: the starting
 point and the ending point.
@@ -106,17 +109,20 @@ You can move the item and change the position of starting point or
 ending point.
 
 #### Empty Rectangle
+![pen]({filename}/images/pictos/emptyrectangle.png)
 
 You can add empty rectangle on the map.
 The diameter selector defines the width of the border.
 You can move the rectangle and change its size by moving its corner.
 
 #### Filled Rectangle
+![pen]({filename}/images/pictos/filledrectangle.png)
 
 You can add Filled rectangle on the map.
 You can move the rectangle and change its size by moving its corner.
 
 #### Empty Ellipse
+![pen]({filename}/images/pictos/emptyellipse.png)
 
 You can add empty ellipse on the map.
 The diameter selector defines the width of the border.
@@ -124,12 +130,14 @@ You can move the rectangle and change its size by moving its two
 handles.
 
 #### Filled Ellipse
+![pen]({filename}/images/pictos/filledellipse.png)
 
 You can add Filled ellipse on the map.
 You can move the rectangle and change its size by moving its two
 handles.
 
 #### Text
+![pen]({filename}/images/pictos/text.png)
 
 Add text element on the map. The text can be changed. The border defines
 the maximum width of the text. The text is wrapped automatically. The
@@ -138,15 +146,16 @@ add blank line manually to improve the readability. The text item
 manages HTML. To make it possible, you may paste webpage, the formatting
 is the same or directly you can edit the text thank of the rich text
 editor.
-[<File:RicheTextEditor.png>](/File:RicheTextEditor.png "wikilink")
+![Text editor]({filename}RicheTextEditor.png)
 
 This editor allows modifications of properties of the text: Color, size,
 font, underline, italic… It supports the copy/paste. You can create a
 list. It is also possible to edit html code.
 
-[200px](/File:SourceEdit.png "wikilink")
+![source edit]({filename}/images/tuto/SourceEdit.png)
 
 #### Handle
+![pen]({filename}/images/pictos/hand.png)
 
 This tool allows to catch items on the map and move them. It is also
 useful to catch control square to make bigger or rotate the item (Ctrl +
@@ -154,16 +163,20 @@ Mouse motion) It is also possible to move the item the whole map by
 keeping pressed the Shift pressed and clicking on the map.
 
 #### Rule
+![pen]({filename}/images/pictos/rule.png)
 
 This tool gets the distance between two points on the map given the
 current defined scale.
 
 #### Path
+![pen]({filename}/images/pictos/path.png)
+
 
 Path is several lines. It can be closed and filled (right-click on the
 path) and each point can be moved individually.
 
 #### Anchor
+![pen]({filename}/images/pictos/anchor.png)
 
 It is possible to make a item anchored on another. This defines a
 parenthood relationship. If A is anchored on B. B is the parent of A. If
@@ -173,16 +186,19 @@ This feature makes easier any vehicles. You can move the vehicle, which
 means you move all passengers.
 
 #### Color Picker
+![pen]({filename}/images/pictos/)
 
 Click on any item. Its color becomes the current color.
 
 #### Diameter Tool
+![pen]({filename}/images/pictos/)
 
 Many items such as path, empty rectangle, empty ellipse, line and pen
 use the diamter value to paint itself. The value can not be change
 dynamically. When the item is created, it reads the value and keep it.
 
 #### NPC
+![pen]({filename}/images/pictos/)
 
 You can add PNJ, you can define the NPC name. The Plus symbol is the
 tool to add NPC on map. The NPC number est increase after adding NPC on
@@ -190,21 +206,25 @@ map. It is possible to reset that number by clicking on the counter
 button.
 
 #### Opacity
+![pen]({filename}/images/pictos/)
 
 This tool allows you to define the opacity of the current item. It can
 be changed dynamically.
 
 ### Tool bar
+![pen]({filename}/images/pictos/)
 
 [<File:Toolbarvmap_fr.png>](/File:Toolbarvmap_fr.png "wikilink")
 
 To show/hide the tool bar, you can press F9 key.
 
 #### Background Color
+![pen]({filename}/images/pictos/)
 
 You can change the current color of the map.
 
 #### Grid
+![pen]({filename}/images/pictos/grid.png)
 
 There is all you need to control the grid. First, the button to
 show/hide the grid. Then, you can chose the grid scheme: no scheme,
@@ -212,6 +232,7 @@ square or hexagon. if the current scheme is no scheme, the grid will not
 be visible. You can change the size of grid scheme or its unit.
 
 #### Permission
+![pen]({filename}/images/pictos/)
 
 The permission defines the action that player can do on the map. There
 are 3 permission modes.
@@ -221,6 +242,7 @@ are 3 permission modes.
 -   All : players can do whatever they want.
 
 #### Visibility
+![pen]({filename}/images/pictos/)
 
 There are 3 visibility mode:
 
@@ -230,13 +252,14 @@ There are 3 visibility mode:
 -   Visible : all items are visible.
 
 ### contextual Menu (right-click)
+![pen]({filename}/images/pictos/)
 
 From the contextual menu, you can control many aspects of item under the
 mouse cursor. There are many contexts.
 
 #### Map Menu
+![pen]({filename}/images/pictos/)
 
-[frame\|left](/File:MenuContextCarte.jpg "wikilink")
 
 -   Change current layer.
     [En:vMaps\#Gestions_des_Calques](/En:vMaps#Gestions_des_Calques "wikilink")
@@ -254,7 +277,6 @@ mouse cursor. There are many contexts.
 
 #### Item
 
-[frame\|left](/File:MenuContextuelRectangle.jpg "wikilink")
 
 -   Down puts current item under items below it.
 -   Up puts current item above all items which hide it.
@@ -268,7 +290,6 @@ mouse cursor. There are many contexts.
 
 #### Path
 
-[frame\|left](/File:PathMenuContextual.jpg "wikilink")
 
 -   **Close the path** closes the path geometry (line between the last
     point to the first one).
@@ -276,7 +297,6 @@ mouse cursor. There are many contexts.
 
 #### Text
 
-[frame\|left\|upright=0.35](/File:TexteContextualMenu.jpg "wikilink")
 
 -   **Edit the text…** opens the text editor
     [En:vMaps\#Text](/En:vMaps#Text "wikilink").
@@ -286,7 +306,6 @@ mouse cursor. There are many contexts.
 
 #### Several Items
 
-[frame\|left](/File:MenuSeveralItemsFR.png "wikilink")
 
 -   **Delete** removes current items supprime (press key **Del**).
 -   **Down** puts current items under items below them.
@@ -343,3 +362,6 @@ items, you have to set the proper edition mode and select any tool from
 the toolbox.
 
 More details about [Edition Mode](/En:vMaps#Edition_Mode "wikilink")
+
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/map.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/minutes.html">Next</a></p>

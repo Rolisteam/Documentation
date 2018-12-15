@@ -11,6 +11,8 @@ At start, **Rolisteam** adds automatically several chatroom.
 Every chatrooms are listed in the *Chat messaging* panel.
 The first one is always the *global* chatroom.
 
+![chatrooms]({filename}/images/tuto/02_ChatList_en.jpg)
+
 ## Global chatroom
 
 This chatroom brings together everyone. When new person connect to the server it is automatically added to the global chatroom.
@@ -40,6 +42,8 @@ Flicking Chatroom (green to red) means there are unread message.
 Just click on `Add a chat` and select every one who should attend to this chatroom. 
 Chatroom may have 1 or several participants.
 
+![add chatroom]({filename}/images/tuto/15_nouveauChat_en.jpg)
+
 
 ## Delete chatroom
 
@@ -50,7 +54,7 @@ Enough about the chatroom, lets take a look at what we can do with ChatWindow.
 
 # Chatwindow
 
-![images]({filename}/images/empty_chatwindow_en.jpg)
+![images]({filename}/images/tuto/25_tchat_commun_en.jpg)
 
 Message starts with its sender's name in the sender's color. 
 Url links are clickable. They open with you default web browser.
@@ -157,4 +161,5 @@ The text size changes directly.
 
 To make this parameter permanent, see [theme]({filename}22_theme.md)
 
-
+<p style="text-align: left; width:49%;  display: inline-block;"><a href="/connected.html">Previous</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/resources.html">Next</a></p>
