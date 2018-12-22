@@ -4,38 +4,38 @@ slug: roliserver
 status: hidden
 lang: en
 
-## Presentation
+## Overview
 
-Roliserver is dedicated to host several games on the same computer. 
+Roliserver is dedicated to host several games on the same computer.
 RPG players communities may offer this service to their users.
 
 ## First run
 
 We strongly recommend to start roliserver as follow:
 
-```roliserver -p config.conf```
+`roliserver -p config.conf`
 
 It generates an empty configuration file named "config.conf" (change the name if you want).
 
-```
-[General]
-AdminPassword=@Invalid()
-ChannelCount=@Invalid()
-ConnectionMax=@Invalid()  
-IpBan=@Invalid()
-IpMode=@Invalid()
-IpRange=@Invalid()
-LogLevel=@Invalid()
-DeepInspectionLog=@Invalid()
-ThreadCount=@Invalid()
-TimeEnd=@Invalid()
-TimeStart=@Invalid()
-TimeToRetry=@Invalid()
-password=@Invalid()
-port=@Invalid()
-TryCount=@Invalid()
-MaxMemorySize=@Invalid()
-``` 
+    :::ini
+    [General]
+    AdminPassword=@Invalid()
+    ChannelCount=@Invalid()
+    ConnectionMax=@Invalid()  
+    IpBan=@Invalid()
+    IpMode=@Invalid()
+    IpRange=@Invalid()
+    LogLevel=@Invalid()
+    DeepInspectionLog=@Invalid()
+    ThreadCount=@Invalid()
+    TimeEnd=@Invalid()
+    TimeStart=@Invalid()
+    TimeToRetry=@Invalid()
+    password=@Invalid()
+    port=@Invalid()
+    TryCount=@Invalid()
+    MaxMemorySize=@Invalid()
+
 
 Change value accordingly to your needs.
 The order of element is not important.
@@ -44,13 +44,13 @@ The order of element is not important.
 
 ### Password
 
-Define password to acces the server.
-Every password stored in this file must be encrypted with Sha3_512 method.
+Define password to access the server.
+Every password stored in this file must be encrypted with **Sha3_512** method.
 Don't worry, it is really easy to do.
 
-first, start the server with -g parameter. 
+first, start the server with -g parameter.
 
-```$ roliserver -g```
+`$ roliserver -g`
 
 It asks you to type the password.
 Then it prints the encrypted version of your password.
@@ -58,6 +58,10 @@ Then it prints the encrypted version of your password.
 > P9d63VIxEvincVCutARz0W86GFFX36h0zWEIUomzusZmnv3krtcEsXzZWKKXXv6Ivag+8fR2a7tRWoaaIu3L1w==
 
 Then you can copy/paste this key into your file.
+
+Rolisteam offers graphical tool to get generate password with **Sha3_512**.
+
+**Warning** : be sure, you run the server with Qt5.9 or higher. **Sha3_512** on older version of Qt does not work correctly. You may have difficulties to connect to the server.
 
 ### Port
 
@@ -69,31 +73,45 @@ Define the maximum number of clients that the server allows.
 
 ### ChannelCount
 
-Define the number of channels at the first start of the server.
+Define the number of channels at the first start of the server.  
+Basically, that defines the number of games your server can accept at the same time.
 
 ### Admin Password
 
 Define password to protect authentification as server admin.
-Password is still encrypted in Sha3_512.
+Password is still encrypted in **Sha3_512**.
+
+Admin can kick users, add/delete channels and many things else.
 
 ### LogLevel
 
+The log level is an number value that defines the level of details you want to know.
+
 Possible value:
+
 * 1 : Error
 * 2 : debug
 * 3 : Warning
 * 4 : Information
 
+At *Error level*, the server only displays error message.  
+The *debug level* is useful when you want to improve the server, add some features and so on.  
+The *Warning* message displays message about unexpected data or behaviors.  
+At last, the *Information level* gives details about what the server is doing.
+
+Before posting a bug request, it is a good practice to run the application with information level as log level in order to give to the team as much information as possible.
+
 ### DeepInspectionLog
 
-Log every events from server. 
+Log every events from server.
 Activate this option may make the server slower.
 
 Possible value:
-true
-false
 
-### LogFile 
+* true
+* false
+
+### LogFile
 
 set the path where log are written.
 
@@ -102,34 +120,65 @@ set the path where log are written.
 
 
 
-### ThreadCount 
+### ThreadCount
 
-Define the maximum thread count the server may use. 
+Define the maximum thread count the server may use.
 
 ### TimeToRetry
 
-Waiting time after server fails to listen in millisecond. 
+Waiting time (in millisecond) between two tries to listen the **port**.
+
+The server listens any connection on the **port** define in this file.
+In rare occasion, this step may fail. Probably, because another server is already listening this **port**. So, **roliserver** will try several time
 
 ### TryCount
 
 Define how many time the server will try to listen the port.
-If this number is reached. The server will quit. 
+If this number is reached. The server exits on error status.
 
-### TimeStart 
+### TimeStart
 
-Define the time in the day when the server allows connection. It should be written as: 
+Define the time in the day when the server allows connection.
+
+It should be written as: hh:mm
+Hours must be defined by two numbers as the minutes.
+
+Examples:
+8pm
+> 20:00
+
+6am
+> 06:00
+
 
 ### TimeEnd
 
-Define the time when the server stops accepting. 
+Define the time when the server stops accepting.
+
+It should be written as: hh:mm
+Hours must be defined by two numbers as the minutes.
+
+Examples:
+8pm
+> 20:00
+
+6am
+> 06:00
 
 ### IpBan
 
-define a list of baned IP address 
+define a list of banned IP addresses.
 
-### IpMode 
+Examples:
+A list with 3 addresses
+> 80.80.80.80,127.9.9.1,10.10.10.10
 
-ipv4 or ipv6 or both
+
+### IpMode
+
+ipv4 or ipv6 or both.
+
+It is not used yet.
 
 ### MaxMemorySize
 
@@ -138,38 +187,38 @@ When the limit is reach, all channels drop their data.
 
 Example:
 
-MaxMemorySize=8G *Define the size at 8 Gibibyte*
-MaxMemorySize=8M *Define the size at 8 Mebibyte*
+    :::ini
+    MaxMemorySize=8G  #Define the size at 8 Gibibyte
+    MaxMemorySize=8M  #Define the size at 8 Mebibyte
 
 
 ## Deploy on SystemD
 
 This is an example to run rolisteam as deamon with systemd.
-```
-[Unit]
-Description=Rolisteam Server Daemon
-After=network-online.target
+    :::ini
+    [Unit]
+    Description=Rolisteam Server Daemon
+    After=network-online.target
 
-[Service]
-Type=forking
+    [Service]
+    Type=forking
 
-User=renaud
-Group=renaud
-UMask=007
+    User=renaud
+    Group=renaud
+    UMask=007
 
-ExecStart=/usr/local/bin/roliserver -f /path/to/conf/roliserver.conf
+    ExecStart=/usr/local/bin/roliserver -f /path/to/conf/roliserver.conf
 
-Restart=on-failure
+    Restart=on-failure
 
-TimeoutStopSec=300
+    TimeoutStopSec=300
 
-[Install]
-WantedBy=multi-user.target
-```
+    [Install]
+    WantedBy=multi-user.target
+    ```
 
 ## Deploy in Docker
 
 
 
 ## Windows
-
