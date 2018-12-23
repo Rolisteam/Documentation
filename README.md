@@ -1,12 +1,13 @@
 # Rolisteam Documentation Website
 
 ## Get the code
+
 ```
 $ git clone --recurse-submodules git@github.com:Rolisteam/Documentation.git
 $ cd Documentation 
 ```
 
-##Installation
+## Installation
 
 ```
 $ mkvirtualenv roli
