@@ -1,5 +1,4 @@
-# documentation
-Pelican website to generate documentation
+# Rolisteam Documentation Website
 
 ## Get the code
 ```
