@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u''
-SITENAME = u'Documentation'
+AUTHOR = "''"
+SITENAME = 'Documentation'
 SITEURL = 'http://anima.rolisteam.org'
 
 PATH = 'content'
 STATIC_PATHS = ['iconfiles','images']
 
-PLUGIN_PATHS = ['/home/renaud/www/pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
-THEME = "/home/renaud/www/pelican-themes/rolisteam_doc_theme"
+THEME = "rolisteam_doc_theme"
 #bootstrap*
 #bricks* red to blue
 # Flex
@@ -48,11 +48,12 @@ LINKS = (('News', '/blog/index.html'),
          ('Friends', '/friends.html'),)
 
 # Social widget
-SOCIAL = (('Github', 'http://github.com/Rolisteam'),
-	  ('Facebook', 'https://www.facebook.com/rolisteam'),
-          ('Twitter', 'https://twitter.com/rolisteam'),
-          ('Discord', 'https://discord.gg/MrMrQwX'),
-          ('Liberapay', 'https://liberapay.com/rolisteam/donate'),)
+SOCIAL = (
+    ('Github', 'http://github.com/Rolisteam'),
+    ('Facebook', 'https://www.facebook.com/rolisteam'),
+    ('Twitter', 'https://twitter.com/rolisteam'),
+    ('Discord', 'https://discord.gg/MrMrQwX'),
+    ('Liberapay', 'https://liberapay.com/rolisteam/donate'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -88,16 +89,13 @@ PLUGINS = ['i18n_subsites','pelican-toc']
 
 TOC = {
     'TOC_HEADERS'       : '^h[1-2]',
-    'TOC_RUN'           : 'true',  
-    'TOC_INCLUDE_TITLE': 'false',  
+    'TOC_RUN'           : 'true',
+    'TOC_INCLUDE_TITLE': 'false',
 }
-
-
-
 I18N_SUBSITES = {
 'fr': {
         'SITENAME': 'Documentation',
-		'THEME' : '/home/renaud/www/pelican-themes/rolisteam_theme',	
+        'THEME': 'rolisteam_doc_theme',
 		'LINKS' : ()
        }
 }
