@@ -12,10 +12,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=localhost
-SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=www
+SSH_PORT=999
+SSH_USER=www
+SSH_TARGET_DIR=/home/www/rolisteam/wiki_v2
 
 S3_BUCKET=my_s3_bucket
 
