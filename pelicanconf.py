@@ -9,13 +9,13 @@ SITEURL = 'http://anima.rolisteam.org'
 PATH = 'content'
 STATIC_PATHS = ['iconfiles','images']
 
-PLUGIN_PATHS = ['/home/renaud/www/pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
-THEME = "/home/renaud/www/pelican-themes/rolisteam_doc_theme"
+THEME = "rolisteam_doc_theme"
 #bootstrap*
 #bricks* red to blue
 # Flex
@@ -95,7 +95,7 @@ TOC = {
 I18N_SUBSITES = {
 'fr': {
         'SITENAME': 'Documentation',
-		'THEME' : '/home/renaud/www/pelican-themes/rolisteam_theme',
+        'THEME': 'rolisteam_doc_theme',
 		'LINKS' : ()
        }
 }

@@ -1,1 +1,4 @@
 pelican==4.0.1
+beautifulsoup4==4.6.3
+Markdown==3.0.1
+mdx-video==0.1.8
