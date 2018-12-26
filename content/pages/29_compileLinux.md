@@ -191,98 +191,27 @@ CONFIG += HAVE_PDF
 
 ## Install dependencies
 
-```
-sudo apt-get install qt5-qmake libqt5network5 libqt5core5a
-```
+`sudo apt-get install qt5-qmake libqt5network5 libqt5core5a`
 
 
 ## Create a build directory
-```
-$ mkdir server/build
-$ cd server/build
-```
+
+    :::shell
+    $ mkdir server/build
+    $ cd server/build
 
 ## Build
-```
-$ qmake -r ../server.pro
-$ make
-$ sudo make install
-```
+
+    :::shell
+    $ qmake -r ../server.pro
+    $ make
+    $ sudo make install
 
 If you're a dev and want to compile with the debug enabled, change the first line from the commands listed above:
 
-```
-$ qmake -r ../server.pro CONFIG+=debug
-```
+`$ qmake -r ../server.pro CONFIG+=debug`
 
-## Configure Roliserver
-
-Make a configuration file
-
-```
-$ touch ~/.roliserver.conf
-```
-
-Then copy paste this in roliserver.conf:
-
-```
-AdminPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
-ChannelCount=8
-ConnectionMax=50
-IpBan=@Invalid()
-IpMode=@Invalid()
-IpRange=@Invalid()
-LogLevel=3
-LogFile=
-ServerPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
-ThreadCount=8
-TimeEnd=@Invalid()
-TimeStart=@Invalid()
-TimeToRetry=100
-TryCount=10
-port=6660
-```
-
-This will use 0000 as a password, it's recomended you create your own with the password creation utlity available in the rolisteam client.
-
-
-
-## Configure Roliserver to start at boot, and restart on crash
-
-Let's create our service file
-
-```
-$ sudo touch /etc/systemd/system/roliserver.service
-```
-
-Then copy paste this in roliserver.service:
-
-```
-[Unit]
-Description=Rolisteam Server
-After=network.target
-StartLimitIntervalSec=0
-
-[Service]
-Type=simple
-Restart=always
-RestartSec=1
-User=<your_username>
-ExecStart=/usr/local/bin/roliserver -c /home/<your_username>/.roliserver.conf
-
-[Install]
-WantedBy=multi-user.target
-```
-
-Then enable, and start the service:
-
-```
-$ sudo systemctl enable roliserver.service
-$ sudo sustemctl start roliserver.service
-```
-
-That's it you're done, try connecting to your server with a client ! 🎉
-
+For information on how to run the server checkout the [documentation]({filename}02_1_server.md)
 
 # FAQ
 
