@@ -190,32 +190,63 @@ Example:
     :::ini
     MaxMemorySize=8G  #Define the size at 8 Gibibyte
     MaxMemorySize=8M  #Define the size at 8 Mebibyte
+    
+### Example of working .conf file :
+
+<pre>
+AdminPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
+ChannelCount=8
+ConnectionMax=50
+IpBan=@Invalid()
+IpMode=@Invalid()
+IpRange=@Invalid()
+LogLevel=3
+LogFile=
+ServerPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
+ThreadCount=8
+TimeEnd=@Invalid()
+TimeStart=@Invalid()
+TimeToRetry=100
+TryCount=10
+port=6660
+</pre>
+
+This will use 0000 as a password, it's recomended you create your own with the password creation utlity available in the rolisteam client.
+
 
 
 ## Deploy on SystemD
 
-This is an example to run rolisteam as deamon with systemd.
+Let's create our service file
+
+```
+$ sudo touch /etc/systemd/system/roliserver.service
+```
+
+Then copy paste this in roliserver.service:
+    
     :::ini
     [Unit]
-    Description=Rolisteam Server Daemon
-    After=network-online.target
-
+    Description=Rolisteam Server
+    After=network.target
+    StartLimitIntervalSec=0
+    
     [Service]
-    Type=forking
-
-    User=renaud
-    Group=renaud
-    UMask=007
-
-    ExecStart=/usr/local/bin/roliserver -f /path/to/conf/roliserver.conf
-
-    Restart=on-failure
-
-    TimeoutStopSec=300
-
+    Type=simple
+    Restart=always
+    RestartSec=1
+    User=#your_username#
+    ExecStart=/usr/local/bin/roliserver -c /home/#your_username#/.roliserver.conf
+    
     [Install]
     WantedBy=multi-user.target
-    ```
+
+Then enable, and start the service:
+
+    :::shell
+    $ sudo systemctl enable roliserver.service
+    $ sudo sustemctl start roliserver.service
+
 
 ## Deploy in Docker
 
