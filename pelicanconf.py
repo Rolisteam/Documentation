@@ -7,7 +7,7 @@ SITENAME = 'Documentation'
 SITEURL = 'http://anima.rolisteam.org'
 
 PATH = 'content'
-STATIC_PATHS = ['iconfiles','images']
+STATIC_PATHS = ['iconfiles', 'images']
 
 PLUGIN_PATHS = ['pelican-plugins']
 
@@ -16,19 +16,19 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 THEME = "rolisteam_doc_theme"
-#bootstrap*
-#bricks* red to blue
+# bootstrap*
+# bricks* red to blue
 # Flex
-#gum
-#notebook
+# gum
+# notebook
 # notmyidea-cms
 # pelican-blue
-#plumage
-#tuxlite_tbs
+# plumage
+# tuxlite_tbs
 
-#JINJA_ENVIRONMENT = {
+# JINJA_ENVIRONMENT = {
 #    "extensions": ['jinja2.ext.i18n'],
-#}
+# }
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -58,7 +58,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 MARKDOWN = {
     'extension_configs': {
@@ -67,35 +67,35 @@ MARKDOWN = {
         'markdown.extensions.meta': {},
         'markdown.extensions.sane_lists': {},
         'markdown.extensions.smarty': {},
-        'markdown.extensions.tables':{},
+        'markdown.extensions.tables': {},
         'mdx_video': {},
-  #      'markdown.extensions.toc': {'permalink': True},
+        #      'markdown.extensions.toc': {'permalink': True},
     },
     'output_format': 'html5',
     # Allow numbered lists to not start with 1. Used in following article:
     # https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/
     # See: https://pythonhosted.org/Markdown/reference.html#lazy_ol
     'lazy_ol': False,
-    'extentions': ['toc','codehilite','tables'],
+    'extentions': ['toc', 'codehilite', 'tables'],
 }
 
 MENUITEMS = (
     ('Rolisteam', 'http://www.rolisteam.org/'),
     ('Forum', 'http://forum.rolisteam.org'),
 )
-#THEME_STATIC_PATHS (['static'])
+# THEME_STATIC_PATHS (['static'])
 
-PLUGINS = ['i18n_subsites','pelican-toc']
+PLUGINS = ['i18n_subsites', 'pelican-toc']
 
 TOC = {
-    'TOC_HEADERS'       : '^h[1-2]',
-    'TOC_RUN'           : 'true',
+    'TOC_HEADERS': '^h[1-2]',
+    'TOC_RUN': 'true',
     'TOC_INCLUDE_TITLE': 'false',
 }
 I18N_SUBSITES = {
-'fr': {
+    'fr': {
         'SITENAME': 'Documentation',
         'THEME': 'rolisteam_doc_theme',
-		'LINKS' : ()
-       }
+        'LINKS': ()
+    }
 }
