@@ -43,12 +43,12 @@ There are many field kinds available into RCSE :
 | TextArea  | It stores text (several lines) with decoration and border.                                               |      |
 | Button    | it stores a dice command. Clicking on it, run the command.                                               |      |
 | Image     | Display a image, the path to the image should be url, such as <http://myimage.org/character.jpg>         |      |
+| DiceButton| Add clickable button to roll dice command                                                                |      |
+| funcButton| Add clickable button to call qml function                                                                |      |
+| Webpage   | Add webpage view on the character sheet, set url as value to show the website                            |      |
+| PreviousPage  | Add Button to make navigation between page easier (go to the previous page)                          |      |
+| NextPage  | Add Button to make navigation between page easier (go to next page)                                      |      |
 
-#### Change Textinput to selector
-
-Easy Peasy, you just have to set possible values in the dedicated column
-into the right table. Values are separated by comma. Example: red,blue,
-green, brown, yellow, black,white, orange, purple.
 
 ### 3/ Edit fields
 
@@ -129,7 +129,7 @@ You can set the background color
 You can set where the border should display (Top, right, left bottom,
 all or no border)
 
-## Generate sheet
+## 4/ Generate sheet
 
 When you have added all the fields you want, you may generate the sheet
 by clicking on « **edit &gt; Generate Code and Sheet** ».
@@ -148,6 +148,43 @@ It is also possible to amend QML code directly to add new features to
 the sheet. You can play music, videos or add animations and many other
 stuffs. Be careful, when you modify the generated code, you must not ask
 to generate code and sheet. It will erase all your modifications.
+
+## 6/ FAQ field
+
+### How to use dicebutton
+
+The **dicebutton** allows users to roll dice directly from the charactersheet.
+The result is displayed in the global chat roorm.
+The rolled command is the value of field and it displays its label.
+
+Settings label to **Initiative** will show **Initiative** on all character sheets.
+
+Dice command is set in value column. 
+For example, if you set 3d6, the roll will always roll "3d6" (It is strictly equivalent of rolling !3d6 in the chat).
+Now, many dice rolls depend on character sheet values. 
+
+Let's say, we have to roll "1d20+the character's agility bonus", the agility bonus is stored in
+a field ( id: id\_64, label: agilityBonus).
+
+In the dicebutton value, you can write: 1d20+${agilityBonus} or 1d20+${id\_64}.  
+There is no need of formula here. As the dicesystem is able to make translation between to variables "${....}" to value.
+After sharing charactersheets to players, each player is able to roll: !1d20+${agilityBonus} in the chat room. 
+
+Warning: doing that, will only work after sharing the charactersheet to its player. If the GM click on button
+Rolisteam won't be able to know in  which characters it must read the value. We plan to fix this issue in future release.
+
+The dice button is emiting a signal roll dice. this signal takes two parameters: the command to roll and a boolean. 
+The boolean is here enable/disable the use of dice aliases. 
+
+Rolling huge command with string results (such as 1L[head,left leg,right leg, left arm,right arm, chess]) may cause conflict with aliases.
+
+
+### Change Textinput to selector
+
+Selector type displays a menu where players can select one option among several propositions.
+To change any field in selector type, the only required action is to define possible values in the dedicated column
+into the right table. Values are separated by comma.  
+**Example**: red,blue, green, brown, yellow, black,white, orange, purple.
 
 ### 5/ Add character
 
