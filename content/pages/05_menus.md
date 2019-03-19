@@ -11,6 +11,8 @@ This menu brings together all actions about files.
 
 ## New 
 
+![image]({static}/images/en/new_menu.jpg)
+
 This submenu contains actions to create each supported media type.
 
 ### Map 
@@ -140,7 +142,7 @@ Quit **Rolisteam**
 
 
 # Edit
-
+![image]({static}/images/en/edit_menu.jpg)
 ## Undo
 
 Undo the latest action.
@@ -160,7 +162,7 @@ Best way to learn how to do thing quickly with Rolisteam.
 Subwindows Menu Items are dedicated to change how subwindow are displayed on screen.
 
 ## Reorganize
-
+![image]({static}/images/en/display_mode.jpg)
 Submenu which allow you to rearrange the contents of the workspace.
 
 ### Tab
@@ -176,6 +178,8 @@ Subwindows are arranged one over the others with a slight gap between each one.
 The windows are arranged next to each other.
 
 ## Map
+
+![image]({static}/images/en/map_settings_menu.jpg)
 
 ### Show PC Name
 
@@ -226,7 +230,7 @@ All media are listed here.
 Show or hide each one by checking / unchecking.
 
 # Network
-
+![image]({static}/images/en/network_menu.jpg)
 ## Disconnect
 
 Disconnect **Rolisteam** from the server or close the server.
@@ -251,6 +255,8 @@ Only available when **Rolisteam** is connected to multiroom server.
 
 # GM tool box
 
+![image]({static}/images/en/gm_tool_box_menu.jpg)
+
 This menu gathers miscellenous tools often needed in Role playing games.  
 [More details]({filename}06_dockwidgets.md)
 
@@ -270,7 +276,7 @@ Dicebookmark provides easy access to frequent dice command.
 [More details]({filename}13_dicebookmark.md)
 
 # Help
-
+![image]({static}/images/en/about_rolisteam.jpg)
 ##   Help Rolisteam
 Open up this documentation
 

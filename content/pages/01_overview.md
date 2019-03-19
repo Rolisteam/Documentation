@@ -4,7 +4,7 @@ slug: overview
 status: hidden
 lang: en
 
-![images]({filename}/images/logo_rolisteam.png)
+![images]({static}/images/logo_rolisteam.png)
 
 ## Presentation
 
@@ -16,7 +16,7 @@ Anyways, players can be all over the world or just around the corner, rolisteam 
 **Rolisteam** provides enough features to play in text mode.  
 Many people use audio conference software additionnaly with Rolisteam (such as Mumble, Teamspeak, Discord, Matrix or Skype).
 
-![image]({filename}/images/charactersheet2.jpg)
+![image]({static}/images/charactersheet2.jpg)
 
 ## Features
 

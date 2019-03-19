@@ -74,8 +74,8 @@ Secondly, it is important to use [Git hub](https://github.com/Rolisteam/Document
 3. Modify the documentation inside your git repository. Github provides preview on markdown file.
 4. Make pull request to share your work.
 
-In details, the second step will create a copy of the documentation into your own github account.
-So you have permission to do whatever you want on the documentation: fix it, improve it and so on.
+In details, the second step will create a copy of the documentation into your own github account.  
+So you have permission to do whatever you want on the documentation: fix it, improve it and so on.  
 When the work is finished, you can create a pull request from your documentation copy to rolisteam's documentation. Then, modifications are reviewed. If they look good. The pull request is accepted and your modification are now integrated inside the official documetation.
 
 ### Translate the documentation in new language
@@ -90,6 +90,7 @@ Do the first three steps above and those following:
 ### Generated the documentation
 
 The documentation is generated in html thank of [Pelican](https://blog.getpelican.com/).
+
 1. Install it
 2. Get the documentation project:  
     `clone https://github.com/Rolisteam/Documentation.git`

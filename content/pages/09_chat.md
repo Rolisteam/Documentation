@@ -11,7 +11,7 @@ At start, **Rolisteam** adds automatically several chatroom.
 Every chatrooms are listed in the *Chat messaging* panel.
 The first one is always the *global* chatroom.
 
-![chatrooms]({filename}/images/tuto/02_ChatList_en.jpg)
+![chatrooms]({static}/images/tuto/02_ChatList_en.jpg)
 
 ## Global chatroom
 
@@ -42,7 +42,7 @@ Flicking Chatroom (green to red) means there are unread message.
 Just click on `Add a chat` and select every one who should attend to this chatroom. 
 Chatroom may have 1 or several participants.
 
-![add chatroom]({filename}/images/tuto/15_nouveauChat_en.jpg)
+![add chatroom]({static}/images/tuto/15_nouveauChat_en.jpg)
 
 
 ## Delete chatroom
@@ -54,7 +54,7 @@ Enough about the chatroom, lets take a look at what we can do with ChatWindow.
 
 # Chatwindow
 
-![images]({filename}/images/tuto/25_tchat_commun_en.jpg)
+![images]({static}/images/tuto/25_tchat_commun_en.jpg)
 
 Message starts with its sender's name in the sender's color. 
 Url links are clickable. They open with you default web browser.
@@ -107,7 +107,7 @@ result (assuming Kallice is the selected person):
 
 ## Save conversation
 
-Click on ![icons]({filename}/icons/chat_save.png)
+Click on ![icons]({static}/icons/chat_save.png)
 Conversation are saved in *html*.
 
 ## Show contextual menu

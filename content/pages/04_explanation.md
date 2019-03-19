@@ -18,8 +18,6 @@ Each player can customize the software or its content. To hide or show relevant 
 * Decentralize the Internet (by using it, the way it has been designed)
 * Technological watch over Qt/C++, and other domains
 
-
-
 # Free software
 
 **Rolisteam** and **Rcse** are under GPLv2 [read it](https://raw.githubusercontent.com/Rolisteam/rolisteam/master/COPYING.txt).  

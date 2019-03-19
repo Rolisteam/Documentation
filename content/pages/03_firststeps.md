@@ -27,9 +27,6 @@ Contact us to add your server to the list.
 
 If you want to install rolisteam server for your community, find [instruction here]({filename}02_1_server.md)
 
-
-
-
 ## Host the game yourself
 
 Game can be hosted with rolisteam on any computer.
@@ -45,7 +42,7 @@ To select the best candidate for hosting, please keep in mind these points:
 
 ### Step 1 : Start **Rolisteam**
 
-![images]({filename}connection_panel_en.png)
+![images]({static}/images/en/connection_dialog.jpg)
 
 ### Step 2 : Host the game
 
@@ -115,6 +112,13 @@ The connection dialog disappears when is connection with the server is set.
 
 **Congratulations!! Game on!**
 
+## Test alone 
+
+It is strongly recommended to test **Rolisteam** before playing with it. 
+To test it, start rolisteam twice and on the first one, select an hosting profile (GM/Host).
+On the second, set address to **localhost** and connect as client/Player.
+
+Now, you can play around with **Rolisteam** and see how it will appears to your player's screens.
 
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/install.html">Previous</a></p>

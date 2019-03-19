@@ -7,7 +7,7 @@ lang: en
 
 Improving NPC is always needed in role playing game. Generate name may help to keep the mood of your game.
 
-![name generator]({filename}/images/NameGenerator_en_003.png)
+![name generator]({static}/images/en/name_generator.jpg)
 
 # Features
 
@@ -20,6 +20,8 @@ Improving NPC is always needed in role playing game. Generate name may help to k
 * Elves
 * Star Wars 
 * Russian
+
+![name generator]({static}/images/en/all_sets supported_by_name_generator.jpg)
 
 French, English, Russian names are selected from list.
 All the others are generated.

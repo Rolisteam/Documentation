@@ -442,16 +442,5 @@ The merge operator is useful when you want to use dice operator on all rolled di
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <p style="text-align: left; width:49%;  display: inline-block;"><a href="/pdf.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/preferences.html">Next</a></p>

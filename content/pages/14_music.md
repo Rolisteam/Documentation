@@ -4,12 +4,12 @@ slug: music
 status: hidden
 lang: en
 
-![Complete Music Widget]({filename}/images/panel/Background_Music_en_006.png)
+![Complete Music Widget]({static}/images/panel/Background_Music_en_006.png)
 
 
 # Overview
 
-![MusicSolo]({filename}/images/tuto/24_music_player_en.png)
+![MusicSolo]({static}/images/tuto/24_music_player_en.png)
 
 Please pay attention to all action buttons (from left to right):
 
@@ -24,7 +24,7 @@ Please pay attention to all action buttons (from left to right):
 
 ## Actions
 
-![Menu contextuel]({filename}/images/tuto/27_music_contextual_menu_en.jpg)
+![Menu contextuel]({static}/images/tuto/27_music_contextual_menu_en.jpg)
 
 The contextual menu shows all actions. Some of them have shorcuts, offering direct access to this actions.
 
@@ -53,7 +53,7 @@ Audio players in rolisteam may open file from user's computer. They can also loa
 
 ## Drag and Drop
 
-[drag and drop]({filename}/images/tuto/)
+[drag and drop]({static}/images/tuto/)
 
 It is possible to drag and drop files onto player widgets. The files are added to the list. The items are put at your cursor position. 
 Horizontal line appears. You may also directly drop file in the main window. Then, they are added to the first player.

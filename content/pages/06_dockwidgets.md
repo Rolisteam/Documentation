@@ -25,7 +25,7 @@ It gives control over log
 * Log can be erased.
 * Log can be saved to file.
 
-![Notification zone]({filename}/images/panel/NotificationZone_en_002.png)
+![Notification zone]({static}/images/panel/NotificationZone_en_002.png)
 
 # Player List
 
@@ -38,7 +38,7 @@ It is recommeded to move it before add token of another character.
 
 To show character on [vmap]({filename}11_VectorialMap.md), just drag the character and drop it on the vmap.
 
-![Player List]({filename}/images/panel/UnitConvertor_en_022.png)
+![Player List]({static}/images/panel/UnitConvertor_en_022.png)
 
 [More details]({filename}08_connected_players.md)
 
@@ -50,7 +50,7 @@ Its default position is right side of the windows.
 It is useful to keep it this panel visible. Chatrooms are blinking
 when they have unread text messages. 
 
-![Chatroom]({filename}/images/panel/ChannelList_en_001.png)
+![Chatroom]({static}/images/panel/ChannelList_en_001.png)
 
 [More details]({filename}05_chat.md)
 
@@ -59,12 +59,12 @@ when they have unread text messages.
 Give access to all features about music players.
 Its default position is right side of the windows.  
 
-![Background Music]({filename}/images/panel/Background_Music_en_006.png)
+![Background Music]({static}/images/panel/Background_Music_en_006.png)
 
 [More details]({filename}08_music.md)
 
 # Resources Manager
-![Resources Manager]({filename}/images/panel/ResourcesExplorer_en_008.png)
+![Resources Manager]({static}/images/panel/ResourcesExplorer_en_008.png)
 
 Show all assets added in the scenario.
 Its default position is right side of the windows.
@@ -76,7 +76,7 @@ Its default position is right side of the windows.
 It brings together tools to edit map.  
 The toolbox changes given the type of current map (map or vectorial map).  
 
-![Toolbox]({filename}/images/panel/ToolBox_en_010.png)
+![Toolbox]({static}/images/panel/ToolBox_en_010.png)
 
 [Details about Map]({filename}16_maps.md)
 [Details about Vectorial Map]({filename}17_VectorialMap.md)
@@ -85,7 +85,7 @@ The toolbox changes given the type of current map (map or vectorial map).
 
 Change some vmap properties.
   
-![Toolbox]({filename}/images/panel/ToolbarVMap_en_027.png)
+![Toolbox]({static}/images/panel/ToolbarVMap_en_027.png)
 
 [More details]({filename}17_VectorialMap.md)
 
@@ -94,7 +94,7 @@ Change some vmap properties.
 Select what kind of name to generate. Specify some other properties.
 Then generate! 
 
-![Name Generator]({filename}/images/panel/NameGenerator_en_003.png)
+![Name Generator]({static}/images/panel/NameGenerator_en_003.png)
 
 
 [More details]({filename}11_nameGenerator.md)
@@ -106,7 +106,7 @@ Units are stored given category.
 Select the input unit and the output one.
 Type the value.
 
-![Unit convertor]({filename}/images/panel/UnitConvertor_en_022.png)
+![Unit convertor]({static}/images/panel/UnitConvertor_en_022.png)
 
 [More details]({filename}12_unitConverter.md)
 
@@ -116,7 +116,7 @@ Type the value.
 Npc Maker is a tool to create token for VMap. Those tokens may store properties, actions and shapes.
 Token can be droped on VMap to have some game mechanism integration.
 
-![Ncp Maker]({filename}/images/panel/NpcMaker.jpg)
+![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
 [More details]({filename}13_NpcMaker.md)
 

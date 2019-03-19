@@ -1,11 +1,11 @@
-Title: Events
+Title: Notification Panel
 Date: 2017-06-11 10:20
 slug: events
 status: hidden
 lang: en
 
 
-![notification zone]({filename}/images/tuto/14_notification_zone_en.jpg)
+![notification zone]({static}/images/tuto/14_notification_zone_en.jpg)
 
 The events window is the log of all significant actions that take place
 during the game.
@@ -31,7 +31,7 @@ Players who have not the same version of **Rolisteam** appears in the notificati
 # Network tranfers
 
 Any long network tranfers cause a progress bar to appears. 
-Let it know how long it will be.
+Let you know how long it will be.
 
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/dockwidgets.html">Previous</a></p>

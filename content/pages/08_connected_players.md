@@ -6,7 +6,7 @@ lang: en
 
 # List of players
 
-![Players list]({filename}/images/tuto/18_playerlist_en.jpg)
+![Players list]({static}/images/tuto/18_playerlist_en.jpg)
 
 This window lists all connected players and their characters. The first
 player on the list is always the local player. 

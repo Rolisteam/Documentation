@@ -58,13 +58,22 @@ You can activate all these feature throught the contextual menu:
 You may load images from the Internet. 
 The dedicated dialog box is reachable at `file > Open > Online Image`.  
 
-The following dialog appears:  
-![image]({filename}/images/tuto/07_load_image_from_internet2_en.jpg)
+The following dialog appears:
+## Step 1
+![image]({static}/images/en/oponline_image.jpg)
 
 When the Url is set, **Rolisteam** downloads automatically the image and displays it in the preview panel. It may be required to click on `download` to make **Rolisteam** get the image faster.
 
+## Step 2
+![image]({static}/images/tuto/07_load_image_from_internet2_en.jpg)
+
 In this state, it is possible to change the image's title. When it is done. You can click on `Ok`
 Then, the image will appears as a regular image.
+
+## Step 3
+![image]({static}/images/en/show_image.jpg)
+
+
 
 ## Hide Image
 

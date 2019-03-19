@@ -8,7 +8,7 @@ lang: en
 **Npc Maker** can create vmap tokens.
 
 
-![Npc Maker]({filename}/images/panel/npcmaker.jpg)
+![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
 # Tabs
 
@@ -18,6 +18,8 @@ lang: en
 * Properties
 
 # General Info
+
+![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
 General information are:
 
@@ -31,6 +33,8 @@ General information are:
 
 # Actions
 
+![Npc Maker]({static}/images/en/npcmake_actions_screen.jpg)
+
 Npc Character may have an action list. 
 An action is a dice command.
 Action can be triggered from token's contextual menu on vmap.
@@ -38,9 +42,13 @@ The result appears in the global chat window.
 
 # Shapes
 
+![Npc Maker]({static}/images/en/npcmaker_shape_screen.jpg)
+
 Shape can change how your character looks. It changes its avatar.
 
 # Properties
+
+![Npc Maker]({static}/images/en/npcmaker_property_screen.jpg)
 
 Properties is a list of name and values. It is a simple way to define the NPC. 
 Action can use dice command with properties as parameters of the command.

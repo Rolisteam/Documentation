@@ -7,7 +7,7 @@ lang: en
 This panel is part of the rolisteam preferences panel. Its goal is to
 change and customize the graphical user interface of Rolisteam.
 
-![Image]({filename}/images/panel/rolisteam_Preferences_en_029.png)
+![Image]({static}/images/panel/rolisteam_Preferences_en_029.png)
 
 # Default Themes
 By default, Rolisteam ships three themes:

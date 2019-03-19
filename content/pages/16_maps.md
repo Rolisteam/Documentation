@@ -10,7 +10,7 @@ lang: en
 Click on `File > New > Map` or use the shortcut **Ctrl+m**  
 The map wizard is displayed.  
 
-![map wizard]({filename}/images/en/map_wizzard.jpg)
+![map wizard]({static}/images/en/map_wizzard.jpg)
 
 Select the appropriate color, permission, shape,  size.
 Add name to the map. then click on `Ok`.

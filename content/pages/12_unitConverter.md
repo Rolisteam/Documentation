@@ -8,7 +8,7 @@ lang: en
 **Rolisteam** provides Unit Converters. 
 Role playing games are full of odd metrics, this panel is here to help in this case.
 
-![Unit converter]({filename}/images/panel/UnitConvertor_en_022.png)
+![Unit converter]({static}/images/en/unit_convertor.jpg)
 
 # Features
 
@@ -79,8 +79,12 @@ From **Legend of the Five Rings**:
 # Expending features
 
 The units convertor provides a way to add new units and new convertion rules. 
-Click on this button ![button]({filename}/icone/add_rule.jpg). 
+Click on this button ![button]({filename}/images/pictos/list.svg). 
 The convertor changes to this window:
-![convertor_screen2]({filename}/edit_rules.jpg)
+
+![Unit convertor_screen2]({static}/images/en/set_unit_convertion_rules.jpg)
+
+
+
 <p style="text-align: left; width:49%;  display: inline-block;"><a href="/namegenerator.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/dicebookmark.html">Next</a></p>

@@ -11,7 +11,7 @@ Preferences are splited in 5 tabs. Each tab brings together settings about commu
 
 This tab has many settings to customize some behaviours.
 
-![general]({filename}/images/panel/rolisteam_Preferences_en_030.png)
+![general]({static}/images/panel/rolisteam_Preferences_en_030.png)
 
 ### Maps
 
@@ -41,13 +41,13 @@ Those settings applay on all maps (Maps and vectorial maps).
 
 ## Themes
 
-![theme]({filename}/images/panel/rolisteam_Preferences_en_029.png)
+![theme]({static}/images/panel/rolisteam_Preferences_en_029.png)
 
 This part is well-described on the [theme]({filename}18_theme.md) page.
 
 ## Application Path
 
-![path]({filename}/images/panel/rolisteam_Preferences_en_031.png)
+![path]({static}/images/panel/rolisteam_Preferences_en_031.png)
 Defines directory where **Rolisteam** should load/save its content.  
 **Rolisteam** deals with many file formats (pictures, maps, texts, character sheet...).  
 So, there are several paths to define. Rolisteam manages changes these path after each save.  
@@ -55,7 +55,7 @@ Change directly this paths should be required in rare cases.
 
 ## Rule set
 
-![theme]({filename}/images/panel/rolisteam_Preferences_en_032.png)
+![theme]({static}/images/panel/rolisteam_Preferences_en_032.png)
 Thanks to this panel, it is possible to define new aliases in the dice
 system.  
  If you think the syntax is a bit to complicated.  
@@ -66,7 +66,7 @@ to players.
 
 # Diagnostic
 
-![diag]({filename}/images/panel/rolisteam_Preferences_en_033.png)
+![diag]({static}/images/panel/rolisteam_Preferences_en_033.png)
 This panel is dedicated to perform diagnostic of the host system.  
 It gathers information regarding fonts, supported audio file formats and supported image file format. 
 When reporting issue about **Rolisteam**, please provide us a diagnostic output.  

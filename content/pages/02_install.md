@@ -37,7 +37,7 @@ More information available [here]({filename}02_1_server.md)
 
 # Windows
 
-![image]({filename}/images/wizzard.jpg)
+![image]({static}/images/wizzard.jpg)
 
 ## Get Rolisteam
 
@@ -60,7 +60,7 @@ It is recommanded to close it and start it again from desktop shortcut.
 
 # Mac Os X
 
-![image]({filename}/images/macOsInstall.jpg)
+![image]({static}/images/macOsInstall.jpg)
 
 ## Get Rolisteam and RCSE
 
@@ -77,7 +77,7 @@ The installation wizard appears then, copy **RCSE** to the app folder.
 
 # GNU/Linux
 
-![image]({filename}/images/logo/linux-logo.jpg)
+![image]({static}/images/logo/linux-logo.jpg)
 
 Distribution may provide **Rolisteam** as package.  
 Check if the rolisteam package is up-to-date.  
