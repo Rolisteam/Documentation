@@ -1,6 +1,6 @@
 Title: Dice Roller
 Date: 2017-06-11 10:20
-slug: diceroller
+slug: dicerollerold
 status: hidden
 lang: fr
 
