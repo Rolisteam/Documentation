@@ -245,7 +245,7 @@ Then enable, and start the service:
 
     :::shell
     $ sudo systemctl enable roliserver.service
-    $ sudo sustemctl start roliserver.service
+    $ sudo systemctl start roliserver.service
 
 
 ## Deploy in Docker
