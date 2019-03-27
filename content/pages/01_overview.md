@@ -9,7 +9,7 @@ lang: en
 ## Presentation
 
 **Rolisteam** is a free software (under GNU/GPL2.0). It's dedicated to role play gamers who wish to play despite the distance. 
-It provides all required features for making a game. 
+It provides all required features to play a game. 
 Thank to Rolisteam, you will be able to share maps, draw on the fly, add comments, mask some parts of the map, place characters , roll the dices, talk to each others. 
 Anyways, players can be all over the world or just around the corner, rolisteam can help you to play.
 

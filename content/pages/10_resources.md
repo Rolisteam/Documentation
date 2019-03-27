@@ -10,7 +10,7 @@ lang: en
 ![image]({static}/images/en/resources_explorer.jpg)
 
 The *Resource manager* is new way to see all assets required in your game.
-It keeps track of every loaded files to offer a faster way to reopen them the next session.
+It keeps track of every loaded files to offer an quick and easy way to (re)-open them the next session.
 It is more than a way to restore **Rolisteam's** state. It provides way to order resources.
 
 Chapter is like a directory which can accepts resources.

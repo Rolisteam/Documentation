@@ -4,131 +4,91 @@ slug: overview
 status: hidden
 lang: fr
 
-<!--
-![images]({filename}/images/logo_rolisteam.png)
--->
+![images]({static}/images/logo_rolisteam.png)
 
-[Rolisteam](/Rolisteam "wikilink") est un logiciel libre et gratuit
-destiné aux joueurs de jeux de rôles qui souhaitent faire des parties
-malgré la distance qui les sépare : il offre en effet tous les éléments
-nécessaires au déroulement d\'une partie de jeu de rôle autour d\'une
-table. Grâce à [Rolisteam](/Rolisteam "wikilink") vous pourrez partager
-un nombre illimité de plans, dessiner ces derniers à main levée ou bien
-les importer à partir d\'une image, vous pourrez ajouter des
-annotations, masquer certaines parties du plan qui ne doivent être vues
-que par le meneur de jeu, positionner des personnages, discuter via des
-tchats publics ou privés, lancer les dés, prendre des notes, mettre une
-musique d\'ambiance etc... Bref que vos joueurs soient éparpillés aux
-quatre coins du monde, ou que vous souhaitiez poursuivre une partie sans
-avoir à attendre le week-end prochain,
-[Rolisteam](/Rolisteam "wikilink") est là pour vous aider à recréer
-l\'ambiance d\'une table de jeu, par réseaux interposés.
+## Presentation
 
-[Rolisteam](/Rolisteam "wikilink") est tout à fait suffisant pour jouer
-en mode texte, c\'est à dire en discutant grace aux
-[tchats](/Tchat "wikilink"). On peut aussi lui ajouter un logiciel
-d\'audio conférence comme [Skype](http://www.skype.com/intl/fr/home/),
-[TeamSpeak](http://www.teamspeak.com/) ou
-[Mumble](http://mumble.sourceforge.net/) pour jouer en vocal. Il est
-généralement admis que le mode vocal permet une expèrience de jeu plus
-proche du jeu sur table, mais le mode texte a aussi ses défenseurs.
+**Rolisteam** est un logiciel libre (sous GNU/GPL2.0). Il est dédié aux rolîstes souhaitant jouer en dépit de la distance. 
+Il propose l'ensemble des fonctionnalités requises pour faire une partie.
+Grâce à **Rolisteam**, vous serez capable de partager des plans, de les dessiner à la volée, d'ajouter des commentaires, de masquer des portions des plans, ajouter les personnages, jeter les dés, tchatter avec les autres et bien d'autres choses.
+Vos joueurs peuvent être sur tous les continents ou à proximité, **Rolisteam** vous permet de jouer.
 
-Fonctionnalités
-===============
+**Rolisteam** offre assez de fonctionnalités pour jouer en mode texte.
+Beaucoup de personnes utilisent en plus de **Rolisteam** un logiciel d'audio conférence (tel Mumble, Teamspeak, Discord, Matrix or Skype).
 
-[Rolisteam](/Rolisteam "wikilink") offre les fonctionnalités suivantes :
+![image]({static}/images/charactersheet2.jpg)
 
--   utilisation très simple ;
--   échanges de données ultra rapides entre utilisateurs ;
--   deux statuts d\'utilisateur : joueur (avec des droits restreints) ou
-    MJ (avec tous les droits) ;
--   nombre illimité d\'utilisateurs ;
--   partage d\'un nombre illimité de plans, aux dimensions paramétrables
-    ;
--   importations de plans à partir d\'une image (par exemple à partir
-    d\'un plan sur papier préalablement scanné) au format JPEG, PNG ou
-    BMP ;
--   multiples outils de dessins pour dessiner les plans ou les annoter ;
--   masquage/démasquage par le MJ de certaines parties du plan ;
--   représentation des PJ et PNJ, avec gestion éventuelle de
-    l\'orientation et de l\'état de santé ainsi qu\'un déplacement animé
-    pour permettre un meilleur suivi des mouvements sur le plan ;
--   partage d\'images pour afficher des dessins, photos ou tout autre
-    élément narratif ;
--   sauvegarde des plans en cours, soit individuellement, soit groupés
-    sous forme de scénario ;
--   éditeur de notes permettant de prendre des notes en cours de partie
-    ;
--   un tchat public et des tchats privés permettant aux utilisateurs de
-    s\'échanger des informations par écrit ;
--   ajout de tchats pour n\'importe quel groupe de joueur (v1.1) ;
--   possibilité de faire parler et agir PJ et PNJ dans les tchats (v1.1)
-    ;
--   Système de jet de dés utilisable dans tous les tchats.
--   musique d\'ambiance gérée par le MJ, avec volume paramétrable pour
-    chaque utilisateur. Gestion des formats audio MP3, MP2, WAV et OGG ;
--   Trois pistes musicale différentes (version 1.7);
--   Gestion des listes de lectures (format .m3u)(version 1.7);
--   Lecture de fichier distant; flux réseau..(version 1.7);
--   Plan vectoriel (v1.8)
--   Fiche de personnage (v1.8)
--   tout utilisateur se connectant en cours de partie reçoit
-    automatiquement tous les plans et images déjà ouverts, dans leur
-    état actuel, ainsi que la musique en cours.
+## Features
 
-Configuration requise
----------------------
+**Rolisteam** has those following features:
 
--   un ordinateur équipé de
-    -   MacOS (processeur Intel uniquement), ou
-    -   Microsoft Windows XP, Vista ou Seven (32 ou 64 bits), ou
-    -   GNU/Linux,
--   un écran faisant au moins 600 pixels de hauteur,
--   une connexion internet,
-    -   et le « serveur » hébergeant la partie doit ouvrir et
-        éventuellement router un port (au choix, par défaut 6660),
--   clavier pour les fonctions de texte et les lancés de dés,
--   souris ou équivalent pour les boutons de contrôles et les fonctions
-    de dessin.
+-   Héberger/rejoindre une partie [more…]({filename}03_firststeps.md)
+-   Partager une image [more…]({filename}15_images.md)
+-   Messagerie instantanée (privée, publique, à plusieurs etc..) [more…]({filename}09_chat.md)
+-   Dessiner et partager un plan [more…]({filename}16_maps.md)
+-   Dessiner et partager un plan vectoriel [more…]({filename}17_VectorialMap.md)
+-   Ajouter une image en fond de plan ou en élément de plan vectoriel. 
+-   Brouillard de guerre sur les plans
+-   Jettons de personnages
+-   Gestion des fiches de personnages [more…]({filename}20_charactersheet.md)
+-   Lancer les dés [more…]({filename}05_dice_roller.md)
+-   Créer des alias de dés [more…]({filename}22_preferences.md)
+-   Gestion des permissions : Maître du jeu (MJ) ou Personnage joueur (PJ)
+-   Avatar de personnage [more…]({filename}08_connected_players.md)
+-   Gestion dynamique des états des personnages [more…]({filename}22_preferences.md)
+-   Gestionnaire de Ressources [more…]({filename}10_resources.md)
+-   Préférences [more…]({filename}22_preferences.md)
+-   Interface personnalisable (Look and feel) [more…]({filename}23_look_and_feel.md)
+-   Enregistrer/Charger les données en fichier individuel (image, plan, Fiche de personnage)
+-   Enregistrer/Charger les données dans un fichier "scenario" unique (.sce)
+-   Éditeur de notes [more…]({filename}18_minutes_editor.md)
+-   Notes partagées [more…]({filename}19_sharedNotes.md)
+-   Lecteur audio 3 pistes [more…]({filename}14_music.md)
+-   Dés en accès rapide [more…]({filename}13_dicebookmark.md)
+-   Convertisseur d'unité [more…]({filename}12_unitConverter.md)
+-   Générateur de nom [more…]({filename}11_nameGenerator.md)
 
-Vocabulaire
------------
+## Tutorials
+*   [Démarrons!](http://www.rolisteam.org/tutorial01.html)
 
-Les abréviations suivantes sont employées dans toute cette
-documentation. Bien connues des rôlistes, je les rappelle pour mémoire :
 
--   **MJ** : meneur de jeu, maître de jeu, gardien des arcanes, conteur,
-    etc\...
--   **PJ** : personnage joueur, un personnage interprété par un joueur.
--   **PNJ** : personnage non joueur, un personnage interprété par le MJ
+## Abbreviations
 
-Auteurs
--------
+Un point de vocabulaire avant de continuer.
 
-[Rolisteam](/Rolisteam "wikilink") a été développé par [Renaud
-Guezennec](/Renaud_Guezennec "wikilink"), informaticien et rôliste, dans
-le but de permettre aux joueurs isolés de pratiquer leur activité
-favorite.\
-Vous pouvez vérifier les éventuelles mises à jour sur le site de
-[www.rolisteam.org](/www.rolisteam.org "wikilink").\
-Rolisteam est fondé sur la version 1.1 de rolistik développé par Romain
-Campioni.\
-\
-Liste des contributeurs (cette liste est dans le même ordre que mon
-cerveau : complètement bordélique. Pour ne rien arranger, il manque
-sûrement des noms\...) :
+-   **MJ**: Maître du jeu
+-   **PJ**: Personnage jouable. Ils sont interprétés par un joueur.
+-   **PNJ**: Personnage non jouable. Ils sont interprétés par le MJ.
 
--   Renaud Guezennec , qui à repris le projet pour le porter sous linux
-    et qui est actuellement le développeur
+## Licence
+
+Rolisteam est un logiciel libre; Vous pouvez le redistribuer et/ou 
+le modifier dans le respect de la licence GNU General Public License publiée par la Free Software Foundation; 
+
+## Auteurs
+
+**Rolisteam** est dévéloppé par *Renaud Guezennec*. 
+**Rolisteam** est fondé sur rolistik 1.1 developpé par *Romain Campioni*.
+
+### Listes des contributeurs:
+
+-   Renaud Guezennec
 -   Joseph Boudou.
--   Romain Campioni , inventeur de rolistik, qui est la base de
-    rolisteam
+-   [Milan Irigoyen](https://github.com/m-irigoyen)
+-   [IBPX](https://github.com/IBPX)
+-   [Vladar4](https://github.com/Vladar4)
+-   [Greg](https://github.com/g76r)
+-   Romain Campioni who made rolistik, the code base of rolisteam
 
-Licences
---------
 
-[Rolisteam](/Rolisteam "wikilink") est un logiciel libre : vous pouvez
-le redistribuer ou le modifier suivant les termes de la \"GNU General
-Public License\" version 2.0 telle que publiée par la Free Software
-Foundation, soit la version 2 de cette licence, soit (à votre gré) toute
-version ultérieure.\
+## Configuration
+
+**Rolisteam** fonctionne sur:
+
+-   Windows
+-   MacOS
+-   Linux
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/install.html">suivant</a></p>
