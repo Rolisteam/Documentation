@@ -33,7 +33,7 @@ Many people use audio conference software additionnaly with Rolisteam (such as M
 -   Fog of war on map, the GM can hide parts from maps
 -   Character tokens
 -   Charactersheet management [more…]({filename}20_charactersheet.md)
--   Dice roller [more…]({filename}05_dice_roller.md)
+-   Dice roller [more…]({filename}21_dice_roller.md)
 -   Dice Alias [more…]({filename}22_preferences.md)
 -   Permission management : Game Master (GM) or Playable Character (PC)
 -   Distinction between player and character

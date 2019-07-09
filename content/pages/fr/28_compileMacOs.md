@@ -40,7 +40,7 @@ To share your work, just make a pull request (github does it very well).
 
 * Create your [github account](https://github.com)
 * Go to [Rolisteam organisation page](https://github.com/Rolisteam)
-* Fork ![rolisteam]({filename}fork.png) the wanted project and its dependencies.
+* Fork ![rolisteam]({static}/images/pictos/fork.png) the wanted project and its dependencies.
     * **Rolisteam** project is the source code of **Rolisteam** and **Roliserver**. It needs **DiceParser**, **RCharacterSheet**, **RPlugins** and **common**
     * **RCSE** project is the charactersheet editor. Its needs **RCharacterSheet**.
     * **Dice** brings together all tools to roll dice.
@@ -83,7 +83,7 @@ Then, just clone the project from the main repository
 
 The source code comes on your computer.
 You won't be able to integrate your work in **Rolisteam**, until we give you permission to do so.
-To do it, we have to accept you in **Rolisteam** organization. [Give us]({filename}20_contactus.md) your github username.
+To do it, we have to accept you in **Rolisteam** organization. [Give us]({filename}26_contactUs.md) your github username.
 
 Of course, you can send us patch. But it's less pratical this way.
 

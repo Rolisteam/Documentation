@@ -7,7 +7,7 @@ lang: en
 
 # Chatroom
 
-At start, **Rolisteam** adds automatically several chatroom. 
+At start, **Rolisteam** adds automatically several chatroom.
 Every chatrooms are listed in the *Chat messaging* panel.
 The first one is always the *global* chatroom.
 
@@ -39,7 +39,7 @@ Flicking Chatroom (green to red) means there are unread message.
 
 ## Add chatroom
 
-Just click on `Add a chat` and select every one who should attend to this chatroom. 
+Just click on `Add a chat` and select every one who should attend to this chatroom.
 Chatroom may have 1 or several participants.
 
 ![add chatroom]({static}/images/tuto/15_nouveauChat_en.jpg)
@@ -56,7 +56,7 @@ Enough about the chatroom, lets take a look at what we can do with ChatWindow.
 
 ![images]({static}/images/tuto/25_tchat_commun_en.jpg)
 
-Message starts with its sender's name in the sender's color. 
+Message starts with its sender's name in the sender's color.
 Url links are clickable. They open with you default web browser.
 The top zone displays the conversation and the bottom text zone is the writing zone.
 
@@ -79,7 +79,7 @@ Change the selected person in the sender list from your player identity to your 
 
 ## Send dice command
 
-Start with `!` and the command. 
+Start with `!` and the command.
 
 Example:
 > !1d20
@@ -89,7 +89,7 @@ Every one in the chatroom sees the result.
 To roll secret dice command, start with *&* (instead of !)
 To display the result only to the GM, start commands with *#* (instead of !)
 
-More details about dice rolls: please read [dice roller]({filename}06_dice_roller.md) page.
+More details about dice rolls: please read [dice roller]({filename}21_dice_roller.md) page.
 
 ## Send command
 
@@ -107,7 +107,7 @@ result (assuming Kallice is the selected person):
 
 ## Save conversation
 
-Click on ![icons]({static}/icons/chat_save.png)
+Click on ![icons]({static}/images/pictos/chat_save.png)
 Conversation are saved in *html*.
 
 ## Show contextual menu
@@ -123,7 +123,7 @@ Show contextual menu.
 Click on `Display time`.  
 New messages start with time of arrival.  
 
-Set this behaviour as default, see [Preferences]({filename}10_preferences.md) page.
+Set this behaviour as default, see [Preferences]({filename}22_preferences.md) page.
 
 ## Change background color
 
@@ -133,7 +133,7 @@ Color selector dialog appears.
 Select the color.
 Click on `Ok`
 
-## Word Warp 
+## Word Warp
 
 By default, **Word warp** is enabled.
 When text is longer than the window width. **Rolisteam** tries to split the text between two words (a new line instead of space).
@@ -159,7 +159,7 @@ The *chatwindow* appears inside **Rolisteam** workspace.
 Press `Ctrl` and move your mouse wheel.
 The text size changes directly.
 
-To make this parameter permanent, see [theme]({filename}22_theme.md)
+To make this parameter permanent, see [theme]({filename}23_look_and_feel.md)
 
 <p style="text-align: left; width:49%;  display: inline-block;"><a href="/connected.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/resources.html">Next</a></p>

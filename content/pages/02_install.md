@@ -17,7 +17,7 @@ Rolisteam mow means 3 different programs.
 
 The first one is the main program.   
 It is the virtual table software. It provides every features   
-for hosting games or joining games and play. 
+for hosting games or joining games and play.
 
 
 ## Rolisteam Character Sheet Editor (RCSE)
@@ -37,7 +37,7 @@ More information available [here]({filename}02_1_server.md)
 
 # Windows
 
-![image]({static}/images/wizzard.jpg)
+![image]({static}/images/logo/windows_logo.jpg)
 
 ## Get Rolisteam
 
@@ -60,7 +60,7 @@ It is recommanded to close it and start it again from desktop shortcut.
 
 # Mac Os X
 
-![image]({static}/images/macOsInstall.jpg)
+![image]({static}/images/logo/maxoslogo.png)
 
 ## Get Rolisteam and RCSE
 
@@ -83,7 +83,7 @@ Distribution may provide **Rolisteam** as package.
 Check if the rolisteam package is up-to-date.  
 Please, contact the package maintener to ask update.
 
-# on Ubuntu 
+# on Ubuntu
 
 Run these commands:
 
@@ -102,4 +102,3 @@ The last way, to get rolisteam is to compile it.
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/overview.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/firststeps.html">Next</a></p>
-

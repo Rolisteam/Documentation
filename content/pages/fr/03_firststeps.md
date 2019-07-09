@@ -52,7 +52,7 @@ Ensure the `host the game` checkbox is checked.
 Define a password if you want of let it blank.
 Then, click on `Ok`.
 
-[more details about Connection profile]({filename}/connection.md)
+[more details about Connection profile]({filename}03_firststeps.md)
 
 Then, Rolisteam is waiting for other players to join. In the notification panel, **Rolisteam** gives you all informations required to join your game. Players must have those information ( ip address to join and port). Don't forget to give them the password as well.
 

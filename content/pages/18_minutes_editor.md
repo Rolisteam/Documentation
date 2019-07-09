@@ -5,7 +5,7 @@ status: hidden
 lang: en
 
 The **minutes editor** is rich text editor.  
-It edits text documents. Those text documents are managed in the [resources manager]({filename}19_resources.md).
+It edits text documents. Those text documents are managed in the [resources manager]({filename}10_resources.md).
 Text documents are useful to take notes about the game.
 
 It offers it own menus and toolbars.

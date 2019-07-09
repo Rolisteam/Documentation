@@ -4,7 +4,7 @@ slug: index
 status: hidden
 lang: fr
 
-![images]({filename}/images/logo_rolisteam.png)
+![images]({static}/images/logo_rolisteam.png)
 
 # Introduction
 * [Présentation]({filename}01_overview.md)

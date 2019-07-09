@@ -4,7 +4,7 @@ slug: index
 status: hidden
 lang: en
 
-![images]({filename}/images/logo_rolisteam.png)
+![images]({static}/images/logo_rolisteam.png)
 
 # Introduction
 * [Overview]({filename}01_overview.md)
@@ -47,7 +47,4 @@ lang: en
 # Get involved
 * Step by step: [Get involved]({filename}30_TakePart.md)
 * Compilation: [Windows]({filename}27_compileWindow.md), [MacOsX]({filename}28_compileMacOs.md), [GNU/Linux]({filename}29_compileLinux.md)
-* Coding Rules: [Rules]({filename}32_Coding.md)
-
-
-
+* Coding Rules: [Rules]({filename}32_coding.md)

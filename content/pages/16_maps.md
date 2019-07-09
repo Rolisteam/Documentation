@@ -10,14 +10,14 @@ lang: en
 Click on `File > New > Map` or use the shortcut **Ctrl+m**  
 The map wizard is displayed.  
 
-![map wizard]({static}/images/en/map_wizzard.jpg)
+![map wizard]({static}/images/panel/map_wizzard.jpg)
 
 Select the appropriate color, permission, shape,  size.
 Add name to the map. then click on `Ok`.
 
 The map appears.
 
-Be careful, permission cannot be changed after. 
+Be careful, permission cannot be changed after.
 
 ## Open map
 
@@ -58,7 +58,7 @@ together tools for PC/NPC management.
 
 ### Let's talk about Painting tools
 
-[right\|top\|\|frame\|400px\|\|Toolbar](/Image:_Toolbar.png "wikilink")
+![toolbar]({static}/images/panel/toolbar_old_map.jpg)
 
 #### Current Color
 

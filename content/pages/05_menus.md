@@ -67,7 +67,7 @@ Each player can take part in writing notes.
 - Past a link to online picture then **Rolisteam** downloads it and show a preview.
 - The picture is shown to all users.
 - The person who opened the picture and the GM are the only ones who can close it.  
-[more details]({filename}10_images.md)
+[more details]({filename}15_images.md)
 
 ### Notes
 The user must select a previously saved file of notes. It is automatically loaded into the notes editor. 
