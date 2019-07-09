@@ -22,7 +22,7 @@ lang: en
 * [Connected Players]({filename}08_connected_players.md)
 * [Instant messaging]({filename}09_chat.md)
 * [Resources Manager]({filename}10_resources.md)
-* [Name Generator]({filename}11_nameGenerator.md)
+* [Name Generator]({filename}11_namegenerator.md)
 * [Unit Converter]({filename}12_unitConverter.md)
 * [Npc Maker]({filename}13_NpcMaker.md)
 * [Dice Bookmark]({filename}13_dicebookmark.md)

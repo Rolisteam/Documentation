@@ -230,7 +230,7 @@ Roll 5 dice and then try to group them to make group of 10 [7th sea system].
 
 # Write
 
-> 4d10;$1c[>6];$1c[<2];$2-$3;w{"Success count: $4
+> 4d10;$2c[>6];$2c[<2];$2-$3;w{"Success count: $4
 
 ## example:
 

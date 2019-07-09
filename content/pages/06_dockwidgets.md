@@ -97,7 +97,7 @@ Then generate!
 ![Name Generator]({static}/images/panel/NameGenerator_en_003.png)
 
 
-[More details]({filename}11_nameGenerator.md)
+[More details]({filename}11_namegenerator.md)
 
 
 # Unit convertor

@@ -22,7 +22,7 @@ lang: fr
 * [Les joueurs connectés]({filename}08_connected_players.md)
 * [Messagerie Instantanée]({filename}09_chat.md)
 * [Gestionnaire de Ressources]({filename}10_resources.md)
-* [Générateur de nom]({filename}11_nameGenerator.md)
+* [Générateur de nom]({filename}11_namegenerator.md)
 * [Converteur d'unités]({filename}12_unitConverter.md)
 * [Forge des PNJ]({filename}13_NpcMaker.md)
 * [Dés en accès rapide]({filename}13_dicebookmark.md)
@@ -39,13 +39,13 @@ lang: fr
 * [Fichier Pdf]({filename}20_pdf.md)
 
 # Rolisteam Guided Tour
-* [Les Menus]({filename}15_menus.md)
-* [Joueurs connectés]({filename}13_connected_players.md)
-* [Evénements]({filename}14_events.md)
-* [Préferences]({filename}16_preferences.md)
-* [Thèmes]({filename}17_look_and_feel.md)
-* [Traduction]({filename}18_translation.md)
-* [Les différents types de fenêtres]({filename}10_description.md)
+* [Les Menus]({filename}05_menus.md)
+* [Joueurs connectés]({filename}08_connected_players.md)
+* [Evénements]({filename}07_notifications.md)
+* [Préferences]({filename}22_preferences.md)
+* [Thèmes]({filename}23_look_and_feel.md)
+* [Traduction]({filename}24_translation.md)
+* [Les différents types de fenêtres]({filename}04_explanation.md)
 
 # Modules
 * [Lancer les dés]({filename}21_dice_roller.md)
@@ -56,5 +56,5 @@ lang: fr
 # S'impliquer
 * Pas à pas: [Participer]({filename}30_TakePart.md)
 * Compilation: [Windows]({filename}27_compileWindow.md), [MacOsX]({filename}28_compileMacOs.md), [GNU/Linux]({filename}29_compileLinux.md)
-* Règles de nommage: [Règles]({filename}32_Coding.md)
+* Règles de nommage: [Règles]({filename}32_coding.md)
 

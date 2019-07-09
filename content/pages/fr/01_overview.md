@@ -31,7 +31,7 @@ Beaucoup de personnes utilisent en plus de **Rolisteam** un logiciel d'audio con
 -   Brouillard de guerre sur les plans
 -   Jettons de personnages
 -   Gestion des fiches de personnages [more…]({filename}20_charactersheet.md)
--   Lancer les dés [more…]({filename}05_dice_roller.md)
+-   Lancer les dés [more…]({filename}21_dice_roller.md)
 -   Créer des alias de dés [more…]({filename}22_preferences.md)
 -   Gestion des permissions : Maître du jeu (MJ) ou Personnage joueur (PJ)
 -   Avatar de personnage [more…]({filename}08_connected_players.md)
@@ -46,7 +46,7 @@ Beaucoup de personnes utilisent en plus de **Rolisteam** un logiciel d'audio con
 -   Lecteur audio 3 pistes [more…]({filename}14_music.md)
 -   Dés en accès rapide [more…]({filename}13_dicebookmark.md)
 -   Convertisseur d'unité [more…]({filename}12_unitConverter.md)
--   Générateur de nom [more…]({filename}11_nameGenerator.md)
+-   Générateur de nom [more…]({filename}11_namegenerator.md)
 
 ## Tutorials
 *   [Démarrons!](http://www.rolisteam.org/tutorial01.html)

@@ -263,7 +263,7 @@ This menu gathers miscellenous tools often needed in Role playing games.
 ## Name Generator
 
 Panel to generate names.  
-[More details]({filename}11_nameGenerator.md)
+[More details]({filename}11_namegenerator.md)
 
 ## Unit Converter
 

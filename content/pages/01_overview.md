@@ -50,7 +50,7 @@ Many people use audio conference software additionnaly with Rolisteam (such as M
 -   3 tracks Background music player [more…]({filename}14_music.md)
 -   Dice Bookmark [more…]({filename}13_dicebookmark.md)
 -   Unit convertor [more…]({filename}12_unitConverter.md)
--   Name generator [more…]({filename}11_nameGenerator.md)
+-   Name generator [more…]({filename}11_namegenerator.md)
 
 ## Tutorials
 *   [Let's get started](http://www.rolisteam.org/tutorial01.html)
