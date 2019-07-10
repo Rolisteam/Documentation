@@ -4,9 +4,6 @@ slug: dockwidgets
 status: hidden
 lang: en
 
-
-
-
 **Rolisteam** has several side panels. Those panels are dedicated to one task.
 Lets take a look to them all.
 
@@ -25,7 +22,7 @@ It gives control over log
 * Log can be erased.
 * Log can be saved to file.
 
-![Notification zone]({static}/images/panel/NotificationZone_en_002.png)
+![Notification zone]({static}/images/panel/notificationzone_en_024.jpg)
 
 # Player List
 
@@ -38,7 +35,7 @@ It is recommeded to move it before add token of another character.
 
 To show character on [vmap]({filename}17_VectorialMap.md), just drag the character and drop it on the vmap.
 
-![Player List]({static}/images/panel/UnitConvertor_en_022.png)
+![Player List]({static}/images/panel/PlayerList_en_005.png)
 
 [More details]({filename}08_connected_players.md)
 
@@ -50,7 +47,7 @@ Its default position is right side of the windows.
 It is useful to keep it this panel visible. Chatrooms are blinking
 when they have unread text messages.
 
-![Chatroom]({static}/images/panel/ChannelList_en_001.png)
+![Chatroom]({static}/images/panel/Chatmessaging_en_009.png)
 
 [More details]({filename}09_chat.md)
 
@@ -62,6 +59,13 @@ Its default position is right side of the windows.
 ![Background Music]({static}/images/panel/Background_Music_en_006.png)
 
 [More details]({filename}14_music.md)
+
+# Room list
+
+![channel list]({static}/images/panel/ChannelList_en_001.png)
+
+Gire information on the server.
+When someone is hosting the game only one room is created. But online server can have many rooms. 
 
 # Resources Manager
 ![Resources Manager]({static}/images/panel/ResourcesExplorer_en_008.png)

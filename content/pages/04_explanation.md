@@ -21,7 +21,7 @@ Each player can customize the software or its content. To hide or show relevant 
 # Free software
 
 **Rolisteam** and **Rcse** are under GPLv2 [read it](https://raw.githubusercontent.com/Rolisteam/rolisteam/master/COPYING.txt).  
-**Website**, **packaging script**, **this documention** and **discord dicebot** are GPLv3. [read it](https://github.com/Rolisteam/website/edit/master/LICENSE)
+**Website**, **packaging script**, **this documention** and **discord dicebot** are [GPLv3](https://github.com/Rolisteam/website/edit/master/LICENSE).
 
 * [website](https://github.com/Rolisteam/website)
 * [Packaging](https://github.com/Rolisteam/packaging)
