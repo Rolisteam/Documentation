@@ -14,99 +14,100 @@ It offers it own menus and toolbars.
 Several actions can be performed on text.
 ## New
 
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/filenew.png)
 Create new document
 
 ## Open
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/fileopen.png)
 
 Open document
 
 ## Save
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/filesave.png)
 Save document
 
 ## Print
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/fileprint.png)
 Print the document
 
 ## Export into PDF
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/exportpdf.png)
 Export as PDF
 
 ## Undo
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/editundo.png)
 
 Undo latest modification
 
 ## Redo
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/editredo.png)
 
 Redo latest undo modification
 
 ## Cut
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/editcut.png)
 
 Cut selected text
 
 ## Copy
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/editcopy.png)
 
 Copy selected text
 ## Paste
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/editpaste.png)
 Paste text at current position
 
 # Bold
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textbold.png)
 
 Make text as **bold**
 
 # Italic
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textitalic.png)
 
 Make text as *italic*
 # Underline
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textunder.png)
 
 Underline text
 
 # Align text on the left
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textleft.png)
 Align selected text on the left
 # Center text
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textcenter.png)
 
 Text is aligned at center
 
 # Align text on the right 
-![icon]({filename}.png)
+![icon]({static}/images/minutes/win/textright.png)
 Align selected text on the right
 
 ## Text Color
-![icon]({filename}.png)
 
-Define the text color
+Define the text color"""""
 
 ## Class of text
-![icon]({filename}.png)
 Change the text class to header, paragraph or normal.
 
 ## Font family
-![icon]({filename}.png)
 Change the selected fond
 
 ## Font Size
-![icon]({filename}.png)
 Define the font size of current text
 
 # Menus
 
 ## File
+![icon]({static}/images/panel/menu_edit_noteeditor.jpg)
 
 ## Edit
+![icon]({static}/images/panel/menu_2_noteeditor.jpg)
+
+
 
 ## Format
+![icon]({static}/images/panel/menu_format_noteeditor.jpg)
 
 # Toolbars
 

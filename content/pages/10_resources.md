@@ -94,12 +94,15 @@ The path is the fill path to the file.
 If the file does not exist anymore (relocated, renammed or deleted), the line appears red. 
 
 
+
 # Save/Restore
 
 Saving the scenario is in fact, saving the *resources manager*.
 
 
 # Context Menu
+
+![menu]({static}/images/panel/resources_manager_contextual_menu.jpg)
 
 * Change loading mode
 * Add chapter
@@ -108,6 +111,13 @@ Saving the scenario is in fact, saving the *resources manager*.
 * Show/hide displayed mode
 * Show/hide full path
 
+# Example:
+
+![manager with data]({static}/images/panel/resouces_manager_with_data.jpg)
+
+In this case, we have 3 folders (rules, NPC and places). Each of them contains medias.
+The icon gives information to the type. The resource manager lists PDF, images, map, vectorial map, charactersheet, notes. 
+*Linked* medias have been dropped on the application, when `Sake House` is a new document (make it `internal`).  
 
 # Use cases
 
@@ -120,6 +130,11 @@ To forget a media, just remove it from the **resources manager**.
 Ensure the media, you want to close is the current one.
 
 Menu: ```File > close```
+
+## Some medias have red background, what does it mean ?
+
+It means the media has never been saved, and **Rolisteam** does not know where to save it (no path). 
+Saving the document or the scenario will fix it.
 
 ## Close media and forget it
 

@@ -53,14 +53,14 @@ Audio players in rolisteam may open file from user's computer. They can also loa
 
 ## Drag and Drop
 
-[drag and drop]({static}/images/tuto/)
+
 
 It is possible to drag and drop files onto player widgets. The files are added to the list. The items are put at your cursor position.
 Horizontal line appears. You may also directly drop file in the main window. Then, they are added to the first player.
 
 ## Three tracks at the same time
 
-[]()
+
 
 By default, rolisteam has 3 music players.
 They are completely seperated to one another. It allows you to have background music, sound effects and environment sounds at the same time.

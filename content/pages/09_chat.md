@@ -112,6 +112,8 @@ Conversation are saved in *html*.
 
 ## Show contextual menu
 
+![menu]({static}/images/panel/chat_contextual_menu.jpg)
+
 There are two different context in chatwindow.
 One for writing zone, it is really simple and provides standard text action (copy, paste etc.)
 
@@ -127,11 +129,11 @@ Set this behaviour as default, see [Preferences]({filename}22_preferences.md) pa
 
 ## Change background color
 
-Show contextual menu.
-Click on `Background color`
-Color selector dialog appears.
-Select the color.
-Click on `Ok`
+Show contextual menu. 
+Click on `Background color` 
+Color selector dialog appears.  
+Select the color.  
+Click on `Ok`  
 
 ## Word Warp
 
@@ -156,7 +158,7 @@ The *chatwindow* appears inside **Rolisteam** workspace.
 
 ## Change Font size
 
-Press `Ctrl` and move your mouse wheel.
+Press `Ctrl+mouse wheel`.
 The text size changes directly.
 
 To make this parameter permanent, see [theme]({filename}23_look_and_feel.md)
