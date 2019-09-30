@@ -4,6 +4,8 @@ output/*
 __pycache__/
 *.py[cod]
 *$py.class
+pelican-plugins_old/*
+.Trash-1000/
 
 # C extensions
 *.so
