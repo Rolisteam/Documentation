@@ -57,4 +57,3 @@ lang: fr
 * Pas à pas: [Participer]({filename}30_TakePart.md)
 * Compilation: [Windows]({filename}27_compileWindow.md), [MacOsX]({filename}28_compileMacOs.md), [GNU/Linux]({filename}29_compileLinux.md)
 * Règles de nommage: [Règles]({filename}32_coding.md)
-
