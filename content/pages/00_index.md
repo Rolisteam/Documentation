@@ -16,6 +16,7 @@ lang: en
 * [Explanations]({filename}04_explanation.md)
 * [Main Menus]({filename}05_menus.md)
 * [Side panels]({filename}06_dockwidgets.md)
+* [Install Server]({filename}02_1_server.md)
 
 # Panels
 * [Notifications]({filename}07_notifications.md)
