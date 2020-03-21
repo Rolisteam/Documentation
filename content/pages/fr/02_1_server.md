@@ -4,18 +4,20 @@ slug: roliserver
 status: hidden
 lang: fr
 
-## Overview
+## Explication
 
-Roliserver is dedicated to host several games on the same computer.
-RPG players communities may offer this service to their users.
+Roliserver est un serveur conçu pour héberger plusieurs parties de **Rolisteam** en même temps, grâce à un systeme de canaux (salons).
+Ainsi, il est possible d'offrir ce service à votre communauté.
 
-## First run
+Cette page explique comment configurer le **Roliserver**.
 
-We strongly recommend to start roliserver as follow:
+## Premier lancement
+
+Nous recommendons de lancer le serveur une première fois, afin de générer un fichier de configuration propre:
 
 `roliserver -p config.conf`
 
-It generates an empty configuration file named "config.conf" (change the name if you want).
+Le fichier généré s'appelle `config.conf`. Vous pouvez changer le nom si vous le souhaitez.
 
     :::ini
     [General]
@@ -37,161 +39,158 @@ It generates an empty configuration file named "config.conf" (change the name if
     MaxMemorySize=@Invalid()
 
 
-Change value accordingly to your needs.
-The order of element is not important.
+Il convient ensuite de modifier ce fichier en fonction de vos besoins.
+L'ordre des éléments n'est pas important et peut changer entre la version générée et l'exemple ci-dessus.
 
-## Configuration file
+## Les champs
 
 ### Password
 
-Define password to access the server.
-Every password stored in this file must be encrypted with **Sha3_512** method.
-Don't worry, it is really easy to do.
-
-first, start the server with -g parameter.
+Le champ `password` permet de définir le mot de passe d'accès au serveur.
+Ce mot de passe doit être transmit à toutes les personnes souhaitant se connecter à votre serveur.
+Pour des raisons de sécurité, le mot de passe n'est pas conservé "en clair". Il est chiffré en utilisant la méthode: **Sha3_512**.
+Pour convertir votre mot de passe, il existe deux méthodes. **Rolisteam** offre un panneau dans le menu **Réseau** qui permet de faire cette conversion.
+Sinon vous pouvez appeler le serveur en ligne de commande avec le paramètre `-g`.
 
 `$ roliserver -g`
 
-It asks you to type the password.
-Then it prints the encrypted version of your password.
+Si vous saisissez `0000` comme mot de passe. Le serveur doit vous donner: 
 
-> P9d63VIxEvincVCutARz0W86GFFX36h0zWEIUomzusZmnv3krtcEsXzZWKKXXv6Ivag+8fR2a7tRWoaaIu3L1w==
+> tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
 
-Then you can copy/paste this key into your file.
+(**Attention**: Si ce n'est pas la cas, cela signifie que le serveur tourne avec une ancienne version de Qt)
 
-Rolisteam offers graphical tool to get generate password with **Sha3_512**.
-
-**Warning** : be sure, you run the server with Qt5.9 or higher. **Sha3_512** on older version of Qt does not work correctly. You may have difficulties to connect to the server.
+En suite, il suffit de copier/coller cette clé dans votre fichier de configuration.
 
 ### Port
 
-Define connection port, Usual port is 6660 but it can be changed.
+Définit le port tcp de connexion, Par défaut le port est le 6660 mais vous pouvez le changer.
 
 ### ConnectionMax
 
-Define the maximum number of clients that the server allows.
+Définit la capacité maximume du serveur en personnes connectées.
 
 ### ChannelCount
 
-Define the number of channels at the first start of the server.  
-Basically, that defines the number of games your server can accept at the same time.
+Définit le nombre de canaux. Cela signifie que cela définit également le nombre de parties simultanées possibles sur votre serveur.
 
 ### Admin Password
 
-Define password to protect authentification as server admin.
-Password is still encrypted in **Sha3_512**.
+Définit le mot de passe pour s'authentifier en tant qu'administrateur du serveur.
+Il convient de générer un mot de passe en **Sha3_512** (comme expliqué dans la section **password**.
 
-Admin can kick users, add/delete channels and many things else.
+L'administrateur peut expulser un joueur, ajouter/détruire un canal etc...
 
 ### LogLevel
 
-The log level is an number value that defines the level of details you want to know.
+Le niveau de log définit le niveau d'information que vous souhaitez rendre visible dans le fichier de log. La valeur est un nombre.
 
-Possible value:
+Valeurs possibles:
 
 * 1 : Error
 * 2 : debug
 * 3 : Warning
 * 4 : Information
 
-At *Error level*, the server only displays error message.  
-The *debug level* is useful when you want to improve the server, add some features and so on.  
-The *Warning* message displays message about unexpected data or behaviors.  
-At last, the *Information level* gives details about what the server is doing.
+En *Error*, le serveur ne préviendra qu'en cas d'erreur.  
+En *debug*, il affichera des versions utiles si vous souhaitez modifier le code du serveur. 
+En *Warning*, le serveur prévient en cas de données étranges et de comportements inattendus.  
+En *Information*, le serveur donne autant de détails qu'il peut.
 
-Before posting a bug request, it is a good practice to run the application with information level as log level in order to give to the team as much information as possible.
+Si vous constatez un problème et que vous souhaitez prévenir l'équipe. Il est conseilé de venir avec un fichier de log en information.
 
 ### DeepInspectionLog
 
-Log every events from server.
-Activate this option may make the server slower.
+Active les logs profonds du serveur.
+Attention, cette option peut ralentir grandement les performences du serveur.
 
-Possible value:
+Valeurs possibles:
 
 * true
 * false
 
+(true => vrai et false => faux)
+
 ### LogFile
 
-set the path where log are written.
+Définit le chemin du fichier de log.
 
-**Example**
+**Exemple**
 > LogFile=/var/log/roliserver.log
 
 
 
 ### ThreadCount
 
-Define the maximum thread count the server may use.
+Définit le nombre maximum de thread utilisable par le serveur.
 
 ### TimeToRetry
 
-Waiting time (in millisecond) between two tries to listen the **port**.
-
-The server listens any connection on the **port** define in this file.
-In rare occasion, this step may fail. Probably, because another server is already listening this **port**. So, **roliserver** will try several time
+Au démarrage, le serveur se mets en mode "écoute" sur le port défini. Si cela échoue, le serveur réessaie plusieurs fois avant de s'arrêter en erreur. Le temps définit ici est le temps à attendre avant un nouvel essai.
 
 ### TryCount
 
-Define how many time the server will try to listen the port.
-If this number is reached. The server exits on error status.
+Définit le nombre d'essais d'écoute du port avant de sortir en échec.
+Sortir signifie que le serveur s'arrête.
 
 ### TimeStart
 
-Define the time in the day when the server allows connection.
+L'heure à partir de laquelle, les connexions sont acceptées.
 
-It should be written as: hh:mm
-Hours must be defined by two numbers as the minutes.
+Le format: hh:mm
+Les heures et les minutes doivent être écrites sur deux chiffres.
 
-Examples:
-8pm
+Exemples:
+
 > 20:00
 
-6am
+(20h)
+
+
 > 06:00
 
+(6h)
 
 ### TimeEnd
 
-Define the time when the server stops accepting.
+Le temps de fin d'acceptation des connexions.
 
-It should be written as: hh:mm
-Hours must be defined by two numbers as the minutes.
+Exemples:
 
-Examples:
-8pm
 > 20:00
+(20h)
 
-6am
+
 > 06:00
+(6h)
 
 ### IpBan
 
-define a list of banned IP addresses.
+Si vous souhaitez banir une ou plusieurs adresses IP. Il suffit de les ajouter dans ce champs.
 
-Examples:
-A list with 3 addresses
+Exemples:
+Ici, nous avons 3 adresses banies.
+
 > 80.80.80.80,127.9.9.1,10.10.10.10
 
 
 ### IpMode
 
-ipv4 or ipv6 or both.
-
-It is not used yet.
+Ce champs n'est pas encore utilisé.
 
 ### MaxMemorySize
 
-Set the value of the maximum size the server should store.
-When the limit is reach, all channels drop their data.
+Le serveur garde en mémoire beaucoup d'information quand une partie à lieu pour accélérer la reprise du jeu en cas de déconnexion ou autre. 
+Cette fonctionnalité demande beaucoup de mémoire. 
+Nous ponvons demander au serveur de vider sa mémoire si cela devient trop gros.
 
-Example:
+Exemple:
 
     :::ini
     MaxMemorySize=8G  #Define the size at 8 Gibibyte
     MaxMemorySize=8M  #Define the size at 8 Mebibyte
     
-### Example of working .conf file :
+### Exemple d'un fichier complet:
 
 <pre>
 AdminPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==
@@ -211,19 +210,23 @@ TryCount=10
 port=6660
 </pre>
 
-This will use 0000 as a password, it's recomended you create your own with the password creation utlity available in the rolisteam client.
+Quand votre fichier de configuration est près, vous pouvez le tester en lancant:
 
+```
+roliserver -c config.conf
+```
+Vous pouvez essayer de vous connecter à votre serveur.
+Si tout s'est bien passé, nous pouvons passer à l'étape suivante: Le lancement automatique. 
 
+## Créez un service SystemD
 
-## Deploy on SystemD
-
-Let's create our service file
+Il faut créer un fichier de service systemd.
 
 ```
 $ sudo touch /etc/systemd/system/roliserver.service
 ```
 
-Then copy paste this in roliserver.service:
+Puis vous pouvez ajouter ce contenu dans le fichier roliserver.service:
     
     :::ini
     [Unit]
@@ -241,15 +244,15 @@ Then copy paste this in roliserver.service:
     [Install]
     WantedBy=multi-user.target
 
-Then enable, and start the service:
+Les dernières étapes consistent à activer le service et à la démarrer. 
 
     :::shell
     $ sudo systemctl enable roliserver.service
     $ sudo systemctl start roliserver.service
 
 
-## Deploy in Docker
+## Deployer avec Docker
 
 
 
-## Windows
+## Le cas Windows
