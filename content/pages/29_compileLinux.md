@@ -66,13 +66,13 @@ These lines will build **Rolisteam** and **Roliserver**.
 
 It is basically the same thing.
 
-  :::shell
-  $ cd /home/user/documents/program/rcse
-  $ mkdir build
-  $ cd build
-  $ qmake -r ../
-  $ make -j4
-  $ sudo make install
+      :::shell
+      $ cd /home/user/documents/program/rcse
+      $ mkdir build
+      $ cd build
+      $ qmake -r ../
+      $ make -j4
+      $ sudo make install
 
 
 ## Compiling Roliserver Only
