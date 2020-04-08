@@ -99,6 +99,13 @@ The last way, to get rolisteam is to compile it.
 [compilation]({filename}29_compileLinux.md)
 
 
+# Issues
+
+## On Windows, Rolisteam does not start due to missing MSVCP140.DLL
+
+You have to install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) from Microsoft: 
+
+
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/overview.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/firststeps.html">Next</a></p>
