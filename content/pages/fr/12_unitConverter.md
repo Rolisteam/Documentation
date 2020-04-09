@@ -5,7 +5,7 @@ status: hidden
 lang: fr
 
 
-**Rolisteam** provides Unit Converters. 
+**Rolisteam** provides Unit Converters.
 Role playing games are full of odd metrics, this panel is here to help in this case.
 
 ![Unit converter]({static}/images/en/unit_convertor.jpg)
@@ -20,7 +20,7 @@ Units are divided into categories.
 * Mass
 * Volume
 
-Each category has several units. 
+Each category has several units.
 Convert unit to a unit from the same category.
 
 # how to use it
@@ -78,8 +78,8 @@ From **Legend of the Five Rings**:
 
 # Expending features
 
-The units convertor provides a way to add new units and new convertion rules. 
-Click on this button ![button]({filename}/images/pictos/list.svg). 
+The units convertor provides a way to add new units and new convertion rules.
+Click on this button ![button]({static}/images/pictos/list.svg). 
 The convertor changes to this window:
 
 ![Unit convertor_screen2]({static}/images/en/set_unit_convertion_rules.jpg)

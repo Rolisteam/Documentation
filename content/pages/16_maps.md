@@ -10,14 +10,14 @@ lang: en
 Click on `File > New > Map` or use the shortcut **Ctrl+m**  
 The map wizard is displayed.  
 
-![map wizard]({static}/images/en/map_wizzard.jpg)
+![map wizard]({static}/images/panel/map_wizzard.jpg)
 
 Select the appropriate color, permission, shape,  size.
 Add name to the map. then click on `Ok`.
 
 The map appears.
 
-Be careful, permission cannot be changed after. 
+Be careful, permission cannot be changed after.
 
 ## Open map
 
@@ -58,7 +58,7 @@ together tools for PC/NPC management.
 
 ### Let's talk about Painting tools
 
-[right\|top\|\|frame\|400px\|\|Toolbar](/Image:_Toolbar.png "wikilink")
+![toolbar]({static}/images/panel/toolbar_old_map.jpg)
 
 #### Current Color
 
@@ -83,8 +83,8 @@ color zone. On Mac Os, you must double-click on them.
 ### Special Colors
 
 
-[Image: Erase.png](/Image:_Erase.png "wikilink") or [Image:
-ShowMap.png](/Image:_ShowMap.png "wikilink")
+![Erase.png]({static}/images/pictos/erase.png) or ![Image:
+ShowMap.png]({static}/images/pictos/showMap.png)
 
 There are three special colors. Each of them have a specific meaning.
 From left to right, the erase color, the masking color and the unmasking
@@ -92,44 +92,44 @@ color. You may use any tool you want to erase, masking or unmasking.
 
 ### Pencil
 
-[Image: Pen.png](/Image:_Pen.png "wikilink")
+![Pen.png]({static}/images/pictos/pen.png)
 
 It allows hand painting
 
 ### Line
 
-[Image: Line.png](/Image:_Line.png "wikilink")
+![Line.png]({static}/images/pictos/line.png)
 
 Draw line between the first click and the second click
 
 ### Empty Rectangle
 
-[Image: Emptyrectangle.png](/Image:_Emptyrectangle.png "wikilink")
+![Emptyrectangle.png]({static}/images/pictos/emptyrectangle.png)
 
 Draw a rect between the first click and the second
 
 ### Filled Rectangle
 
-[Image: Filledrectangle.png](/Image:_Filledrectangle.png "wikilink")
+![Filledrectangle.png]({static}/images/pictos/filledrectangle.png)
 
 Same as empty Rectangle, but the rectangle is filled.
 
 ### Empty Ellipse
 
-[Image: Emptyellipse.png](/Image:_Emptyellipse.png "wikilink")
+![Emptyellipse.png]({static}/images/pictos/emptyellipse.png)
 
 It draws an empty ellipse which is centered on the first left-click
 position.
 
 ### Filled Ellipse
 
-[Image: Filledellipse.png](/Image:_Filledellipse.png "wikilink")
+![Filledellipse.png]({static}/images/pictos/filledellipse.png)
 
 same as empty ellipse, but it is filled
 
 ### Text
 
-[Image: State.png](/Image:_State.png "wikilink")
+![State.png]({static}/images/pictos/state.png)
 
 Select the text tool. You need to set text in the text field. Then, by
 clicking on the map the text is drawn where you click. You can move the
@@ -138,7 +138,7 @@ mouse button, the text is written into the map.
 
 ### Hand
 
-[Image: Hand.png](/Image:_Hand.png "wikilink")
+![Hand.png]({static}/images/pictos/hand.png)
 
 The hand tool allows you to move the map when it is bigger than its
 windows. You have to click end move the mouse to start moving. When you
@@ -148,7 +148,7 @@ images).
 
 ### Line width
 
-[Image: Line.png](/Image:_Line.png "wikilink")
+![Line.png]({static}/images/pictos/line.png)
 
 This tool is dedicated to paint straight line from the first click to
 the second. You may select the width of the line thanks to the size
@@ -156,7 +156,7 @@ selector.
 
 ### Move PC/NPC
 
-[Image: MoveNpc.png](/Image:_MoveNpc.png "wikilink")
+![MoveNpc.png]({static}/images/pictos/moveNpc.png)
 
 Thanks to this tool, you may move NPC or PC tokens on maps. To do so,
 left-click on the token, keep the mouse button pressed and move to the
@@ -167,7 +167,7 @@ mouse to the right place.
 
 ### Change state PC/NPC
 
-[Image: State2.png](/Image:_State2.png "wikilink")
+![State2.png]({static}/images/pictos/state.png)
 
 With left-clicks,this tool triggers the current state of Npc token to
 change to the next state. Its color changes, and a tooltip describes its
@@ -185,7 +185,7 @@ do so, right-click and move the mouse to the point you want.
 
 ### Add NPC
 
-[Image: Add.png](/Image:_Add.png "wikilink")
+![Add.png]({static}/images/pictos/add.png)
 
 Select the tool, click on map, character token is added to the map. The
 token color is the current selected one. The name of the NPC is the
@@ -197,14 +197,14 @@ are selected.
 
 ### Remove NPC
 
-[Image: Remove.png](/Image:_Remove.png "wikilink")
+![Remove.png]({static}/images/pictos/remove.png)
 
 It allows to delete NPC token on map. Select the tool and then click on
 NPC token. The token disappears. This tool has no effect on PC token.
 
 ### reset NPC counter
 
-[Image: Chronometre.png](/Image:_Chronometre.png "wikilink")
+![Chronometre.png]({static}/images/pictos/chronometre.png)
 
 You can reset the NPC number to be 0.
 

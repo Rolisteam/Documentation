@@ -4,7 +4,7 @@ slug: index
 status: hidden
 lang: en
 
-![images]({filename}/images/logo_rolisteam.png)
+![images]({static}/images/logo_rolisteam.png)
 
 # Introduction
 * [Overview]({filename}01_overview.md)
@@ -16,13 +16,14 @@ lang: en
 * [Explanations]({filename}04_explanation.md)
 * [Main Menus]({filename}05_menus.md)
 * [Side panels]({filename}06_dockwidgets.md)
+* [Install Server]({filename}02_1_server.md)
 
 # Panels
 * [Notifications]({filename}07_notifications.md)
 * [Connected Players]({filename}08_connected_players.md)
 * [Instant messaging]({filename}09_chat.md)
 * [Resources Manager]({filename}10_resources.md)
-* [Name Generator]({filename}11_nameGenerator.md)
+* [Name Generator]({filename}11_namegenerator.md)
 * [Unit Converter]({filename}12_unitConverter.md)
 * [Npc Maker]({filename}13_NpcMaker.md)
 * [Dice Bookmark]({filename}13_dicebookmark.md)
@@ -47,7 +48,4 @@ lang: en
 # Get involved
 * Step by step: [Get involved]({filename}30_TakePart.md)
 * Compilation: [Windows]({filename}27_compileWindow.md), [MacOsX]({filename}28_compileMacOs.md), [GNU/Linux]({filename}29_compileLinux.md)
-* Coding Rules: [Rules]({filename}32_Coding.md)
-
-
-
+* Coding Rules: [Rules]({filename}32_coding.md)

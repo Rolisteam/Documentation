@@ -9,7 +9,7 @@ lang: en
 
 Open a new shared editor or load a file [details]({filename}05_menus.md)
 
-![shared editor]({static}images/shared_editor.jpg)
+![shared editor]({static}/images/en/shared_note_editor.jpg)
 
 The first panel is the text editor.
 Write text inside.

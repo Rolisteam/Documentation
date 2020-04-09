@@ -8,29 +8,39 @@ lang: en
 
 ![Players list]({static}/images/tuto/18_playerlist_en.jpg)
 
-This window lists all connected players and their characters. The first
-player on the list is always the local player. 
+This panel lists all connected players and their characters.  
+The first player on the list is always the local player (you).  
 The GM is indicated by a darker background (on standard look and feel).
 The first level of names are players.
 Player can have many characters.
 
-# Change the name
+# Permission
 
-Double-click on name of your characters or your player.  
-Start editing the cell.
+**GM** can change name of anyone (players and characters). 
+**Player** can only edit his player and his characters.
 
-# Change the color
+# Change character/player name
+
+1. Double-click on name you want to change.  
+2. Start editing the cell.
+3. Press `Enter` to validate
+
+# Change character/player color
 
 Double-click on the color, a color selector dialog appears.  
 
-# Change the avatar
+# Contextual menu
+
+![menu]({static}/images/panel/Menu_character_en_020.jpg)
+
+## Change the avatar
 
 Rigth-click on character, Select `Set Avatar…`.  
 A file selector dialog appears. Use it to select your avatar `*.jpg, *png, *.bmp`.  
 
-# Create a character
+# Add character
 
-Any player may create character from the [profile connection dialog]({filename}03_firststeps.md)
+Any player may add character from the [profile connection dialog]({filename}03_firststeps.md)
 At any moment, players can add character.  
 Click on `Add PC` (`Add NPC` for GM).  
 A dialog box appears.  

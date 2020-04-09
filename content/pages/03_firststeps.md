@@ -12,22 +12,23 @@ As an introduction of what rolisteam can do and how to use rolisteam, this tutor
 *   [Let's get started](http://www.rolisteam.org/tutorial01.html)
 
 
-# Bring together
+# The gathering
 
-To play together with rolisteam. All participants must join the same virtual place.
-There are two ways to do so.
-* Join an online rolisteam server.
+To play together with **Rolisteam**. All participants must join the same virtual place.
+There are two ways to do so:
+
+* Online rolisteam server.
 * Host the game.
 
 ## Join online server
 
 Player/RPG communities can now install rolisteam server on remote server. Just like any video game server.
-Please go to the [server list](http://www.rolisteam.org/serverList.html) to know online server. Not all of them are listed there.
-Contact us to add your server to the list.
+Please go to the [server list](http://www.rolisteam.org/serverList.html) to know online servers. Not all of them are listed there.
+[Contact us]({filename}26_contactUs.md) to add your server to the list.
 
 If you want to install rolisteam server for your community, find [instruction here]({filename}02_1_server.md)
 
-## Host the game yourself
+## Host the game
 
 Game can be hosted with rolisteam on any computer.
 Please follow these step.
@@ -44,17 +45,20 @@ To select the best candidate for hosting, please keep in mind these points:
 
 ![images]({static}/images/en/connection_dialog.jpg)
 
-### Step 2 : Host the game
+### Step 2 : Make profile
 
-Fill up your name, select a color.
-Select a port (default: 6660)
-Ensure the `host the game` checkbox is checked.
-Define a password if you want of let it blank.
-Then, click on `Ok`.
+1. Fill up your name, select a color.  
+2. Select a port (default: 6660)  
+3. Ensure the `host the game` checkbox is checked.  
+4. Define a password if you want of let it blank.  
+5. Then, click on `Ok`.  
 
-[more details about Connection profile]({filename}/connection.md)
+The address field becomes disable when `host the game` is checked.
 
-Then, Rolisteam is waiting for other players to join. In the notification panel, **Rolisteam** gives you all informations required to join your game. Players must have those information ( ip address to join and port). Don't forget to give them the password as well.
+[more details]({filename}03_firststeps.md) about Connection profile
+
+The profile selection dialog disappears and then, Rolisteam is waiting for other players to join. In the notification panel, **Rolisteam** gives you all informations required to join your game. Players must have those information ( ip address to join and port).  
+Don't forget to give them the password as well.
 
 ### Step 3 : Connectivity test
 
@@ -71,9 +75,12 @@ Any other response means it does not work.
 The most frequent cause about connection issue is the separation between your local network and the internet.  
 In this case, the device on the internet is not your computer but it's your network device (modem/router/...).  
 So the incoming connection reaches your network device but it does not know what to do with it.  
+
 Settings rule to forward incoming connection to your computer fixes it. But at First, we must be sure your computer has always the same address inside your local network.
 
 The configuration must be made once. When it had worked it should work until you change your network device or erase its memory.
+
+There are plenty of tutorials online, just search for **port forwarding** and the name of your **ISP**.
 
 #### Fixed Ip address
 

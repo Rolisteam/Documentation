@@ -6,7 +6,7 @@ lang: en
 
 
 This panel is newest way to make dice roll easier in **Rolisteam**.
-[Dice alias]({filename}15_dice_roller.md) helps to shorten dice commands.
+[Dice alias]({filename}21_dice_roller.md) helps to shorten dice commands.
 *Dice Bookmark* remove the need to type any command in game.
 
 # How to use it

@@ -44,8 +44,7 @@ PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
 # Blogroll
-LINKS = (('News', '/blog/index.html'),
-         ('Friends', '/friends.html'),)
+LINKS = (('Connection Test', 'http://www.rolisteam.org/php/test_ip.php'),)
 
 # Social widget
 SOCIAL = (
@@ -53,7 +52,8 @@ SOCIAL = (
     ('Facebook', 'https://www.facebook.com/rolisteam'),
     ('Twitter', 'https://twitter.com/rolisteam'),
     ('Discord', 'https://discord.gg/MrMrQwX'),
-    ('Liberapay', 'https://liberapay.com/rolisteam/donate'),)
+    ('Liberapay', 'https://liberapay.com/rolisteam/donate'),
+    ('Patreon', 'https://www.patreon.com/rolisteam'),)
 
 DEFAULT_PAGINATION = 10
 

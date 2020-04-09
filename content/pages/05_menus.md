@@ -4,12 +4,14 @@ slug: menus
 status: hidden
 lang: en
 
+**Rolisteam** has 6 main menus.
+Let's have a look on each of them. 
 
-# File
+# Menu: File
 
 This menu brings together all actions about files.
 
-## New 
+## Submenu: New 
 
 ![image]({static}/images/en/new_menu.jpg)
 
@@ -47,7 +49,7 @@ From **Rolisteam**, it is possible to create charactersheet data. It may be usef
 Each player can take part in writing notes.  
 [more details]({filename}19_sharedNotes.md)
 
-## Open
+## Submenu: Open
 
 ### Map
 - Open the Map selector. 
@@ -67,7 +69,7 @@ Each player can take part in writing notes.
 - Past a link to online picture then **Rolisteam** downloads it and show a preview.
 - The picture is shown to all users.
 - The person who opened the picture and the GM are the only ones who can close it.  
-[more details]({filename}10_images.md)
+[more details]({filename}15_images.md)
 
 ### Notes
 The user must select a previously saved file of notes. It is automatically loaded into the notes editor. 
@@ -141,7 +143,7 @@ Quit **Rolisteam**
 
 
 
-# Edit
+# Menu: Edit
 ![image]({static}/images/en/edit_menu.jpg)
 ## Undo
 
@@ -157,11 +159,12 @@ Displays a panel with all shortcuts.
 Best way to learn how to do thing quickly with Rolisteam.
 
 
-# Subwindows
+# Menu: Subwindows
 
+![image]({static}/images/panel/Menu_edit_en.jpg)
 Subwindows Menu Items are dedicated to change how subwindow are displayed on screen.
 
-## Reorganize
+## Submenu: Reorganize
 ![image]({static}/images/en/display_mode.jpg)
 Submenu which allow you to rearrange the contents of the workspace.
 
@@ -177,7 +180,7 @@ Subwindows are arranged one over the others with a slight gap between each one.
 
 The windows are arranged next to each other.
 
-## Map
+## Submenu: Map
 
 ![image]({static}/images/en/map_settings_menu.jpg)
 
@@ -229,7 +232,7 @@ Note that if you hide this window you will not be notified of new messages on ch
 All media are listed here.
 Show or hide each one by checking / unchecking.
 
-# Network
+# Menu: Network
 ![image]({static}/images/en/network_menu.jpg)
 ## Disconnect
 
@@ -263,7 +266,7 @@ This menu gathers miscellenous tools often needed in Role playing games.
 ## Name Generator
 
 Panel to generate names.  
-[More details]({filename}11_nameGenerator.md)
+[More details]({filename}11_namegenerator.md)
 
 ## Unit Converter
 

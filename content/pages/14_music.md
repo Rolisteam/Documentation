@@ -9,7 +9,7 @@ lang: en
 
 # Overview
 
-![MusicSolo]({static}/images/tuto/24_music_player_en.png)
+![MusicSolo]({static}/images/en/3_audio_players.jpg)
 
 Please pay attention to all action buttons (from left to right):
 
@@ -53,22 +53,22 @@ Audio players in rolisteam may open file from user's computer. They can also loa
 
 ## Drag and Drop
 
-[drag and drop]({static}/images/tuto/)
 
-It is possible to drag and drop files onto player widgets. The files are added to the list. The items are put at your cursor position. 
+
+It is possible to drag and drop files onto player widgets. The files are added to the list. The items are put at your cursor position.
 Horizontal line appears. You may also directly drop file in the main window. Then, they are added to the first player.
 
 ## Three tracks at the same time
 
-[]()
 
-By default, rolisteam has 3 music players. 
-They are completely seperated to one another. It allows you to have background music, sound effects and environment sounds at the same time. 
+
+By default, rolisteam has 3 music players.
+They are completely seperated to one another. It allows you to have background music, sound effects and environment sounds at the same time.
 The goal is to improve the experience.
 
 ## Streaming music
 
-Rolisteam is not streaming any audio files. It send stream information (such as URL) or filename to play. If you want to play your own audio files. 
+Rolisteam is not streaming any audio files. It send stream information (such as URL) or filename to play. If you want to play your own audio files.
 You must send them to each of your players. Your players must put them into one directory and then, set the directory as music directory in audio player.
 Each audio player has it own directory.
 
@@ -84,12 +84,12 @@ transferred to each players. There are two reasons for that:
 Rolisteam provides a playlist with many background music from [TableTopAudio.com](TableTopAudio.com).
 This playlist can be loaded from the contextual menu.
 
-![TableAudio.com]({filename}/image/)
+![TableAudio.com]({static}/images/)
 
 # Music Player when I'm a player (no GM)
 
 When rolisteam is in player mode (instead of GM), The music player shows lesser elements.
-It provides a text field to indicate error message. When there is no error, it hides the filename. 
+It provides a text field to indicate error message. When there is no error, it hides the filename.
 A folder button is available to define the root directory to check. And player user can also manage the volume.
 
 # File format ?

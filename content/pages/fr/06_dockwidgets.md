@@ -33,10 +33,10 @@ Players and characters are listed inside *Player List* panel.
 Each person (player or character) may have a name, a color and a image.
 All those element are visible in *Player List*.
 
-To show character on [map]({filename}07_maps.md), just check the character on the *player list*. Its token appears in the middle of the map. 
+To show character on [map]({filename}16_maps.md), just check the character on the *player list*. Its token appears in the middle of the map.
 It is recommeded to move it before add token of another character.
 
-To show character on [vmap]({filename}11_VectorialMap.md), just drag the character and drop it on the vmap.
+To show character on [vmap]({filename}17_VectorialMap.md), just drag the character and drop it on the vmap.
 
 ![Player List]({static}/images/panel/UnitConvertor_en_022.png)
 
@@ -48,11 +48,11 @@ List chatrooms and gives direct show/hide control.
 Its default position is right side of the windows.
 
 It is useful to keep it this panel visible. Chatrooms are blinking
-when they have unread text messages. 
+when they have unread text messages.
 
 ![Chatroom]({static}/images/panel/ChannelList_en_001.png)
 
-[More details]({filename}05_chat.md)
+[More details]({filename}09_chat.md)
 
 # Background Music
 
@@ -61,7 +61,7 @@ Its default position is right side of the windows.
 
 ![Background Music]({static}/images/panel/Background_Music_en_006.png)
 
-[More details]({filename}08_music.md)
+[More details]({filename}14_music.md)
 
 # Resources Manager
 ![Resources Manager]({static}/images/panel/ResourcesExplorer_en_008.png)
@@ -69,7 +69,7 @@ Its default position is right side of the windows.
 Show all assets added in the scenario.
 Its default position is right side of the windows.
 
-[More details]({filename}22_resources.md)
+[More details]({filename}10_resources.md)
 
 # Toolbox
 
@@ -84,7 +84,7 @@ The toolbox changes given the type of current map (map or vectorial map).
 # Toolbar
 
 Change some vmap properties.
-  
+
 ![Toolbox]({static}/images/panel/ToolbarVMap_en_027.png)
 
 [More details]({filename}17_VectorialMap.md)
@@ -92,12 +92,12 @@ Change some vmap properties.
 # Name Generator
 
 Select what kind of name to generate. Specify some other properties.
-Then generate! 
+Then generate!
 
 ![Name Generator]({static}/images/panel/NameGenerator_en_003.png)
 
 
-[More details]({filename}11_nameGenerator.md)
+[More details]({filename}11_namegenerator.md)
 
 
 # Unit convertor

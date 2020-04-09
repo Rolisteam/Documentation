@@ -9,12 +9,12 @@ lang: en
 
 Player and GM can open up a webpage. This webpage viewer provides basic browsing features such as previous page, Go forward, url path.
 
-![image]({static}/image/02_webpage.jpg)
+![image]({static}/images/panel/webpage_blank.jpg)
 
 
 It also provides, to the GM, features for sharing the page to others. There is two kind of sharing the page.
 
-# Normal Share 
+# Normal Share
 
 This is the usual way to share webpage with other. It only send the url.
 
