@@ -36,3 +36,6 @@ v1.6.0
 
 L\'éditeur de note est capable de sauvegarder les notes sous la forme
 d\'openDocument. Ouvrable avec LibreOffice.
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/vectorialMap.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/sharednotes.html">Suivant</a></p>

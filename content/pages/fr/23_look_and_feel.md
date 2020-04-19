@@ -396,3 +396,7 @@ Exemple de fichier Thème
 `   "removable": false,`\
 `   "stylename": "fusion"`\
 `   }`
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/preferences.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/i18n.html">Suivant</a></p>

@@ -93,3 +93,7 @@ Une solution plus souple peut-être d\'utiliser un dossier partager avec
 une solution de cloud. Ainsi chaque participant du partage reçoit
 automatiquement les mises à jour des musiques. Il reste toujours à
 définir le chemin vers le dossier de partage dans rolisteam.
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/npcmaker.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/images.html">Suivant</a></p>

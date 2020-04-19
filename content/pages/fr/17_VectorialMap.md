@@ -394,3 +394,6 @@ Pour modifier ce brouillard afin de faire apparaître des éléments (ou
 les recacher). Il convient de passer les outils de dessin dans le mode
 adéquate. Le sélecteur de mode d\'édition se trouve ici: [Mode
 d'Edition](/Fr:vMaps#Mode_d.27.C3.A9dition "wikilink")
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/map.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/minutes.html">Suivant</a></p>

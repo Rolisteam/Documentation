@@ -109,3 +109,5 @@ Diagnostic
 Ce panneau a pour but de lister et tester les fonctionnalités de votre
 machine. Vous pouvez communiquer la sortie de la commande si vous
 rencontrez un problème avec rolisteam.
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/diceroller.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/look.html">Suivant</a></p>

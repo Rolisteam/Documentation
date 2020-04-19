@@ -318,3 +318,6 @@ Taille du PNJ
 
 Permet de choisir la taille du PNJ que l\'on souhaite ajouter sur le
 plan.
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/images.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/vectorialMap.html">Suivant</a></p>

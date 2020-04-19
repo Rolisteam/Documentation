@@ -5,141 +5,295 @@ status: hidden
 lang: fr
 
 
-Fichier
-=======
 
-Nouveau plan vide
------------------
+**Rolisteam** has 6 main menus.
+Let's have a look on each of them.
 
-:   Ouvre une fenêtre permettant de paramétrer la taille et la couleur
-    de fond du plan. Après validation le plan est créé chez l\'ensemble
-    des utilisateurs. N\'est accessible que par le MJ.
+# Menu: File
 
-Ouvrir plan
------------
+This menu brings together all actions about files.
 
-:   Ouvre un sélecteur de fichier. L\'utilisateur peut soit sélectionner
-    une image (format JPEG, PNG ou BMP), auquel cas celle-ci sera
-    utilisée comme plan, soit sélectionner un fichier plan (extension
-    PLA) qui sera ouvert tel quel et envoyé aux autres utilisateurs.
-    N\'est accessible que par le MJ.
+## Submenu: New
 
-Ouvrir et masquer plan
-----------------------
+![image]({static}/images/en/new_menu.jpg)
 
-:   Comme *Ouvrir plan* mais le plan est entièrement masqué aux yeux des
-    joueurs. N\'est accessible que par le MJ.
+This submenu contains actions to create each supported media type.
 
-Ouvrir scénario
----------------
+### Map
 
-:   L\'utilisateur doit sélectionner le scénario qu\'il souhaite ouvrir.
-    Un scénario contient des plans et des images qui sont envoyées à
-    tous les utilisateurs ainsi que les notes du MJ. N\'est accessible
-    que par le MJ.
+This action shows the map wizard. Fulfill this wizard to make new map.
+This feature is available only for GM.  
+[More details]({filename}16_maps.md)
 
-Ouvrir image
-------------
 
-:   Demande à l\'utilisateur de sélectionner l\'image (format JPEG, PNG
-    ou BMP) qu\'il souhaite voir afficher chez les autres joueurs. La
-    personne qui a ouvert l\'image est la seule, avec le MJ, à pouvoir
-    la fermer.
+### Chat
 
-Ouvrir notes
-------------
+Open up *new chat dialog* to create a new chatroom.  
+[More details]({filename}09_chat.md)
 
-:   L\'utilisateur doit sélectionner un fichier de notes préalablement
-    sauvegardé. Celui-ci est automatiquement chargé dans l\'éditeur de
-    notes. Le chargement d\'un fichier de notes qui n\'a pas été généré
-    par [Rolisteam](/Rolisteam "wikilink") donne un résultat
-    indéterminé.
+### Notes
 
-Fermer plan/image
------------------
+Open up *Notes editor*  
+[more details]({filename}18_minutes_editor.md)
 
-:   Ferme le plan ou l\'image au premier plan de l\'espace de travail.
-    Le plan ou l\'image est définitivement fermé chez l\'ensemble des
-    utilisateurs. N\'est accessible que par le MJ pour les plans et
-    uniquement au propriétaire et au MJ pour les images.
+### Vectorial Map
 
-Sauvegarder plan
-----------------
+This feature is available only for GM.  
+[more details]({filename}17_VectorialMap.md)
 
-:   Sauvegarde le dernier plan sélectionné dans le fichier indiqué par
-    l\'utilisateur. N\'est accessible que par le MJ.
+### Character sheet
 
-Sauvegarder scénario
---------------------
+From **Rolisteam**, it is possible to create charactersheet data. It may be useful to store values about characters. It is recommanded to use **RCSE** to make charactersheet. It provides way to do both charactersheet data and visual aspect.  
+[more details]({filename}20_charactersheet.md)
 
-:   Sauvegarde l\'ensemble des plans et des images de la partie ainsi
-    que les notes de l\'utilisateur dans le fichier indiqué. N\'est
-    accessible que par le MJ.
+### Shared notes
 
-Sauvegarder notes
------------------
+Each player can take part in writing notes.  
+[more details]({filename}19_sharedNotes.md)
 
-:   Permet de sauvegarder le contenu de l\'éditeur de notes dans un
-    fichier HTML. Celui-ci peut ainsi être consulté à l\'aide d\'un
-    navigateur internet.
+## Submenu: Open
 
-Préférences
------------
+### Map
+- Open the Map selector.
+- Select map file (.pla) or picture file (jpg, png or bmp) as map background.
+- select the permission mode and check hidden to hide the map from players.
+- Click on `Ok`, then the map is sent to other players.
+- This feature is available only for GM.
+[More details]({filename}16_maps.md)
 
-:   Permet de paramétrer les différents dossiers utilisés par
-    [Rolisteam](/Rolisteam "wikilink").
+### Picture
+- Show file selector dialog to select picture file (jpg, png, bmp).
+- The selected picture is shown to all users.
+- The person who opened the picture and the GM are the only ones who can close it.
 
-Quitter
--------
+### Picture On Line
+- Show the online Picture dialog.
+- Past a link to online picture then **Rolisteam** downloads it and show a preview.
+- The picture is shown to all users.
+- The person who opened the picture and the GM are the only ones who can close it.  
+[more details]({filename}15_images.md)
 
-:   Ferme l\'application après avoir sauvegarder tous les tchats.
+### Notes
+The user must select a previously saved file of notes. It is automatically loaded into the notes editor.
 
-Affichage
-=========
+Loading a file of notes that was not generated by Rolisteam gives an indeterminate result.  
+[more details]({filename}18_minutes_editor.md)
 
--   Afficher noms PJ : si la ligne est cochée alors les noms des PJ
-    s\'affichent sous le disque qui les représente sur les plans. Dans
-    le cas contraire le nom du PJ n\'est pas indiqué.
--   Afficher noms PNJ: si cochée, les noms des PNJ sont affichés sous le
-    disque qui les représente.
--   Afficher numéro de PNJ : affiche ou masque les numéros des PNJ, et
-    ce pour l\'ensemble des PNJ et sur tous les plans.
+### Scenario
+The user must select the scenario he wants to open. A scenario contains
+maps and pictures that are sent to all users and the notes of the GM. Is
+accessible only by the GM.  
+[more details]({filename}10_resources.md)
 
-Fenêtre
-=======
+### Vectorial Map
 
--   Réorganiser : sous-menu dont les commandes permettent de réorganiser
-    le contenu de l\'espace de travail. Il contient les éléments
-    suivants
--   Cascade : les fenêtres sont disposées les unes sur les autres avec
-    un léger décalage entre chacune d\'entre elles.·
--   Tuiles : les fenêtres sont disposées les unes à côté des autres.
--   Evènements : affiche ou masque la fenêtre de compte rendu des
-    évènements intégrée à l\'espace de travail.
--   Joueurs connectés : affiche ou masque la liste des joueurs
-    connectés. A noter que si vous masquez cette fenêtre vous ne serez
-    plus averti de l\'arrivée de nouveaux messages sur les tchats.
--   Musiques d\'ambiance : affiche ou masque le lecteur audio.
--   Editeur de notes : affiche ou masque l\'éditeur de note. On peut
-    également cocher ou décocher la case se trouvant devant son propre
-    nom dans la liste des joueurs connectés.
--   Tchats : sous-menu contenant la liste des tchats disponibles, que
-    vous pouvez afficher ou masquer.
--   Liste de plans et d\'images : tous les plans et images ouverts
-    figurent dans la suite du menu, vous pouvez les afficher ou les
-    masquer en les cochant/décochant.
+This feature is available only for GM.  
+[more details]({filename}17_VectorialMap.md)
 
-Réseaux
-=======
+### CharacterSheet
 
-Menu apparue dans la version 1.6, il permet de se déconnecter ou de
-relancer le processus de connexion. Si une déconnexion surgit, vous
-n\'avez plus besoin de redémarrer Rolisteam pou ressayer à nouveau de
-vous y connecter.
+Show a file selector dialog.
+Select any *rolisteam character sheet* (.rcs) and click on `Ok`  
+[more details]({filename}20_charactersheet.md)
 
-Aide
-====
+### Shared notes
 
--   Aide sur Rolisteam : affiche l\'aide du logiciel (ce wiki).
--   A propos de Rolisteam : affiche une fenêtre de renseignements sur le
+Show a file selector dialog.
+Select any supported file format (.md, .txt) and click on `Ok`  
+[more details]({filename}19_sharedNotes.md)
+
+## Recent files
+Displays the latest openend five files.  
+To change the number, please see *Prefrences*
+## Save
+Save the current media.
+**Rolisteam** may show selector file dialog if media has never been saved.
+## Save As…
+
+**Rolisteam** shows selector file dialog to choose where to save the current media.
+
+## Save All
+
+Save all medias.
+**Rolisteam** may show selector file dialog if media has never been saved.
+
+## Save Scenario
+
+Save all medias in one file.
+**Rolisteam** may show selector file dialog if scenario has never been saved.
+
+## Save Scenario As…
+
+Save all medias in one file.
+**Rolisteam** shows selector file dialog if scenario has never been saved.
+
+## Close
+
+Close the currently selected media. The map or
+the picture is permanently closed to all users. Is accessible only by
+the GM for maps and only the owner and the GM for the pictures.
+
+## Preferences
+
+Lets you set the different folders used by Rolisteam.  
+[more details]({filename}22_preferences.md)
+
+## Quit
+
+May ask to save content then
+Quit **Rolisteam**
+
+
+
+# Menu: Edit
+![image]({static}/images/en/edit_menu.jpg)
+## Undo
+
+Undo the latest action.
+
+## Redo
+
+Perform the latest canceled action
+
+## Shortcuts viewer
+
+Displays a panel with all shortcuts.
+Best way to learn how to do thing quickly with Rolisteam.
+
+
+# Menu: Subwindows
+
+![image]({static}/images/panel/Menu_edit_en.jpg)
+Subwindows Menu Items are dedicated to change how subwindow are displayed on screen.
+
+## Submenu: Reorganize
+![image]({static}/images/en/display_mode.jpg)
+Submenu which allow you to rearrange the contents of the workspace.
+
+### Tab
+
+All Media are displayed inside tabs even hidden ones.
+
+### Cascade
+
+Subwindows are arranged one over the others with a slight gap between each one.
+
+### Tile
+
+The windows are arranged next to each other.
+
+## Submenu: Map
+
+![image]({static}/images/en/map_settings_menu.jpg)
+
+### Show PC Name
+
+if the line is checked, the names of the PC is displayed under the disk that represents himon the maps.
+Otherwise the name of the PC is not indicated.
+
+### Show NPC Name
+
+If checked, the names of the NPCs are displayed under the disk that represents them.
+
+### Show NPC Number
+
+Show / hide the numbers of NPCs, for all the NPCs and in all maps.
+
+### Show health state
+
+Show / hide health state on character token on map.
+
+## Background Music
+
+Background music show or hide the music player.  
+[More details]({filename}14_music.md)
+
+## Notification Zone
+
+Show / hide panel which displays any connection events and other information.  
+[More details]({filename}07_notifications.md)
+
+## Resources Explorer
+
+Show / hide the resources explorer.  
+[More details]({filename}10_resources.md)
+
+## Chatroom list
+
+Show / hide the chatroom panel.  
+[More details]({filename}09_chat.md)
+
+## Player list
+
+Connected players show or hide the list of connected players.
+Note that if you hide this window you will not be notified of new messages on chat rooms.  
+[More details]({filename}08_connected_players.md)
+
+## Any Opened media
+
+All media are listed here.
+Show or hide each one by checking / unchecking.
+
+# Menu: Network
+![image]({static}/images/en/network_menu.jpg)
+## Disconnect
+
+Disconnect **Rolisteam** from the server or close the server.
+
+Usually there is no reason to use it
+
+## Reconnect
+
+Start the Connection process when **rolisteam** gets disconected.
+Usually there is no reason to use it. As it is made automatically.
+
+
+## Change Profile
+
+Show the connection Profile selector.
+
+## RoomList
+
+This panel lists all room available on the server.
+Administration features on server are reachable from this panel.
+Only available when **Rolisteam** is connected to multiroom server.
+
+# GM tool box
+
+![image]({static}/images/en/gm_tool_box_menu.jpg)
+
+This menu gathers miscellenous tools often needed in Role playing games.  
+[More details]({filename}06_dockwidgets.md)
+
+## Name Generator
+
+Panel to generate names.  
+[More details]({filename}11_namegenerator.md)
+
+## Unit Converter
+
+This panel converts many units to others: Distance, volume, temperature.  
+[More details]({filename}12_unitConverter.md)
+
+## Dice Bookmark
+
+Dicebookmark provides easy access to frequent dice command.  
+[More details]({filename}13_dicebookmark.md)
+
+# Help
+![image]({static}/images/en/about_rolisteam.jpg)
+##   Help Rolisteam
+ouvre cette documentation dans votre navigateur par défaut.
+
+##  Support Rolisteam
+
+**Rolisteam**'s liberapay page to make donation to support the project.  
+[More details](https://liberapay.com/Rolisteam/donate)
+
+##  About
+affiche une fenêtre de renseignements sur le
     logiciel (version, auteur, licences, etc).
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/explanation.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/dockwidgets.html">Suivant</a></p>

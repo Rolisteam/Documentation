@@ -61,3 +61,6 @@ Définir un avatar
 
 Il est maintenant possible (depuis la v1.8) de définir un avatar pour
 chaque personnage.
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/events.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/chatting.html">Suivant</a></p>

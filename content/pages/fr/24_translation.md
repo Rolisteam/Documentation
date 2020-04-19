@@ -44,3 +44,6 @@ Then, I will create the new langage in rolisteam and set your account as
 translator for this language. After this step, you will be able to
 translate rolisteam through the transifex web site. You may download you
 translation and ask rolistem to load it.
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/look.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/contactus.html">Suivant</a></p>

@@ -23,11 +23,11 @@ Please, remember it is important to prefix all you command by `!`. This will all
 
 
 
-Platform | Start character(s)  | More information 
+Platform | Start character(s)  | More information
 -------- | ------------------- | ----------------
 Rolisteam |```!```| [Documentation](http://wiki.rolisteam.org/index.php/En:Dice) |
 Discord  |```!```|  
-Twitter  | ```#roll```  | Twit any message starting with #roll following by dice command (e.g: ```#roll 2d6```) 
+Twitter  | ```#roll```  | Twit any message starting with #roll following by dice command (e.g: ```#roll 2d6```)
 IrcBot   |```!```|  
 webserver   | none |  No public published yet. Has dedicated text field
 dice   | none | dice is a command line application to roll dice: ```dice "2d6"```
@@ -35,18 +35,18 @@ dice   | none | dice is a command line application to roll dice: ```dice "2d6"``
 
 ### Known Limitations
 
-platform | descriptions 
+platform | descriptions
 -------- |  ------------
 Rolisteam | no support for comments yet. Rolisteam is a big software. You may not have all the most recent feature from diceparser.
 Discord  | no support for p operator. Color are badly managed by discord so we can't waste time about it.  If the command takes too much time. It is canceled.  There is really few aliases. You may ask for new aliases
 Twitter  | Result such be short. No aliases
-IrcBot   | No aliases 
-webserver| No aliases 
-dice     | No aliases 
+IrcBot   | No aliases
+webserver| No aliases
+dice     | No aliases
 
 We can't set some aliases for any platform but It has to be labelled with game's name.
 
-## How to roll a die 
+## How to roll a die
 
 It is real simple. you have to call:
 > 1d6
@@ -157,7 +157,7 @@ Rolling 3 dice, values ars between -20 and -9.
 ### Backward Jump
 
 This operator is dedicated to apply its next operator to the second to last result.
-For example: 
+For example:
 
 > 8D10c[>=7]+@c[=10]
 
@@ -171,7 +171,7 @@ it is not dice list.
 
 Paint the first die in the list in blue
 
-> 8d10p[2:blue] 
+> 8d10p[2:blue]
 
 Paint the two first dice in the list in blue.
 
@@ -224,7 +224,7 @@ If you plan to use if operator to display text message. You must surround text w
 
 # Group
 
-> 5d10g10 
+> 5d10g10
 
 Roll 5 dice and then try to group them to make group of 10 [7th sea system].
 
@@ -264,7 +264,7 @@ Same as above, but the result of each die is displayed inside square brackets.
 
 ## Arithmetic
 
-Rolisteam Dice Parser is able to compute primary arithmetic operation such as: +, -, /, * and it also manages those operator priority and it can also manage parenthesis. 
+Rolisteam Dice Parser is able to compute primary arithmetic operation such as: +, -, /, * and it also manages those operator priority and it can also manage parenthesis.
 
 > 8+8+8
 
@@ -274,7 +274,7 @@ Result: 24
 
 Result: 20
 
-> (3+4)*2
+> (3+4)\*2
 
 Result: 14
 
@@ -288,8 +288,8 @@ Roll 2 dice and add 3 to the sum of those dice. Then the result is used for roll
 
 ## Arithmetic and Dice
 
-It is possible to use arithmetic opearation on dice. Please pay attention that the default operation to translate a 
-dice list to scalar is the sum. So if you roll `3d6`, the result will be a list with 3 values {2, 5 ,1}. Now, we 
+It is possible to use arithmetic opearation on dice. Please pay attention that the default operation to translate a
+dice list to scalar is the sum. So if you roll `3d6`, the result will be a list with 3 values {2, 5 ,1}. Now, we
 change a bit the command `3d6+4`: It is resolved like this: {2, 5 ,1} = 8; 8+4 = 12. The final result is 12.
 
 > 3d6+4
@@ -306,14 +306,14 @@ Substract the result of 1 die to 87
 
 > (6-4)D10
 
-Substract 4 to 6 and then roll two dice. 
+Substract 4 to 6 and then roll two dice.
 
 > 1D10/2
 
 Divide by 2 the result of 1 die.
 
 > (2+2)^2
-Result: 16 
+Result: 16
 
 > 1d10^2
 
@@ -336,7 +336,7 @@ There are three kind of Validator:
 
 Any operator which requires validator (such as `a,r,e,c`) can use those three kind.
 
-### Scalar 
+### Scalar
 
 The scalar value sets the validator on eguality between the dice value and the validator
 
@@ -410,7 +410,7 @@ compute: 24
 
 > 1L[sword,bow,knife,gun,shotgun]
 
-One of this word will be picked. 
+One of this word will be picked.
 
 > 8D10c[Validator1]-@c[validator2]
 
@@ -422,7 +422,7 @@ Old World in darkness system.
 
 > 8D10c[>=7]+@c[=10]
 
-Exalted 2nd edition system. 
+Exalted 2nd edition system.
 
 
 # Best Practices
@@ -432,10 +432,10 @@ As DiceParser provides more and more features, you may find several ways to do t
 
 ## Roll several kind of dice and sum them
 
-```Bad```
+`Bad`
 > 2d8;2d10m
 
-```Good```
+`Good`
 > 2d8+2d10
 
 The merge operator is useful when you want to use dice operator on all rolled dice.

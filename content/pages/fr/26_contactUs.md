@@ -26,9 +26,9 @@ For any project or news, you want to share with the team. You can contact us.
 
 Feel free to fill up a bug report.
 
-* [Rolisteam's](https://github.com/Rolisteam/rolisteam/issues) bug tracker.
-* [RCSE's](https://github.com/Rolisteam/rcse/issues) bug tracker.
-* [DiceParser](https://github.com/Rolisteam/DiceParser/issues) bug tracker.
+* [Rolisteam](https://invent.kde.org/kde/rolisteam/-/issues) bug tracker.
+* [RCSE](https://invent.kde.org/kde/rcse/-/issues) bug tracker.
+* [DiceParser](https://invent.kde.org/kde/rolisteam-diceparser/-/issues) bug tracker.
 
 In the case, you don't want to create github account [contact the team](http://www.rolisteam.org/contact-form.html).
 
@@ -45,6 +45,5 @@ In the case, you don't want to create github account [contact the team](http://w
 * [Twitter](https://twitter.com/Rolisteam)
 * [Mastodon](https://imaginair.es/@Rolisteam)
 
-
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/i18n.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/take-part.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/i18n.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/take-part.html">Suivant</a></p>

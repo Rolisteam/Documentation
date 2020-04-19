@@ -4,34 +4,34 @@ slug: explanation
 status: hidden
 lang: fr
 
-# Rolisteam paradigm
+# Paradigme de Rolisteam
 
-**Rolisteam** is virtual Tabletop software.
-Each player can customize the software or its content. To hide or show relevant images, maps, chatrooms and any media. 
+**Rolisteam** est un logiciel de table virtuelle.
+Chaque joueur peut personnaliser le logiciel ou son contenu: cacher ou afficher des images, des cartes (plans), des salons de discussion ou tout autre média.
 
-# Rolisteam Goals
+# Les objectifs de Rolisteam
 
-**Rolisteam** has several goals:
+**Rolisteam** sert plusieurs buts.
 
-* Provide a serious alternative to play role-playing games with free software.
-* Help its users to keep their privacy and their data
-* Decentralize the Internet (by using it, the way it has been designed)
-* Technological watch over Qt/C++, and other domains
+* Fournir une alternative intéressante pour jouer au jeu de rôle avec du logiciel libre.
+* Aider ses utilisateurs à conserver leur vie privée et leurs données personnelles
+* Décentraliser internet
+* Veille technologique sur le C++/Qt et d'autres domaines.
 
-# Free software
+# Logiciel libre
 
-**Rolisteam** and **Rcse** are under GPLv2 [read it](https://raw.githubusercontent.com/Rolisteam/rolisteam/master/COPYING.txt).  
-**Website**, **packaging script**, **this documention** and **discord dicebot** are GPLv3. [read it](https://github.com/Rolisteam/website/edit/master/LICENSE)
+**Rolisteam** et **Rcse** sont sous la GPLv2 [la lire](https://invent.kde.org/kde/rolisteam/-/raw/master/COPYING.txt).  
+Le **site web**, les **scripts d'installeurs**, cette **documention** et  le **bot discord lanceur de dés** sont sous la GPLv3. [la lire](https://invent.kde.org/kde/rolisteam-diceparser/-/raw/master/LICENSE)
 
-* [website](https://github.com/Rolisteam/website)
-* [Packaging](https://github.com/Rolisteam/packaging)
-* [DiceDiscordBot](https://github.com/Rolisteam/DiceDiscordBot)
+* [Site web](https://invent.kde.org/websites/rolisteam-org)
+* [Packaging](https://invent.kde.org/kde/rolisteam-packaging)
+* [DiceParser Bot](https://invent.kde.org/kde/rolisteam-diceparser)
+
+# L'association
+
+**Rolisteam** est également une association loi 1901 créée en France.
+L'objectif de l'association est de promouvoir le jeu de rôle et l'usage des logiciels libres et d'améliorer les liens entre ces deux communautés.
 
 
-# Association
-
-**Rolisteam** is the virtual tabletop software but around it. We create an association in France.
-The goal of this association is to promote Role playing game and free software and be a link between both communities.
-
-<p style="text-align: left; width:49%; display: inline-block;"><a href="/firststeps.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/menus.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/firststeps.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/menus.html">Suivant</a></p>

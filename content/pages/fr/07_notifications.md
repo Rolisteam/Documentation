@@ -5,24 +5,38 @@ status: hidden
 lang: fr
 
 
-La fenêtre d\'événements constitue le journal de toutes les actions
-importantes qui ont lieu en cours de partie. Vous êtes ainsi informé de
-la connexion d\'un nouveau joueur, de l\'ouverture d\'un plan, du
-changement de couleur d\'un PJ, etc. Chaque événement est horodaté et
-écrit en alternance en rouge ou bleu foncé pour une meilleure
-lisibilité.
+![notification zone]({static}/images/tuto/14_notification_zone_en.jpg)
 
-[border](/file:NotificationZone.png "wikilink")
+La zone de notification affiche l'ensemble des événements arrivés au cours de la partie
 
-Version 1.6.0
--------------
+# Hébergement
 
-Rolisteam affiche l\'ip publique et le port à communiquer à vos joueurs
-quand vous lancer le serveur.
+Quand **Rolisteam** est en mode hébergement, les informations pour rejoindre la partie apparaissent dans la zone de notification.
+Ces informations sont nécessaires pour rejoindre la partie.
 
-Version 1.6.1
--------------
+# Événements
 
-Rolisteam affiche un message d\'erreur quand un client n\'a pas la même
-version que le serveur. Le port est également ajouter à la notification
-de connexion.
+Tous types d'événements sont listés dans cette zone:
+
+* la connexion d'un joueur
+* l'ouverture d'un plan
+* le changement de couleur d'un personnage
+* etc.
+
+Chaque événement est daté et est alternativement écrit en rouge ou en bleu pour une meilleure visibilité.
+
+# Erreurs
+
+La zone de notification affiche également les erreurs rencontrées:
+* Une personne ayant une mauvaise version
+* Un fichier corrompu ou introuvable
+* etc.
+
+# Transfert réseau
+
+Tous transferts réseau provoquent l'affichage d'une barre de progression sous la zone de notification.
+
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/dockwidgets.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/connected.html">Suivant</a></p>

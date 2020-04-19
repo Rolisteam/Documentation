@@ -339,4 +339,5 @@ Cette fonction prend plusieurs paramètres pour en faire la moyenne.
 
 
 
-
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/sharednotes.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/webview.html">Suivant</a></p>

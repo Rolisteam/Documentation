@@ -79,12 +79,11 @@ From **Legend of the Five Rings**:
 # Expending features
 
 The units convertor provides a way to add new units and new convertion rules.
-Click on this button ![button]({static}/images/pictos/list.svg). 
+Click on this button ![button]({static}/images/pictos/list.png).
 The convertor changes to this window:
 
 ![Unit convertor_screen2]({static}/images/en/set_unit_convertion_rules.jpg)
 
 
-
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/namegenerator.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/dicebookmark.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/namegenerator.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/dicebookmark.html">Suivant</a></p>

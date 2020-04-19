@@ -16,7 +16,7 @@ Player can have many characters.
 
 # Permission
 
-**GM** can change name of anyone (players and characters). 
+**GM** can change name of anyone (players and characters).
 **Player** can only edit his player and his characters.
 
 # Change character/player name
@@ -67,6 +67,5 @@ Uncheck it to remove it from map.
 Just drag the character from *List of players* to the [vectorial map]({filename}17_VectorialMap.md).
 
 
-
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/events.html">Previous</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/events.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/chatting.html">Next</a></p>

@@ -21,16 +21,16 @@ Those settings applay on all maps (Maps and vectorial maps).
 * Define the opacity of FOW
 * Define default permission for map. It is possible to override this settings when maps are added into **Rolisteam**.
 
-### Behaviour 
+### Behaviour
 
-* Enable/disable the check for updates (Default: Enabled) 
+* Enable/disable the check for updates (Default: Enabled)
 * Start heartbeat feature. (default: disabled)
 * Heartbeat frequency (default: 60seconds)
 * Make subwindow title shorter when in tab mode (Default: Disabled)
 * Select maximum lenght for subwindow title (Default: 10)
-* Enable/disable the feature "fit on windows" for pictures (Default: enabled) 
+* Enable/disable the feature "fit on windows" for pictures (Default: enabled)
 * Define the path to the translation file you wants. It will be used for the next starting.
-* Start rolisteam in full screen (Default: selected) 
+* Start rolisteam in full screen (Default: selected)
 
 ### Chatwindow
 
@@ -68,7 +68,7 @@ to players.
 
 ![diag]({static}/images/panel/rolisteam_Preferences_en_033.png)
 This panel is dedicated to perform diagnostic of the host system.  
-It gathers information regarding fonts, supported audio file formats and supported image file format. 
+It gathers information regarding fonts, supported audio file formats and supported image file format.
 When reporting issue about **Rolisteam**, please provide us a diagnostic output.  
 Moreover when the problem is about unability to read or play some file formats.  
 

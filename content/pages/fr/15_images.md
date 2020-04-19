@@ -45,3 +45,6 @@ v 1.7.0
 Il est maintenant possible de charger des images depuis internet. Vous
 copiez collez le chemin de l'image dans la boite de dialogue à cette
 effet. Cela vous proposer une visualisation et vous pouvez valider.
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/music.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/map.html">Suivant</a></p>

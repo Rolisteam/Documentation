@@ -13,12 +13,12 @@ Improving NPC is always needed in role playing game. Generate name may help to k
 
 **Rolisteam** can generate name from several countries or universes.
 
-* French 
+* French
 * English
 * Japanese
 * Chinese
 * Elves
-* Star Wars 
+* Star Wars
 * Russian
 
 ![name generator]({static}/images/en/all_sets supported_by_name_generator.jpg)
@@ -41,8 +41,7 @@ Check `Complexe name` for generating First name and last name at once (only avai
 
 It is easy for us to add new universes or countries.
 
-Please [contact us]({filename}26_contactUs.md) and provides us textfiles (one text file per gender) with one name per line. 
+Please [contact us]({filename}26_contactUs.md) and provides us textfiles (one text file per gender) with one name per line.
 
 <p style="text-align: left; width:49%;  display: inline-block;"><a href="/resources.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/units.html">Next</a></p>
-

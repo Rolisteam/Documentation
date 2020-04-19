@@ -8,7 +8,7 @@ lang: fr
 
 ## Presentation
 
-**Rolisteam** est un logiciel libre (sous GNU/GPL2.0). Il est dédié aux rolîstes souhaitant jouer en dépit de la distance. 
+**Rolisteam** est un logiciel libre (sous GNU/GPL2.0). Il est dédié aux rolîstes souhaitant jouer en dépit de la distance.
 Il propose l'ensemble des fonctionnalités requises pour faire une partie.
 Grâce à **Rolisteam**, vous serez capable de partager des plans, de les dessiner à la volée, d'ajouter des commentaires, de masquer des portions des plans, ajouter les personnages, jeter les dés, tchatter avec les autres et bien d'autres choses.
 Vos joueurs peuvent être sur tous les continents ou à proximité, **Rolisteam** vous permet de jouer.
@@ -27,7 +27,7 @@ Beaucoup de personnes utilisent en plus de **Rolisteam** un logiciel d'audio con
 -   Messagerie instantanée (privée, publique, à plusieurs etc..) [more…]({filename}09_chat.md)
 -   Dessiner et partager un plan [more…]({filename}16_maps.md)
 -   Dessiner et partager un plan vectoriel [more…]({filename}17_VectorialMap.md)
--   Ajouter une image en fond de plan ou en élément de plan vectoriel. 
+-   Ajouter une image en fond de plan ou en élément de plan vectoriel.
 -   Brouillard de guerre sur les plans
 -   Jettons de personnages
 -   Gestion des fiches de personnages [more…]({filename}20_charactersheet.md)
@@ -62,12 +62,12 @@ Un point de vocabulaire avant de continuer.
 
 ## Licence
 
-Rolisteam est un logiciel libre; Vous pouvez le redistribuer et/ou 
-le modifier dans le respect de la licence GNU General Public License publiée par la Free Software Foundation; 
+Rolisteam est un logiciel libre; Vous pouvez le redistribuer et/ou
+le modifier dans le respect de la licence GNU General Public License publiée par la Free Software Foundation;
 
 ## Auteurs
 
-**Rolisteam** est dévéloppé par *Renaud Guezennec*. 
+**Rolisteam** est dévéloppé par *Renaud Guezennec*.
 **Rolisteam** est fondé sur rolistik 1.1 developpé par *Romain Campioni*.
 
 ### Listes des contributeurs:
@@ -91,4 +91,4 @@ le modifier dans le respect de la licence GNU General Public License publiée pa
 
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/fr">Précédent</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/install.html">suivant</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/install.html">Suivant</a></p>

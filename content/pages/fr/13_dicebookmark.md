@@ -31,6 +31,6 @@ So, **Rolisteam** saves and restores any dice bookmarks attached on it.
 For all the other chatroom, it is required to drag and drop dice bookmark.
 
 
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/units.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/npcmaker.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/units.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/npcmaker.html">Suivant</a></p>
 
