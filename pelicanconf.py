@@ -9,7 +9,7 @@ SITEURL = 'http://localhost:8000'
 PATH = 'content'
 STATIC_PATHS = ['iconfiles', 'images']
 
-PLUGIN_PATHS = ['plugins']
+PLUGIN_PATHS = ['plugins','plugins/pelican-toc']
 
 TIMEZONE = 'Europe/Paris'
 
