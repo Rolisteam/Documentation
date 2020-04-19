@@ -9,7 +9,7 @@ SITEURL = 'http://localhost:8000'
 PATH = 'content'
 STATIC_PATHS = ['iconfiles', 'images']
 
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['plugins']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -44,7 +44,7 @@ PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
 # Blogroll
-LINKS = (('Connection Test', 'http://www.rolisteam.org/php/test_ip.php'),)
+LINKS = (('Connection Test', 'https://rolisteam.org/php/test_ip.php'),)
 
 # Social widget
 SOCIAL = (
@@ -85,7 +85,7 @@ MENUITEMS = (
 )
 # THEME_STATIC_PATHS (['static'])
 
-PLUGINS = ['i18n_subsites', 'pelican-toc']
+PLUGINS = ['pelican-toc']
 
 TOC = {
     'TOC_HEADERS': '^h[1-2]',
