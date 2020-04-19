@@ -12,7 +12,7 @@ during the game.
 
 # Hosting
 
-When **Rolisteam** is in hosting mode, information to join the game appears in the notification area. 
+When **Rolisteam** is in hosting mode, information to join the game appears in the notification area.
 Those information are required for joining the game.
 
 # Events
@@ -30,10 +30,10 @@ Players who have not the same version of **Rolisteam** appears in the notificati
 
 # Network tranfers
 
-Any long network tranfers cause a progress bar to appears. 
+Any long network tranfers cause a progress bar to appears.
 Let you know how long it will be.
+
 
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/dockwidgets.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/connected.html">Next</a></p>
-

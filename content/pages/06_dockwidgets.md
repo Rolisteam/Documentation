@@ -65,7 +65,7 @@ Its default position is right side of the windows.
 ![channel list]({static}/images/panel/ChannelList_en_001.png)
 
 Gire information on the server.
-When someone is hosting the game only one room is created. But online server can have many rooms. 
+When someone is hosting the game only one room is created. But online server can have many rooms.
 
 # Resources Manager
 ![Resources Manager]({static}/images/panel/ResourcesExplorer_en_008.png)
@@ -123,6 +123,7 @@ Token can be droped on VMap to have some game mechanism integration.
 ![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
 [More details]({filename}13_NpcMaker.md)
+
 
 <p style="text-align: left; width:49%; display: inline-block;"><a href="/menus.html">Previous</a></p>
 <p style="text-align: right; width:50%;  display: inline-block;"><a href="/events.html">Next</a></p>

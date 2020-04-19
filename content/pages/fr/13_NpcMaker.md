@@ -70,5 +70,5 @@ Token can be dropped over vmap. It shows the main avatar and with the contextual
 Moreover, vmap can roll initiative for all tokens (NPC or NPC and PC).
 In one click, the GM can make all initiative rolls.
 
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/dicebookmark.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/music.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/dicebookmark.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/music.html">Suivant</a></p>

@@ -151,3 +151,7 @@ Fond du texte
 
 La gestion de la couleur de fond a été amélioré pour n\'affecter que le
 fond et pas la barre de placement sur le coté.
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/connected.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/resources.html">Suivant</a></p>

@@ -62,7 +62,7 @@ There are two values.
 
 ### Linked
 
-Only the path is saved inside the scenario file. 
+Only the path is saved inside the scenario file.
 It makes the file small and don't dupplicate any data.
 If original data are deleted or moved, the **resource manager** won't be able to access it.
 
@@ -76,7 +76,7 @@ The original data can be deleted. It is stored inside the .sce file.
 
 ### Shown
 
-The resource is displayed on your workspace. It can be shown or hidden to all the other participants. 
+The resource is displayed on your workspace. It can be shown or hidden to all the other participants.
 The shown status in *resources manager* means displayed or minimized.
 
 ### Hidden
@@ -91,7 +91,7 @@ The resource isn't loaded. The scenario offers a quick way to open it (and show 
 ## Path
 
 The path is the fill path to the file.  
-If the file does not exist anymore (relocated, renammed or deleted), the line appears red. 
+If the file does not exist anymore (relocated, renammed or deleted), the line appears red.
 
 
 
@@ -116,7 +116,7 @@ Saving the scenario is in fact, saving the *resources manager*.
 ![manager with data]({static}/images/panel/resouces_manager_with_data.jpg)
 
 In this case, we have 3 folders (rules, NPC and places). Each of them contains medias.
-The icon gives information to the type. The resource manager lists PDF, images, map, vectorial map, charactersheet, notes. 
+The icon gives information to the type. The resource manager lists PDF, images, map, vectorial map, charactersheet, notes.
 *Linked* medias have been dropped on the application, when `Sake House` is a new document (make it `internal`).  
 
 # Use cases
@@ -133,7 +133,7 @@ Menu: ```File > close```
 
 ## Some medias have red background, what does it mean ?
 
-It means the media has never been saved, and **Rolisteam** does not know where to save it (no path). 
+It means the media has never been saved, and **Rolisteam** does not know where to save it (no path).
 Saving the document or the scenario will fix it.
 
 ## Close media and forget it

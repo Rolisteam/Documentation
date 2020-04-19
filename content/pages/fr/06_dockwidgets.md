@@ -120,5 +120,6 @@ Token can be droped on VMap to have some game mechanism integration.
 
 [More details]({filename}13_NpcMaker.md)
 
-<p style="text-align: left; width:49%; display: inline-block;"><a href="/menus.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/events.html">Next</a></p>
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/menus.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/events.html">Suivant</a></p>

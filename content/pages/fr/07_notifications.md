@@ -5,24 +5,35 @@ status: hidden
 lang: fr
 
 
-La fenêtre d\'événements constitue le journal de toutes les actions
-importantes qui ont lieu en cours de partie. Vous êtes ainsi informé de
-la connexion d\'un nouveau joueur, de l\'ouverture d\'un plan, du
-changement de couleur d\'un PJ, etc. Chaque événement est horodaté et
-écrit en alternance en rouge ou bleu foncé pour une meilleure
-lisibilité.
+![notification zone]({static}/images/tuto/14_notification_zone_en.jpg)
 
-[border](/file:NotificationZone.png "wikilink")
+The events window is the log of all significant actions that take place
+during the game.
 
-Version 1.6.0
--------------
+# Hosting
 
-Rolisteam affiche l\'ip publique et le port à communiquer à vos joueurs
-quand vous lancer le serveur.
+When **Rolisteam** is in hosting mode, information to join the game appears in the notification area.
+Those information are required for joining the game.
 
-Version 1.6.1
--------------
+# Events
 
-Rolisteam affiche un message d\'erreur quand un client n\'a pas la même
-version que le serveur. Le port est également ajouter à la notification
-de connexion.
+connection of a new player, when a plan is
+opened, the color change of a PC, etc.
+
+Each event is time stamped and alternatily written in red or dark blue
+for better readability.
+
+# Error
+
+Players who have not the same version of **Rolisteam** appears in the notification zone.
+
+
+# Network tranfers
+
+Any long network tranfers cause a progress bar to appears.
+Let you know how long it will be.
+
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/dockwidgets.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/connected.html">Suivant</a></p>

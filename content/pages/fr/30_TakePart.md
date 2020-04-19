@@ -90,6 +90,7 @@ Do the first three steps above and those following:
 ### Generated the documentation
 
 The documentation is generated in html thank of [Pelican](https://blog.getpelican.com/).
+
 1. Install it
 2. Get the documentation project:  
     `clone https://github.com/Rolisteam/Documentation.git`
@@ -107,7 +108,6 @@ Talk about **Rolisteam** as often as possible.
 
 Don't hesitate to contact us to explain your initiative. We will be glad to talk about your videos, tutorials or games.
 
-
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/contactus.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/">Home</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/contactus.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/">Home</a></p>
 

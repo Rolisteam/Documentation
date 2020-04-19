@@ -112,3 +112,4 @@ fabfile.py
 #pelican
 output/
 output_*/
+backup/*

@@ -35,7 +35,7 @@ General information are:
 
 ![Npc Maker]({static}/images/en/npcmake_actions_screen.jpg)
 
-Npc Character may have an action list. 
+Npc Character may have an action list.
 An action is a dice command.
 Action can be triggered from token's contextual menu on vmap.
 The result appears in the global chat window.
@@ -50,7 +50,7 @@ Shape can change how your character looks. It changes its avatar.
 
 ![Npc Maker]({static}/images/en/npcmaker_property_screen.jpg)
 
-Properties is a list of name and values. It is a simple way to define the NPC. 
+Properties is a list of name and values. It is a simple way to define the NPC.
 Action can use dice command with properties as parameters of the command.
 Example:
 My assassin agility level is 8.
@@ -61,11 +61,11 @@ In action panel, I add the action "shot arrow" and set the command to be: "1d20+
 # Load/Save token
 
 To load token file and edit it, please press the button **import**.
-When the editing is done, please press the button **export**. 
+When the editing is done, please press the button **export**.
 
 # Token on vmap
 
-Token can be dropped over vmap. It shows the main avatar and with the contextual menu, it is possible to run action, change current shape of the token. 
+Token can be dropped over vmap. It shows the main avatar and with the contextual menu, it is possible to run action, change current shape of the token.
 
 Moreover, vmap can roll initiative for all tokens (NPC or NPC and PC).
 In one click, the GM can make all initiative rolls.

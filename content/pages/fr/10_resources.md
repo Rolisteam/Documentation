@@ -91,7 +91,8 @@ The resource isn't loaded. The scenario offers a quick way to open it (and show 
 ## Path
 
 The path is the fill path to the file.  
-If the file does not exist anymore (relocated, renammed or deleted), the line appears red. 
+If the file does not exist anymore (relocated, renammed or deleted), the line appears red.
+
 
 
 # Save/Restore
@@ -101,6 +102,8 @@ Saving the scenario is in fact, saving the *resources manager*.
 
 # Context Menu
 
+![menu]({static}/images/panel/resources_manager_contextual_menu.jpg)
+
 * Change loading mode
 * Add chapter
 * Remove chapter or resources
@@ -108,6 +111,13 @@ Saving the scenario is in fact, saving the *resources manager*.
 * Show/hide displayed mode
 * Show/hide full path
 
+# Example:
+
+![manager with data]({static}/images/panel/resouces_manager_with_data.jpg)
+
+In this case, we have 3 folders (rules, NPC and places). Each of them contains medias.
+The icon gives information to the type. The resource manager lists PDF, images, map, vectorial map, charactersheet, notes.
+*Linked* medias have been dropped on the application, when `Sake House` is a new document (make it `internal`).  
 
 # Use cases
 
@@ -121,6 +131,11 @@ Ensure the media, you want to close is the current one.
 
 Menu: ```File > close```
 
+## Some medias have red background, what does it mean ?
+
+It means the media has never been saved, and **Rolisteam** does not know where to save it (no path).
+Saving the document or the scenario will fix it.
+
 ## Close media and forget it
 
 
@@ -131,5 +146,5 @@ In one action, you can use the context menu on the resource to close and remove 
 
 
 
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/chat.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/namegenerator.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/chat.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/namegenerator.html">Suivant</a></p>

@@ -42,5 +42,5 @@ A new vectorial map appears. The map contains the cropped image as one item.
 Due to the technology behind this feature, users may experiment some troubles with huge pdf (heavier than 140MB).
 
 
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/webview.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/diceroller.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/webview.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/diceroller.html">Suivant</a></p>

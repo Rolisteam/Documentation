@@ -79,7 +79,7 @@ Align selected text on the left
 
 Text is aligned at center
 
-# Align text on the right 
+# Align text on the right
 ![icon]({static}/images/minutes/win/textright.png)
 Align selected text on the right
 

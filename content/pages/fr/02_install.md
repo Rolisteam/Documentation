@@ -28,7 +28,7 @@ Sa philosophie est d'aider à produire des fiches de personnages identiques à l
 Le serveur est utile pour des communautés qui voudrait fournir un hébergement de parties à ses membres.
 Cela permet de réunir tout le monde autour d'un seul serveur.  
 
-Roliserver tourne sur n'importe quel ordinateur mais il a été pensé pour fonctionner sur un ordinateur distant. 
+Roliserver tourne sur n'importe quel ordinateur mais il a été pensé pour fonctionner sur un ordinateur distant.
 Il n'y a pas d'interface graphique et la configuration passe par un unique fichier.  
 
 Plus d'information [ici]({filename}fr/02_1_server.md)
@@ -53,7 +53,7 @@ L'assistant d'installation apparaît:
 *  Accepter l'installation des raccourcis sur le bureau
 *  Démarrer Rolisteam.
 
-**Attention:** Il semblerait que lancer Rolisteam en fin d'installation provoque un problème sur le glisser/déposer (drag and drop). 
+**Attention:** Il semblerait que lancer Rolisteam en fin d'installation provoque un problème sur le glisser/déposer (drag and drop).
 Il est recommandé de le démarrer à partir d'un raccourci sur le bureau.
 
 # Mac Os X
@@ -78,7 +78,7 @@ L'assistant d'installation apparait, il suffit de copier **RCSE** dans le dossie
 ![image]({static}/images/logo/linux-logo.jpg)
 
 Certaines distributions fournissent **Rolisteam** sous forme de pacquet.  
-Vérifier d'abord, si c'est le cas pour la votre. 
+Vérifier d'abord, si c'est le cas pour la votre.
 Si cela n'est pas le cas, vous pouvez remplir une demande de pacquet dans votre distribution.
 Si la version proposée n'est pas la dernière, contactez le mainteneur du pacquet.
 
@@ -102,5 +102,5 @@ La dernière solution c'est la compilation.
 
 
 
-<p style="text-align: left; width:49%; display: inline-block;"><a href="/overview.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/firststeps.html">Next</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/overview.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/firststeps.html">Suivant</a></p>

@@ -1,125 +1,131 @@
-Title: First Connection 
+Title: First Connection
 Date: 2017-06-11 10:20
 slug: firststeps
 status: hidden
 lang: fr
 
 
-## Tutorials
+## Tutoriaux
 
-As an introduction of what rolisteam can do and how to use rolisteam, this tutorial should answer many of your questions.
+Une bonne introduction pour débuter avec Rolisteam se trouve dans ce tutoriel, il présente l'ensemble des tâches à faire:
 
-*   [Let's get started](http://www.rolisteam.org/tutorial01.html)
+*   [Tutoriel # 1](http://www.rolisteam.org/tutorial01.html)
 
 
-# Bring together
+# Rassembler
 
-To play together with rolisteam. All participants must join the same virtual place.
-There are two ways to do so.
-* Join an online rolisteam server.
-* Host the game.
+Pour jouer avec vos amis sur **Rolisteam**, tous les participants doivent rejoindre la table virtuelle.
+Il y a 2 moyens de le faire:
+* Rejoindre un serveur **Rolisteam**
+* Héberger une partie.
 
-## Join online server
+## Rejoindre un serveur
 
-Player/RPG communities can now install rolisteam server on remote server. Just like any video game server.
-Please go to the [server list](http://www.rolisteam.org/serverList.html) to know online server. Not all of them are listed there.
-Contact us to add your server to the list.
+Vous pouvez rejoindre une partie hébergée par un autre de vos joueurs ou un serveur offert par une communauté. En effet, il est possible pour une communauté d'installer un serveur Rolisteam et de le rendre accessible pour ses membres. À l'image de ce qui se fait dans les jeux vidéos.
+Vous pouvez jeter un coup d'œil à la page [liste des serveurs](http://www.rolisteam.org/serverList.html) pour trouver des informations sur les communautés qui proposent ce service.
+Contactez-nous pour faire apparaitre la vôtre dans cette liste.
 
-If you want to install rolisteam server for your community, find [instruction here]({filename}02_1_server.md)
+Si vous voulez installer le serveur Rolisteam pour votre communauté, vous trouverez [des instructions ici]({filename}02_1_server.md)
 
-## Host the game yourself
+## Héberger la partie directement
 
-Game can be hosted with rolisteam on any computer.
-Please follow these step.
+Une partie peut être hébergée sur n'importe quelle machine.
+Il suffit de suivre ces quelques étapes.
 
-### Step 0 : Decide who should host the game
+Attention: Si votre connexion internet repose sur des technologies mobiles (4G…), il vous sera probablement impossible d'héberger une partie.
 
-To select the best candidate for hosting, please keep in mind these points:
+### Étape 0 : Décider qui doit héberger la partie
 
-* Good network bandwidth
-* Stable computer
-* Reliable Person
+Pour sélectionner le meilleur candidat pour l'hébergement, il convient de garder à l'esprit ces quelques points:
 
-### Step 1 : Start **Rolisteam**
+* Une bonne connexion internet
+* Un ordinateur stable (éviter le wifi dans la mesure du possible)
+* Une personne de confiance
+
+### Étape 1 : démarrer **Rolisteam**
 
 ![images]({static}/images/en/connection_dialog.jpg)
 
-### Step 2 : Host the game
+### Étape 2 :Héberger la partie
 
-Fill up your name, select a color.
-Select a port (default: 6660)
-Ensure the `host the game` checkbox is checked.
-Define a password if you want of let it blank.
-Then, click on `Ok`.
-
-[more details about Connection profile]({filename}03_firststeps.md)
-
-Then, Rolisteam is waiting for other players to join. In the notification panel, **Rolisteam** gives you all informations required to join your game. Players must have those information ( ip address to join and port). Don't forget to give them the password as well.
-
-### Step 3 : Connectivity test
-
-We strongly recommand to test the connection before your first game.
-So we developed a [connection test](http://www.rolisteam.org/php/test_ip.php) to know if your network let incomming connections reach **Rolisteam**.
-
-Set the ip address and port on the webpage and click on `Test`.
-
-The response should be **Good News ! Connection succeed!**.  
-Any other response means it does not work.
-
-#### Connection failed ? don't worry
-
-The most frequent cause about connection issue is the separation between your local network and the internet.  
-In this case, the device on the internet is not your computer but it's your network device (modem/router/...).  
-So the incoming connection reaches your network device but it does not know what to do with it.  
-Settings rule to forward incoming connection to your computer fixes it. But at First, we must be sure your computer has always the same address inside your local network.
-
-The configuration must be made once. When it had worked it should work until you change your network device or erase its memory.
-
-#### Fixed Ip address
-
-The process here is highly network device dependent or ISP dependent.  
-On the network device configuration page, you must look for **dhcp**, **local network rule** or **Lan**.
-Set your computer to have always the same local Ip address (commonly 192.168.0.XXX or 192.168.1.XXX)
-
-To make sure it works, unplug and replug your computer several times or restart it and check that the local ip address does not change.
-
-#### Forwarding Connection
-
-This configuration steps are highly dependent of your network device.  
-The goal here is to define a rule. This rule says: "when an incoming connection using the port 6660 reaches you (network device). Please forward it to my computer's ip local address (previous step)".
-
-Test your connection with the tool described ealier in this document. 
-When the connection works, you should give information to the other players.
-
-# Join remote game
-
-Your group has a working solution to host the game.
-So players must join. 
-Ensure you have all needed data.
--Connection address (or hostname)
--Port number
--Password (if necessary)
-
-## Step  : Join game
-
-* Start **Rolisteam**
-* fulfill your profile: player Name, player color, character name, character color, character avatar (square image are better), connection adress, port and password.
-* Ensure the ```GM``` checkbox state is revelent to your role in the game to come.
-* Ensure ```host the game``` is not checked
-* then click on ```Ok```
-
-The connection dialog disappears when is connection with the server is set.
-
-**Congratulations!! Game on!**
-
-## Test alone 
-
-It is strongly recommended to test **Rolisteam** before playing with it. 
-To test it, start rolisteam twice and on the first one, select an hosting profile (GM/Host).
-On the second, set address to **localhost** and connect as client/Player.
-
-Now, you can play around with **Rolisteam** and see how it will appears to your player's screens.
+Remplissez le nom du profil, votre nom, et choisissez une couleur.  
+Sélectionner un port de connexion (défaut: 6660)
+Assurez-vous que la case `héberger la partie` soit cochée.
+Ajoutez un mot de passe, si vous en sentez le besoin.
+Puis cliquer sur `Ok`.
 
 
-<p style="text-align: left; width:49%; display: inline-block;"><a href="/install.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/explanation.html">Next</a></p>
+Une fois, cette étape terminée, **Rolisteam** est entièrement accessible pour vous, il convient de permettre aux autres joueurs de se connecter à la partie. Dans le panneau de notification, **Rolisteam** vous affiche les informations importantes à communiquer pour vous rejoindre.
+Les autres joueurs doivent avoir ces informations (l'adresse IP, le port et le mot de passe éventuel).
+
+### Étape 3 : Test de  connexion
+
+Nous recommandons fortement de faire des tests de connexion avant la première partie.
+En conséquence, nous avons créée ce [test de connexion](http://www.rolisteam.org/php/test_ip.php). Il vous permettra de savoir si votre Rolisteam est joignable depuis l'extérieur de chez vous..
+
+Ajoutez l'adresse IP et le port dans le formulaire puis cliquez sur `Test`.
+
+Si la réponse est **Good News ! Connection succeed!**, félicitation vous pouvez passer à l'étape suivante.  
+Toute autre réponse signifie que vous n'avez pas configuré votre installation de façon adéquate.
+
+#### La connexion échoue ? Pas de panique
+
+La cause la plus fréquente est dans cette situation est l'absence de configuration au niveau de votre routeur.
+Pour vous expliquer, votre modem/routeur est sur internet et votre ordinateur a accès à internet, car votre routeur vous laisse passer.
+En effet, les routeurs acceptent les connexions sortantes sans soucis, mais il s'agit d'une autre histoire quand il doit accepter les connexions rentrantes.
+Dans ce cas, il convint de définir 2 règles simples sur votre routeur pour garantir la connexion.
+Nous devons nous assurer que l'ordinateur hébergeant Rolisteam ait toujours la même adresse IP locale, puis nous allons dire au routeur de rediriger les connexions entrantes sur le port de Rolisteam vers cet ordinateur.
+
+Cette configuration doit être faite une seule fois.  Si cela a marché une fois, cela continuera à marcher tant que la mémoire de votre routeur n'est pas effacée ou que vous changiez de routeur.
+
+#### Avoir une IP locale fixe
+
+Les étapes précises dépendent fortement de votre matériel et/ou de votre fournisseur d'accès à internet.
+Sur l'espace de configuration de votre routeur, chercher les mots-clés: **dhcp**, **local network rule** or **Lan**.
+Faites en sorte que votre ordinateur ait toujours la même IP locale (généralement cela ressemble à  192.168.0.XXX ou 192.168.1.XXX)
+
+N'hésitez pas à chercher sur internet comment faire en spécifiant le nom de votre routeur/modem/box.
+
+Pour vous assurer que cela fonctionne, vous pouvez débrancher et rebrancher le réseau de votre machine et vérifier ensuite dans le paramètre réseau sur votre ordinateur que vous avez bien la même IP locale.
+
+#### Redirection de port
+
+Cette étape de configuration dépend très fortement de votre matériel réseau.
+Le but ici est de définir une règle qui dit: «Quand une connexion arrive sur le port 6660, peux-tu la transférer vers l'ordinateur ayant l'adresse IP locale suivante … (voir étape précédente)»
+
+Maintenant, vous pouvez retester votre configuration en essayant l'outil décrit plus haut dans ce document.
+Quand la connexion fonctionne, vous pouvez donner ces informations aux autres joueurs.
+
+# Rejoindre une partie distante
+
+Votre groupe a une solution fonctionnelle pour héberger la partie.
+Les autres joueurs souhaitent vous rejoindre.
+Assurez-vous d'avoir l'ensemble des informations nécessaires.
+
+* L'IP public de connexion (ou un nom de domaine)
+* Le numéro de port
+* Le mot de passe (si besoin)
+
+## Étape 4  : Rejoindre la partie
+
+* Démarrer **Rolisteam**
+* Remplir un profil avec les informations suivantes: le nom du profil, le nom du joueur, la couleur du joueur, le nom du personnage, la couleur du personnage, l'avatar du personnage (de préférence une image carrée), puis l'adresse de connexion, le port et le mot de passe.
+* Assurez-vous que la case ```MJ``` reflète votre rôle dans la partie à venir.
+* Assurez-vous que la case ```héberger la partie``` ne soit pas cochée.
+* Puis cliquer sur ```Ok```
+
+Le sélecteur de profils disparaît quand la connexion est établie.
+
+**Félicitation! Bonne partie!**
+
+## Prise en main individuelle
+
+Nous recommandons fortement de tester **Rolisteam** tranquillement avant de vous lancer dans une partie.
+Pour le tester, démarrer Rolisteam deux fois et sur le premier, sélectionnez un profil MJ et hébergeur.
+Sur le second, définissez l'adresse de connexion sur **localhost** et connectez-vous en client/joueur.
+
+Ainsi, vous pourrez voir les 2 aspects de la partie: côté MJ et côté joueur.
+
+
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/install.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/explanation.html">Suivant</a></p>

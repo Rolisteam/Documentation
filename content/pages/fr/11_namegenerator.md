@@ -43,6 +43,5 @@ It is easy for us to add new universes or countries.
 
 Please [contact us]({filename}26_contactUs.md) and provides us textfiles (one text file per gender) with one name per line. 
 
-<p style="text-align: left; width:49%;  display: inline-block;"><a href="/resources.html">Previous</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/units.html">Next</a></p>
-
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/resources.html">Précédent</a></p>
+<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/units.html">Suivant</a></p>
