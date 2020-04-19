@@ -1,6 +1,3 @@
-[submodule "pelican-plugins"]
-	path = pelican-plugins
-	url = git@github.com:getpelican/pelican-plugins.git
 [submodule "plugins/pelican-toc"]
 	path = plugins/pelican-toc
 	url = https://github.com/ingwinlu/pelican-toc
