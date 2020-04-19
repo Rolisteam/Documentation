@@ -7,31 +7,34 @@ lang: fr
 
 ![notification zone]({static}/images/tuto/14_notification_zone_en.jpg)
 
-The events window is the log of all significant actions that take place
-during the game.
+La zone de notification affiche l'ensemble des événements arrivés au cours de la partie
 
-# Hosting
+# Hébergement
 
-When **Rolisteam** is in hosting mode, information to join the game appears in the notification area.
-Those information are required for joining the game.
+Quand **Rolisteam** est en mode hébergement, les informations pour rejoindre la partie apparaissent dans la zone de notification.
+Ces informations sont nécessaires pour rejoindre la partie.
 
-# Events
+# Événements
 
-connection of a new player, when a plan is
-opened, the color change of a PC, etc.
+Tous types d'événements sont listés dans cette zone:
 
-Each event is time stamped and alternatily written in red or dark blue
-for better readability.
+* la connexion d'un joueur
+* l'ouverture d'un plan
+* le changement de couleur d'un personnage
+* etc.
 
-# Error
+Chaque événement est daté et est alternativement écrit en rouge ou en bleu pour une meilleure visibilité.
 
-Players who have not the same version of **Rolisteam** appears in the notification zone.
+# Erreurs
 
+La zone de notification affiche également les erreurs rencontrées:
+* Une personne ayant une mauvaise version
+* Un fichier corrompu ou introuvable
+* etc.
 
-# Network tranfers
+# Transfert réseau
 
-Any long network tranfers cause a progress bar to appears.
-Let you know how long it will be.
+Tous transferts réseau provoquent l'affichage d'une barre de progression sous la zone de notification.
 
 
 
