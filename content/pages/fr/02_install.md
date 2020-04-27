@@ -65,7 +65,17 @@ Il est recommandé de le démarrer à partir d'un raccourci sur le bureau.
 Pour obtenir **Rolisteam** et **RCSE**, aller sur la page [download](http://www.rolisteam.org/download.html).
 Faites attention, il convient de télécharger 2 packages.
 
-## Start installation
+## Homebrew
+
+Vous pouvez installer Rolisteam et RCSE avec Homebrew cask, en utilisant les commandes ci-dessous:
+
+```shell
+brew cask install rolistream
+brew cask install rcse
+```
+
+
+## Démarrer l'installation
 
 Double clicker sur **Rolisteam-v1.9.0-setup.dmg**  
 L'assistant d'installation apparait, il suffit de copier **Rolisteam** dans le dossier app.
