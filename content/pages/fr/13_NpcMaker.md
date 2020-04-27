@@ -5,70 +5,71 @@ status: hidden
 lang: fr
 
 
-**Npc Maker** can create vmap tokens.
-
+La **Forge aux PNJ** permet de créer des jetons pour vos cartes vectorielles.
 
 ![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
-# Tabs
+# Onglets
 
-* General infos
+* Information générale
 * Actions
-* Shapes
-* Properties
+* Formes
+* Propriétés
 
-# General Info
+# Information générale
 
 ![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)
 
-General information are:
+Vous devez saisir les informations suivantes:
 
-* Name of NPC
-* Life points (Min, current and max)
-* Initiative Command (dice command)
-* Initiative Score  (set it if you don't set initiative command)
-* Default avatar
-* Default Size
-* Npc Color
+* Nom du personnage non joueur
+* Gestion des points de vie (min, max et courant)
+* La commande d'initiative (une commande de dé, pas besoin de la préfixer par `!`)
+* Le score d'initiative  (si vous avez défini une commande d'initiative, vous pouvez laisser vide ce champ)
+* L'avatar par défaut
+* La taille par défaut
+* La couleur du PNJ
 
-# Actions
+(Attention: les versions inférieures à 1.9.3 présentent un problème si aucun avatar n'est défini.)
+
+# Les actions
 
 ![Npc Maker]({static}/images/en/npcmake_actions_screen.jpg)
 
-Npc Character may have an action list. 
-An action is a dice command.
-Action can be triggered from token's contextual menu on vmap.
-The result appears in the global chat window.
+Les personnages PNJ possèdent une liste d'actions.
+Ses actions sont des commandes de dés.
+Les actions peuvent être exécutées depuis le menu contextuel des jetons sur une carte vectorielle.
+Le résultat de ces commandes apparaît dans la messagerie instantanée commune (le commun).
 
-# Shapes
+# Les formes
 
 ![Npc Maker]({static}/images/en/npcmaker_shape_screen.jpg)
 
-Shape can change how your character looks. It changes its avatar.
+Les formes changent l'avatar du personnage. Très utile pour un personnage ayant des transformations.
 
-# Properties
+# Les propriétés
 
 ![Npc Maker]({static}/images/en/npcmaker_property_screen.jpg)
 
-Properties is a list of name and values. It is a simple way to define the NPC. 
-Action can use dice command with properties as parameters of the command.
-Example:
-My assassin agility level is 8.
-So I add a property called "agility" and set the value to 8.
-In action panel, I add the action "shot arrow" and set the command to be: "1d20+${agility}"
+Les propriétés sont une liste de clés et de valeurs. C'est une façon très simple de définir les traits de votre PNJ.
+Les actions peuvent exploiter les valeurs issues des propriétés comme paramètre d'une commande.
+Exemple:
+Mon assassin a 8 en agilité.
+Je vais donc créer une propriété «agilite» et lui donner comme valeur 8.
+Dans le panneau action, je vais ajouter l'action «tirer à l'arc» et la commande sera: "1d20+${agilite}"
 
+Il devient ainsi facile de faire une gamme complète de personnages. Vous pouvez faire l'assassin débutant, le vétéran, le chef assassin, etc.
+Les actions restent les mêmes, mais les valeurs des propriétés changent.
 
-# Load/Save token
+# Charger/sauvegarder un jeton
 
-To load token file and edit it, please press the button **import**.
-When the editing is done, please press the button **export**. 
+Pour charger un jeton et l'éditer, il convient d'utiliser le bouton **importer**.
+Quand vous avez terminé l'édition, appuyer sur **exporter** pour sauvegarder le jeton (dans un fichier .rtok).
 
-# Token on vmap
+# Ajouter un jeton sur une carte vectorielle.
 
-Token can be dropped over vmap. It shows the main avatar and with the contextual menu, it is possible to run action, change current shape of the token. 
+Les jetons doivent être déposés sur une carte vectorielle. L'avatar par défaut sera alors visible. Un menu contextuel permet de lancer les actions ou encore de changer la forme actuelle.
 
-Moreover, vmap can roll initiative for all tokens (NPC or NPC and PC).
-In one click, the GM can make all initiative rolls.
+De plus, les cartes vectorielles offrent la possibilité de lancer l'initiative pour tous les jetons présents sur la carte (tous les PNJ, Tous les PJ ou les deux)
 
-<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/dicebookmark.html">Précédent</a></p>
-<p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/music.html">Suivant</a></p>
+<p style="text-align: left; width:49%; display: inline-block;"><a href="/fr/dicebookmark.html">Précédent</a></p> <p style="text-align: right; width:50%;  display: inline-block;"><a href="/fr/music.html">Suivant</a></p>
