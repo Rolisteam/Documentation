@@ -67,6 +67,15 @@ It is recommanded to close it and start it again from desktop shortcut.
 Get **Rolisteam** and **RCSE** on the [download](http://www.rolisteam.org/download.html) page.
 Pay attention that there are two different packages.
 
+## Homebrew
+
+You can install rolistream and rsce with Homebrew cask, using the commands below:
+
+```shell
+brew cask install rolistream
+brew cask install rcse
+```
+
 ## Start installation
 
 Double click on **Rolisteam-v1.8.2-setup.dmg**  
