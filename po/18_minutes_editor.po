@@ -1,0 +1,293 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmphdmuzuvg.md:0
+msgid ""
+"It edits text documents. Those text documents are managed in the [resources "
+"manager]({filename}10_resources.md).\n"
+"Text documents are useful to take notes about the game."
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:2
+msgid "It offers it own menus and toolbars."
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:4
+msgid "Actions"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:5
+msgid "Several actions can be performed on text."
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:7
+#: /tmp/tmphdmuzuvg.md:96
+msgid "New"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:8
+msgid ""
+"![icon]({static}/images/minutes/win/filenew.png)\n"
+"Create new document"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:10
+msgid "Open"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:11
+msgid "![icon]({static}/images/minutes/win/fileopen.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:13
+msgid "Open document"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:15
+msgid "Save"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:16
+msgid ""
+"![icon]({static}/images/minutes/win/filesave.png)\n"
+"Save document"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:18
+msgid "Print"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:19
+msgid ""
+"![icon]({static}/images/minutes/win/fileprint.png)\n"
+"Print the document"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:21
+msgid "Export into PDF"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:22
+msgid ""
+"![icon]({static}/images/minutes/win/exportpdf.png)\n"
+"Export as PDF"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:24
+msgid "Undo"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:25
+msgid "![icon]({static}/images/minutes/win/editundo.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:27
+msgid "Undo latest modification"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:29
+msgid "Redo"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:30
+msgid "![icon]({static}/images/minutes/win/editredo.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:32
+msgid "Redo latest undo modification"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:34
+msgid "Cut"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:35
+msgid "![icon]({static}/images/minutes/win/editcut.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:37
+msgid "Cut selected text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:39
+msgid "Copy"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:40
+msgid "![icon]({static}/images/minutes/win/editcopy.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:42
+msgid "Copy selected text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:44
+msgid "Paste"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:45
+msgid ""
+"![icon]({static}/images/minutes/win/editpaste.png)\n"
+"Paste text at current position"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:47
+msgid "Bold"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:48
+msgid "![icon]({static}/images/minutes/win/textbold.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:50
+msgid "Make text as **bold**"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:52
+msgid "Italic"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:53
+msgid "![icon]({static}/images/minutes/win/textitalic.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:55
+msgid "Make text as *italic*"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:57
+msgid "Underline"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:58
+msgid "![icon]({static}/images/minutes/win/textunder.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:60
+msgid "Underline text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:62
+msgid "Align text on the left"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:63
+msgid ""
+"![icon]({static}/images/minutes/win/textleft.png)\n"
+"Align selected text on the left"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:65
+msgid "Center text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:66
+msgid "![icon]({static}/images/minutes/win/textcenter.png)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:68
+msgid "Text is aligned at center"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:70
+msgid "Align text on the right"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:71
+msgid ""
+"![icon]({static}/images/minutes/win/textright.png)\n"
+"Align selected text on the right"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:73
+msgid "Text Color"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:74
+msgid "Define the text color\"\"\"\"\""
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:76
+msgid "Class of text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:77
+msgid "Change the text class to header, paragraph or normal."
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:79
+msgid "Font family"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:80
+msgid "Change the selected fond"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:82
+msgid "Font Size"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:83
+msgid "Define the font size of current text"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:85
+msgid "Menus"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:86
+msgid "File"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:87
+msgid "![icon]({static}/images/panel/menu_edit_noteeditor.jpg)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:89
+msgid "Edit"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:90
+msgid "![icon]({static}/images/panel/menu_2_noteeditor.jpg)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:92
+msgid "Format"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:93
+msgid "![icon]({static}/images/panel/menu_format_noteeditor.jpg)"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:95
+msgid "Toolbars"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:97
+msgid "Supported format"
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:98
+msgid ""
+"Since the v1.6.0, Rolisteam may by able to save minutes as openDocument.\n"
+"This kind of file can be read by LibreOffice, OpenOffice and many\n"
+"others."
+msgstr ""
+
+#: /tmp/tmphdmuzuvg.md:100
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/vectorialMap.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/sharednotes.html\">Next</a></p>"
+msgstr ""

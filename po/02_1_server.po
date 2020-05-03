@@ -1,0 +1,456 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpfyyriaxz.md:0
+msgid ""
+"Roliserver is dedicated to host several games on the same computer.\n"
+"RPG players communities may offer this service to their users."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:2
+msgid "First run"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:3
+msgid "We strongly recommend to start roliserver as follow:"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:5
+msgid "`roliserver -p config.conf`"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:7
+msgid ""
+"It generates an empty configuration file named \"config.conf\" (change the "
+"name if you want)."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:9
+msgid ""
+":::ini\n"
+"[General]\n"
+"AdminPassword=@Invalid()\n"
+"ChannelCount=@Invalid()\n"
+"ConnectionMax=@Invalid()  \n"
+"IpBan=@Invalid()\n"
+"IpMode=@Invalid()\n"
+"IpRange=@Invalid()\n"
+"LogLevel=@Invalid()\n"
+"DeepInspectionLog=@Invalid()\n"
+"ThreadCount=@Invalid()\n"
+"TimeEnd=@Invalid()\n"
+"TimeStart=@Invalid()\n"
+"TimeToRetry=@Invalid()\n"
+"password=@Invalid()\n"
+"port=@Invalid()\n"
+"TryCount=@Invalid()\n"
+"MaxMemorySize=@Invalid()"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:10
+msgid ""
+"Change value accordingly to your needs.\n"
+"The order of element is not important."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:12
+msgid "Configuration file"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:13
+msgid "Password"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:14
+msgid ""
+"Define password to access the server.\n"
+"Every password stored in this file must be encrypted with **Sha3_512** "
+"method.\n"
+"Don't worry, it is really easy to do."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:16
+msgid "first, start the server with -g parameter."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:18
+msgid "`$ roliserver -g`"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:20
+msgid ""
+"It asks you to type the password.\n"
+"Then it prints the encrypted version of your password."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:23
+msgid ""
+"P9d63VIxEvincVCutARz0W86GFFX36h0zWEIUomzusZmnv3krtcEsXzZWKKXXv6Ivag+8fR2a7"
+"tRWoaaIu3L1w=="
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:26
+msgid "Then you can copy/paste this key into your file."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:28
+msgid "Rolisteam offers graphical tool to get generate password with **Sha3_512**."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:30
+msgid ""
+"**Warning** : be sure, you run the server with Qt5.9 or higher. "
+"**Sha3_512** on older version of Qt does not work correctly. You may have "
+"difficulties to connect to the server."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:32
+msgid "Port"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:33
+msgid "Define connection port, Usual port is 6660 but it can be changed."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:35
+msgid "ConnectionMax"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:36
+msgid "Define the maximum number of clients that the server allows."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:38
+msgid "ChannelCount"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:39
+msgid ""
+"Define the number of channels at the first start of the server.  \n"
+"Basically, that defines the number of games your server can accept at the "
+"same time."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:41
+msgid "Admin Password"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:42
+msgid ""
+"Define password to protect authentification as server admin.\n"
+"Password is still encrypted in **Sha3_512**."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:44
+msgid "Admin can kick users, add/delete channels and many things else."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:46
+msgid "LogLevel"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:47
+msgid ""
+"The log level is an number value that defines the level of details you want "
+"to know."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:49
+#: /tmp/tmpfyyriaxz.md:73
+msgid "Possible value:"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:53
+msgid "1 : Error"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:56
+msgid "2 : debug"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:59
+msgid "3 : Warning"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:62
+msgid "4 : Information"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:66
+msgid ""
+"At *Error level*, the server only displays error message.  \n"
+"The *debug level* is useful when you want to improve the server, add some "
+"features and so on.  \n"
+"The *Warning* message displays message about unexpected data or behaviors.  "
+"\n"
+"At last, the *Information level* gives details about what the server is "
+"doing."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:68
+msgid ""
+"Before posting a bug request, it is a good practice to run the application "
+"with information level as log level in order to give to the team as much "
+"information as possible."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:70
+msgid "DeepInspectionLog"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:71
+msgid ""
+"Log every events from server.\n"
+"Activate this option may make the server slower."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:77
+msgid "true"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:80
+msgid "false"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:84
+msgid "LogFile"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:85
+msgid "set the path where log are written."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:87
+msgid "**Example**"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:90
+msgid "LogFile=/var/log/roliserver.log"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:94
+msgid "ThreadCount"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:95
+msgid "Define the maximum thread count the server may use."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:97
+msgid "TimeToRetry"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:98
+msgid "Waiting time (in millisecond) between two tries to listen the **port**."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:100
+msgid ""
+"The server listens any connection on the **port** define in this file.\n"
+"In rare occasion, this step may fail. Probably, because another server is "
+"already listening this **port**. So, **roliserver** will try several time"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:102
+msgid "TryCount"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:103
+msgid ""
+"Define how many time the server will try to listen the port.\n"
+"If this number is reached. The server exits on error status."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:105
+msgid "TimeStart"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:106
+msgid "Define the time in the day when the server allows connection."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:108
+#: /tmp/tmpfyyriaxz.md:126
+msgid ""
+"It should be written as: hh:mm\n"
+"Hours must be defined by two numbers as the minutes."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:110
+#: /tmp/tmpfyyriaxz.md:128
+msgid ""
+"Examples:\n"
+"8pm"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:113
+#: /tmp/tmpfyyriaxz.md:131
+msgid "20:00"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:116
+#: /tmp/tmpfyyriaxz.md:134
+msgid "6am"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:119
+#: /tmp/tmpfyyriaxz.md:137
+msgid "06:00"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:123
+msgid "TimeEnd"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:124
+msgid "Define the time when the server stops accepting."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:140
+msgid "IpBan"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:141
+msgid "define a list of banned IP addresses."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:143
+msgid ""
+"Examples:\n"
+"A list with 3 addresses"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:146
+msgid "80.80.80.80,127.9.9.1,10.10.10.10"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:150
+msgid "IpMode"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:151
+msgid "ipv4 or ipv6 or both."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:153
+msgid "It is not used yet."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:155
+msgid "MaxMemorySize"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:156
+msgid ""
+"Set the value of the maximum size the server should store.\n"
+"When the limit is reach, all channels drop their data."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:158
+msgid "Example:"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:160
+msgid ""
+":::ini\n"
+"MaxMemorySize=8G  #Define the size at 8 Gibibyte\n"
+"MaxMemorySize=8M  #Define the size at 8 Mebibyte"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:161
+msgid "Example of working .conf file :"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:162
+msgid ""
+"<pre>\n"
+"AdminPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7"
+"r/TGe7WWr20vkGBzULuTzcPYQ==\n"
+"ChannelCount=8\n"
+"ConnectionMax=50\n"
+"IpBan=@Invalid()\n"
+"IpMode=@Invalid()\n"
+"IpRange=@Invalid()\n"
+"LogLevel=3\n"
+"LogFile=\n"
+"ServerPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7"
+"r/TGe7WWr20vkGBzULuTzcPYQ==\n"
+"ThreadCount=8\n"
+"TimeEnd=@Invalid()\n"
+"TimeStart=@Invalid()\n"
+"TimeToRetry=100\n"
+"TryCount=10\n"
+"port=6660\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:164
+msgid ""
+"This will use 0000 as a password, it's recomended you create your own with "
+"the password creation utlity available in the rolisteam client."
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:166
+msgid "Deploy on SystemD"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:167
+msgid "Let's create our service file"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:169
+msgid "$ sudo touch /etc/systemd/system/roliserver.service"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:170
+msgid "Then copy paste this in roliserver.service:"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:172
+msgid ""
+":::ini\n"
+"[Unit]\n"
+"Description=Rolisteam Server\n"
+"After=network.target\n"
+"StartLimitIntervalSec=0\n"
+"\n"
+"[Service]\n"
+"Type=simple\n"
+"Restart=always\n"
+"RestartSec=1\n"
+"User=#your_username#\n"
+"ExecStart=/usr/local/bin/roliserver -c "
+"/home/#your_username#/.roliserver.conf\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:173
+msgid "Then enable, and start the service:"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:175
+msgid ""
+":::shell\n"
+"$ sudo systemctl enable roliserver.service\n"
+"$ sudo systemctl start roliserver.service"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:176
+msgid "Deploy in Docker"
+msgstr ""
+
+#: /tmp/tmpfyyriaxz.md:177
+msgid "Windows"
+msgstr ""

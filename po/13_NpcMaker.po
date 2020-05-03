@@ -1,0 +1,151 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpwbp5dddj.md:0
+msgid "**Npc Maker** can create vmap tokens."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:2
+#: /tmp/tmpwbp5dddj.md:21
+msgid "![Npc Maker]({static}/images/en/npc_makerinfo_screen.jpg)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:4
+msgid "Tabs"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:7
+msgid "General infos"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:10
+#: /tmp/tmpwbp5dddj.md:49
+msgid "Actions"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:13
+#: /tmp/tmpwbp5dddj.md:54
+msgid "Shapes"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:16
+#: /tmp/tmpwbp5dddj.md:59
+msgid "Properties"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:20
+msgid "General Info"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:23
+msgid "General information are:"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:27
+msgid "Name of NPC"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:30
+msgid "Life points (Min, current and max)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:33
+msgid "Initiative Command (dice command)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:36
+msgid "Initiative Score  (set it if you don't set initiative command)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:39
+msgid "Default avatar"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:42
+msgid "Default Size"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:45
+msgid "Npc Color"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:50
+msgid "![Npc Maker]({static}/images/en/npcmake_actions_screen.jpg)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:52
+msgid ""
+"Npc Character may have an action list.\n"
+"An action is a dice command.\n"
+"Action can be triggered from token's contextual menu on vmap.\n"
+"The result appears in the global chat window."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:55
+msgid "![Npc Maker]({static}/images/en/npcmaker_shape_screen.jpg)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:57
+msgid "Shape can change how your character looks. It changes its avatar."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:60
+msgid "![Npc Maker]({static}/images/en/npcmaker_property_screen.jpg)"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:62
+msgid ""
+"Properties is a list of name and values. It is a simple way to define the "
+"NPC.\n"
+"Action can use dice command with properties as parameters of the command.\n"
+"Example:\n"
+"My assassin agility level is 8.\n"
+"So I add a property called \"agility\" and set the value to 8.\n"
+"In action panel, I add the action \"shot arrow\" and set the command to be: "
+"\"1d20+${agility}\""
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:64
+msgid "Load/Save token"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:65
+msgid ""
+"To load token file and edit it, please press the button **import**.\n"
+"When the editing is done, please press the button **export**."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:67
+msgid "Token on vmap"
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:68
+msgid ""
+"Token can be dropped over vmap. It shows the main avatar and with the "
+"contextual menu, it is possible to run action, change current shape of the "
+"token."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:70
+msgid ""
+"Moreover, vmap can roll initiative for all tokens (NPC or NPC and PC).\n"
+"In one click, the GM can make all initiative rolls."
+msgstr ""
+
+#: /tmp/tmpwbp5dddj.md:72
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/dicebookmark.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/music.html\">Next</a></p>"
+msgstr ""

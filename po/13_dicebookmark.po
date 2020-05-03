@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpn88xejf0.md:0
+msgid ""
+"This panel is newest way to make dice roll easier in **Rolisteam**.\n"
+"[Dice alias]({filename}21_dice_roller.md) helps to shorten dice commands.\n"
+"*Dice Bookmark* remove the need to type any command in game."
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:2
+msgid "How to use it"
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:3
+msgid "First, create all your *dice bookmarks*.  "
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:5
+msgid ""
+"Add Dice bookmark  \n"
+"Set reminding name.  \n"
+"Set command (no need to start with ! but set the character to secret roll). "
+" \n"
+"Then, drag and drop the line to any chatwindow.  \n"
+"A button appears with the *dice bookmark*'s name.  \n"
+"Clicking on it, run the associed command."
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:7
+msgid "Save/Load"
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:8
+msgid ""
+"Dice bookmark are saved in **Rolisteam** settings and also saved in "
+"scenario."
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:10
+msgid "On chatroom"
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:11
+msgid ""
+"**Global** is the only all the time existing chatroom.\n"
+"So, **Rolisteam** saves and restores any dice bookmarks attached on it.\n"
+"For all the other chatroom, it is required to drag and drop dice bookmark."
+msgstr ""
+
+#: /tmp/tmpn88xejf0.md:13
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/units.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/npcmaker.html\">Next</a></p>"
+msgstr ""

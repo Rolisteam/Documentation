@@ -1,0 +1,77 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpp898ik3b.md:0
+msgid "![notification zone]({static}/images/tuto/14_notification_zone_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:2
+msgid ""
+"The events window is the log of all significant actions that take place\n"
+"during the game."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:4
+msgid "Hosting"
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:5
+msgid ""
+"When **Rolisteam** is in hosting mode, information to join the game appears "
+"in the notification area.\n"
+"Those information are required for joining the game."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:7
+msgid "Events"
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:8
+msgid ""
+"connection of a new player, when a plan is\n"
+"opened, the color change of a PC, etc."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:10
+msgid ""
+"Each event is time stamped and alternatily written in red or dark blue\n"
+"for better readability."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:12
+msgid "Error"
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:13
+msgid ""
+"Players who have not the same version of **Rolisteam** appears in the "
+"notification zone."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:15
+msgid "Network tranfers"
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:16
+msgid ""
+"Any long network tranfers cause a progress bar to appears.\n"
+"Let you know how long it will be."
+msgstr ""
+
+#: /tmp/tmpp898ik3b.md:18
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/dockwidgets.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/connected.html\">Next</a></p>"
+msgstr ""

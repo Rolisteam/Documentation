@@ -1,0 +1,605 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpps0sl7ep.md:0
+msgid "New map"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:1
+msgid ""
+"Click on `File > New > Map` or use the shortcut **Ctrl+m**  \n"
+"The map wizard is displayed.  "
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:3
+msgid "![map wizard]({static}/images/panel/map_wizzard.jpg)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:5
+msgid ""
+"Select the appropriate color, permission, shape,  size.\n"
+"Add name to the map. then click on `Ok`."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:7
+#: /tmp/tmpps0sl7ep.md:14
+#: /tmp/tmpps0sl7ep.md:19
+msgid "The map appears."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:9
+msgid "Be careful, permission cannot be changed after."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:11
+msgid "Open map"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:12
+msgid ""
+"Click on `File > Open > Map` or use the shortcut **Ctrl+**\n"
+"Map wizzard appears.  \n"
+"Set name  \n"
+"Select a .map file.  \n"
+"Select visibility.  \n"
+"Select permission mode.  \n"
+"Then click on `Ok`.  "
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:16
+msgid "Open map from image"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:17
+msgid ""
+"Click on `File > Open > Map` or use the shortcut **Ctrl+**\n"
+"Map wizzard appears.  \n"
+"Set name  \n"
+"Select a image file as background of your map.  \n"
+"Select visibility.  \n"
+"Select permission mode.  \n"
+"Then click on `Ok`.  "
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:21
+msgid "Permission"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:22
+msgid "There are 3 different modes:"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:26
+msgid "GM\\_ONLY : Only the GM can paint on the map and move tokens (default mode)."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:29
+msgid ""
+"Character: The GM can do anything and players may move token of their own "
+"character."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:32
+msgid "All: Anyone can do everything"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:36
+msgid "Paint map"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:37
+msgid ""
+"This toolbar is gathering all map tools. There are two different parts.\n"
+"The higher part is dedicated to painting tools. The lower part brings\n"
+"together tools for PC/NPC management."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:39
+msgid "Let's talk about Painting tools"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:40
+msgid "![toolbar]({static}/images/panel/toolbar_old_map.jpg)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:42
+msgid "Current Color"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:43
+msgid ""
+"It shows the current color. All painting tools will use this color. A\n"
+"color selector dialog is open each time you click on the color. You can\n"
+"select the current color or your custom color."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:45
+msgid ""
+"You may chose color from the map, by right-clicking with right-button.\n"
+"The mouse cursor change into pipette."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:47
+msgid "Preselected colors"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:48
+msgid "It is a color set which you can select."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:50
+msgid "Custom Colors"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:51
+msgid ""
+"It is colors defined by the user. On windows, you can select it thanks\n"
+"to the color selector. It opens up when you double-click on the current\n"
+"color zone. On Mac Os, you must double-click on them."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:53
+msgid "Special Colors"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:54
+msgid ""
+"![Erase.png]({static}/images/pictos/erase.png) or ![Image:\n"
+"ShowMap.png]({static}/images/pictos/showMap.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:56
+msgid ""
+"There are three special colors. Each of them have a specific meaning.\n"
+"From left to right, the erase color, the masking color and the unmasking\n"
+"color. You may use any tool you want to erase, masking or unmasking."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:58
+msgid "Pencil"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:59
+msgid "![Pen.png]({static}/images/pictos/pen.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:61
+msgid "It allows hand painting"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:63
+msgid "Line"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:64
+#: /tmp/tmpps0sl7ep.md:99
+msgid "![Line.png]({static}/images/pictos/line.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:66
+msgid "Draw line between the first click and the second click"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:68
+msgid "Empty Rectangle"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:69
+msgid "![Emptyrectangle.png]({static}/images/pictos/emptyrectangle.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:71
+msgid "Draw a rect between the first click and the second"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:73
+msgid "Filled Rectangle"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:74
+msgid "![Filledrectangle.png]({static}/images/pictos/filledrectangle.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:76
+msgid "Same as empty Rectangle, but the rectangle is filled."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:78
+msgid "Empty Ellipse"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:79
+msgid "![Emptyellipse.png]({static}/images/pictos/emptyellipse.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:81
+msgid ""
+"It draws an empty ellipse which is centered on the first left-click\n"
+"position."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:83
+msgid "Filled Ellipse"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:84
+msgid "![Filledellipse.png]({static}/images/pictos/filledellipse.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:86
+msgid "same as empty ellipse, but it is filled"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:88
+msgid "Text"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:89
+msgid "![State.png]({static}/images/pictos/state.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:91
+msgid ""
+"Select the text tool. You need to set text in the text field. Then, by\n"
+"clicking on the map the text is drawn where you click. You can move the\n"
+"cursor to put it in the most accurate place. Then, When you release the\n"
+"mouse button, the text is written into the map."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:93
+msgid "Hand"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:94
+msgid "![Hand.png]({static}/images/pictos/hand.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:96
+msgid ""
+"The hand tool allows you to move the map when it is bigger than its\n"
+"windows. You have to click end move the mouse to start moving. When you\n"
+"are at the right place or at the end of your motion you can release the\n"
+"mouse button. It is also working on Image (if you have scrollbar on\n"
+"images)."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:98
+msgid "Line width"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:101
+msgid ""
+"This tool is dedicated to paint straight line from the first click to\n"
+"the second. You may select the width of the line thanks to the size\n"
+"selector."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:103
+msgid "Move PC/NPC"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:104
+msgid "![MoveNpc.png]({static}/images/pictos/moveNpc.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:106
+msgid ""
+"Thanks to this tool, you may move NPC or PC tokens on maps. To do so,\n"
+"left-click on the token, keep the mouse button pressed and move to the\n"
+"wanted place before release the mouse button. At this moment, the same\n"
+"motion happens to all users. By right-clicking on the token, the\n"
+"orientation sign appears or disappears. When it appears you can move te\n"
+"mouse to the right place."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:108
+msgid "Change state PC/NPC"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:109
+msgid "![State2.png]({static}/images/pictos/state.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:111
+msgid ""
+"With left-clicks,this tool triggers the current state of Npc token to\n"
+"change to the next state. Its color changes, and a tooltip describes its\n"
+"state."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:115
+msgid "Healthy"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:118
+msgid "Injured"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:121
+msgid "wounded"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:124
+msgid "Dead"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:127
+msgid "sleepy"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:130
+msgid "bewitched"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:134
+msgid ""
+"The right-click allows you to set the orientation of the character. To\n"
+"do so, right-click and move the mouse to the point you want."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:136
+msgid "Add NPC"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:137
+msgid "![Add.png]({static}/images/pictos/add.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:139
+msgid ""
+"Select the tool, click on map, character token is added to the map. The\n"
+"token color is the current selected one. The name of the NPC is the\n"
+"composition between the current text and current number. You may change\n"
+"the size of the token. The number is automatically incremented."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:141
+msgid ""
+"Please remember that it is impossible to add NPC while specific color\n"
+"are selected."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:143
+msgid "Remove NPC"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:144
+msgid "![Remove.png]({static}/images/pictos/remove.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:146
+msgid ""
+"It allows to delete NPC token on map. Select the tool and then click on\n"
+"NPC token. The token disappears. This tool has no effect on PC token."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:148
+msgid "reset NPC counter"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:149
+msgid "![Chronometre.png]({static}/images/pictos/chronometre.png)"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:151
+msgid "You can reset the NPC number to be 0."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:153
+msgid "NPC number"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:154
+msgid ""
+"It is the number of the next NPC. The number goes to 99 and then start\n"
+"again from 0"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:156
+msgid "NPC name"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:157
+msgid "Text field where you may specify the NPC name."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:159
+msgid "NPC size"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:160
+msgid "Select the size of NPC token on the current map."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:162
+msgid "Fog of war"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:163
+msgid ""
+"Fog of war is managed as specific color.\n"
+"Paint with this color make appear the fog of war."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:165
+msgid "character tokens"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:166
+msgid ""
+"Token represents the position of character.\n"
+"It coul"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:168
+msgid "Technical details"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:169
+msgid ""
+"In any part of role playing game, there comes a time when the GM take a\n"
+"piece of paper to draw a map, scribble a quick diagram of a mechanism,\n"
+"or pull out from behind his screen a beautiful photocopied map which he\n"
+"tries to hide 80% with his hands. Maps in Rolisteam are there to fulfill\n"
+"this function. You will be able to draw your maps show of hands, or\n"
+"import them from your picture library, or even prepare your maps in\n"
+"advance, by annotating and hiding areas out of sight of PC. You will be\n"
+"able to make maps from picture files (JPEG, PNG, BMP), on which you can\n"
+"draw and add characters."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:171
+msgid ""
+"In general terms the map can be considered as the superposition of three\n"
+"layers:"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:175
+msgid "the background layer is either an picture or a solid color (if you"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:176
+msgid "create an empty map);"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:179
+msgid "you can draw on the medium layer (and erase your annotations using"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:180
+msgid "the color erase) without affecting the bottom layer;"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:183
+msgid "the upper layer will hide the other two (using the color masking /"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:184
+msgid "unmasking)."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:188
+msgid ""
+"The map windows are recognizable by their workspace icon. Only the GM\n"
+"can open maps. There are three ways for this to proceed:"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:192
+msgid "You can create an emtpy map of solid color, by clicking New map void"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:193
+msgid "in the File menu. You can then specify the name of the map, its size"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:194
+msgid "and background color. Then the new map will open for all players."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:197
+msgid "you can create a map from an picture file (JPEG, PNG or BMP) by"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:198
+msgid "clicking Open from the File menu, and selecting an picture. The"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:199
+msgid "picture is then transferred to the players and a new map is created,"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:200
+msgid "at the dimensions of the picture. If you prefer that the map appears"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:201
+msgid "hidden to players, simply open the map using Open map and hide from"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:202
+msgid "the File menu and selecting the picture file."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:205
+msgid "You can also open a previously saved map with Rolisteam , by"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:206
+msgid "clicking Open on the File menu map and selecting a map file (. PLA)."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:207
+msgid "The map is then transmitted as it is to other players. Note that"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:208
+msgid "when saving map, the PCs are replaced with NPCs (who wear the number"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:209
+msgid "0), you will have to put the characters of the players instead of"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:210
+msgid "NPCs. There you have the possibility to hide the entire map,"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:211
+msgid "regardless of masking information already on it, by opening it with"
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:212
+msgid "Open Plan and hide."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:216
+msgid ""
+"Once the map is open, you can draw on it using the drawing tools in the\n"
+"toolbar. You can also add NPC again thanks to the toolbar and bring up\n"
+"the PCs by checking the appropriate boxes in the list of users. The GM\n"
+"also has the ability to hide certain parts of the map using the special\n"
+"color mask that can be used with any drawing tool. The area covered\n"
+"becomes opaque for the players, while remaining transparent to the GM.\n"
+"The map is unmasked with the unmasking special color."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:218
+msgid ""
+"You can save a map in its actual state by clicking Save from the File\n"
+"menu. In the saved file the PCs are transformed into NPC: they keep the\n"
+"same name, the same color and wear the number 0. This transformation\n"
+"opens the map even if there is actually not all the players that were at\n"
+"the backup. A map can also be saved as part of a scenario (scenario Save\n"
+"from the File menu). When the GM backups a scenario, Rolisteam creates\n"
+"a. SCE containing all maps and pictures currently open and the notes of\n"
+"the user. At the opening of a scenario maps and pictures contained in it\n"
+"are sent to all connected players, and the notes of the GM are updated."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:220
+msgid ""
+"As with other windows in the workspace, the maps may be closed, which\n"
+"has the only consequence to hide its window. To show the map again you\n"
+"only have to click on its title from the Window menu. If you want to\n"
+"remove the map for the current game, ie it is permanently closed to all\n"
+"players, you must click Close map/picture from the File menu. The map\n"
+"disappears for all users. Only the GM can close down a map."
+msgstr ""
+
+#: /tmp/tmpps0sl7ep.md:222
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/images.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/vectorialMap.html\">Next</a></p>"
+msgstr ""

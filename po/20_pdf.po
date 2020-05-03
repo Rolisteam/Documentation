@@ -1,0 +1,95 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpa1ic7_jk.md:0
+msgid "Pdf Viewer"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:1
+msgid "Rolisteam (since 1.9) is able to open and display **PDF** file."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:3
+msgid "Open"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:4
+msgid ""
+"Open up pdf file is easy. Just click on `file > open > PDF`.\n"
+"Then select your file on your computer."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:6
+msgid "Drag and drop"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:7
+msgid ""
+"Just drag and drop any **PDF** file into **Rolisteam** then the file is "
+"displayed."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:9
+msgid "Share PDF"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:10
+msgid ""
+"**Rolisteam** provides PDF sharing features. You can share the whole "
+"document or just the current page. Be careful, sharing a PDF can be really "
+"long with heavy file."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:12
+msgid "Crop the page and share"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:13
+msgid ""
+"You can crop the current page to get the image or map you need. Then you "
+"share it as image or as item in vmap."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:15
+msgid "Extract PDF content as Image"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:16
+msgid "A new image window appears and the whole group sees the image."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:18
+msgid "Extract PDF content as VMap"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:19
+msgid "A new vectorial map appears. The map contains the cropped image as one item."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:21
+msgid "Limitations"
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:22
+msgid ""
+"Due to the technology behind this feature, users may experiment some "
+"troubles with huge pdf (heavier than 140MB)."
+msgstr ""
+
+#: /tmp/tmpa1ic7_jk.md:24
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/webview.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/diceroller.html\">Next</a></p>"
+msgstr ""

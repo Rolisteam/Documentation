@@ -1,0 +1,138 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpi_gf3007.md:0
+msgid "![Players list]({static}/images/tuto/18_playerlist_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:2
+msgid ""
+"This panel lists all connected players and their characters.  \n"
+"The first player on the list is always the local player (you).  \n"
+"The GM is indicated by a darker background (on standard look and feel).\n"
+"The first level of names are players.\n"
+"Player can have many characters."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:4
+msgid "Permission"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:5
+msgid ""
+"**GM** can change name of anyone (players and characters).\n"
+"**Player** can only edit his player and his characters."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:7
+msgid "Change character/player name"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:10
+msgid "Double-click on name you want to change.  "
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:13
+msgid "Start editing the cell."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:16
+msgid "Press `Enter` to validate"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:20
+msgid "Change character/player color"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:21
+msgid "Double-click on the color, a color selector dialog appears.  "
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:23
+msgid "Contextual menu"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:24
+msgid "![menu]({static}/images/panel/Menu_character_en_020.jpg)"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:26
+msgid "Change the avatar"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:27
+msgid ""
+"Rigth-click on character, Select `Set Avatar…`.  \n"
+"A file selector dialog appears. Use it to select your avatar `*.jpg, *png, "
+"*.bmp`.  "
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:29
+msgid "Add character"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:30
+msgid ""
+"Any player may add character from the [profile connection "
+"dialog]({filename}03_firststeps.md)\n"
+"At any moment, players can add character.  \n"
+"Click on `Add PC` (`Add NPC` for GM).  \n"
+"A dialog box appears.  \n"
+"Enter the character name in the first field.  \n"
+"Eventually change the color to represent it on maps and in chats by "
+"clicking on the colored button."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:32
+msgid "Remove characters"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:33
+msgid ""
+"Click on the character.  \n"
+"then click on `Remove PC` (or `Remove NPC` for GM)"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:35
+msgid "Character on map"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:36
+msgid ""
+"To put character on map, just check character.\n"
+"Players are only able to put their own characters on map.\n"
+"The GM may add or remove all the characters.  \n"
+"Token appears on the map center."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:38
+msgid "Uncheck it to remove it from map."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:40
+msgid "Character on VMAP"
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:41
+msgid ""
+"Just drag the character from *List of players* to the [vectorial "
+"map]({filename}17_VectorialMap.md)."
+msgstr ""
+
+#: /tmp/tmpi_gf3007.md:43
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/events.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/chatting.html\">Next</a></p>"
+msgstr ""

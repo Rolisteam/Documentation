@@ -1,0 +1,182 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpk6fzlbof.md:0
+msgid ""
+"You want to help translating **Rolisteam** but you are a bit lost. \n"
+"Don't worry, just [contact us]({filename}26_contactUs.md)."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:2
+msgid "Translation"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:3
+msgid "Rolisteam or RCSE"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:4
+msgid ""
+"If you want to help to translate rolisteam. Please take a look at :\n"
+"[https://www.transifex.com/projects/p/rolisteam/](https://www.transifex.com/"
+"projects/p/rolisteam/)"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:8
+msgid "Create an account (or use your existing one)"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:11
+msgid "Make new language resquest in rolisteam project."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:15
+msgid ""
+"Then, I will create the new langage in rolisteam and set your account as\n"
+"translator for this language. After this step, you will be able to\n"
+"translate rolisteam through the transifex web site. You may download you\n"
+"translation and ask rolistem to load it."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:17
+msgid "Documentation"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:18
+msgid ""
+"Translated documentation is really helpful and it just requires few steps "
+"to work autonomously.\n"
+"First, learn how to write in "
+"[markdown](https://en.wikipedia.org/wiki/Markdown)."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:20
+msgid ""
+"Secondly, it is important to use [Git "
+"hub](https://github.com/Rolisteam/Documentation)."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:24
+msgid "Create a [github account](https://github.com)"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:27
+msgid ""
+"[Fork](https://github.com/Rolisteam/Documentation#fork-destination-box) the "
+"documentation."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:30
+msgid ""
+"Modify the documentation inside your git repository. Github provides "
+"preview on markdown file."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:33
+msgid "Make pull request to share your work."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:37
+msgid ""
+"In details, the second step will create a copy of the documentation into "
+"your own github account.\n"
+"So you have permission to do whatever you want on the documentation: fix "
+"it, improve it and so on.\n"
+"When the work is finished, you can create a pull request from your "
+"documentation copy to rolisteam's documentation. Then, modifications are "
+"reviewed. If they look good. The pull request is accepted and your "
+"modification are now integrated inside the official documetation."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:39
+msgid "Translate the documentation in new language"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:40
+msgid "Do the first three steps above and those following:"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:44
+msgid ""
+"Create new directory inside `content\\pages` and name it with the [639-1 "
+"language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:47
+msgid ""
+"Dupplicate all the page, pay attention to change the first four lines of "
+"each file."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:50
+msgid "Translate files"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:53
+msgid "Make pull request to share your work"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:57
+msgid "Generated the documentation"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:58
+msgid ""
+"The documentation is generated in html thank of "
+"[Pelican](https://blog.getpelican.com/)."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:62
+msgid "Install it"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:65
+msgid "Get the documentation project:  "
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:66
+msgid "`clone https://github.com/Rolisteam/Documentation.git`"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:67
+msgid "Adapt the url to your github account if needed."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:70
+msgid "Change project configuration to adapt it to your installation of Pelican."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:73
+msgid ""
+"Install required plugin and theme to get the exact same aspect of online "
+"**Rolisteam** documentation."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:76
+msgid "Generate html: "
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:78
+msgid "make html"
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:82
+msgid ""
+"It is better to generate the documentation to see the final result. It may "
+"be difficult to set all the required tools. When doing a pull request, "
+"don't forget to tell us that you did not test the generation."
+msgstr ""
+
+#: /tmp/tmpk6fzlbof.md:84
+msgid "[Back]({filename}30_TakePart.md)"
+msgstr ""

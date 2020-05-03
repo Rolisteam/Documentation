@@ -1,0 +1,203 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpxomw65st.md:0
+msgid ""
+"**Rolisteam** provides Unit Converters.\n"
+"Role playing games are full of odd metrics, this panel is here to help in "
+"this case."
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:2
+msgid "![Unit converter]({static}/images/en/unit_convertor.jpg)"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:4
+msgid "Features"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:5
+msgid "Units are divided into categories."
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:9
+#: /tmp/tmpxomw65st.md:83
+msgid "Currency"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:12
+#: /tmp/tmpxomw65st.md:70
+msgid "Temperature"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:15
+#: /tmp/tmpxomw65st.md:31
+msgid "Distance"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:18
+#: /tmp/tmpxomw65st.md:98
+msgid "Mass"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:21
+#: /tmp/tmpxomw65st.md:114
+msgid "Volume"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:25
+msgid ""
+"Each category has several units.\n"
+"Convert unit to a unit from the same category."
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:27
+msgid "how to use it"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:28
+msgid ""
+"Select a category\n"
+"Select the current unit\n"
+"Select the wanted unit\n"
+"Set the quantity to convert\n"
+"Click on convert"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:30
+msgid "Possible convertions"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:32
+msgid "From and to any of those Units:"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:36
+msgid "Meter m"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:39
+msgid "Kilometer km"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:42
+msgid "Decameter dam"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:45
+msgid "Decimeter dm"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:48
+msgid "Hectometer hm"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:51
+msgid "Centimeter cm"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:54
+msgid "Millimeter mm"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:57
+msgid "Inch po"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:60
+msgid "Foot ft"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:63
+msgid "Yard yd"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:66
+msgid "Mile Mile"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:73
+msgid "Celsius °C"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:76
+msgid "Kelvin K"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:79
+msgid "Fahrenheit °F"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:84
+msgid "From **Legend of the Five Rings**:"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:88
+msgid "Koku"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:91
+msgid "bu"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:94
+msgid "Zeni"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:101
+msgid "Gram g"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:104
+msgid "Kilogram kg"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:107
+msgid "Once oz"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:110
+msgid "Pound lb"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:117
+msgid "Cubic Meter m"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:120
+msgid "Cubic feet ft"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:124
+msgid "Expending features"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:125
+msgid ""
+"The units convertor provides a way to add new units and new convertion "
+"rules.\n"
+"Click on this button ![button]({static}/images/pictos/list.png).\n"
+"The convertor changes to this window:"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:127
+msgid "![Unit convertor_screen2]({static}/images/en/set_unit_convertion_rules.jpg)"
+msgstr ""
+
+#: /tmp/tmpxomw65st.md:129
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/namegenerator.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/dicebookmark.html\">Next</a></p>"
+msgstr ""

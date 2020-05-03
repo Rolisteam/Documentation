@@ -1,0 +1,348 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpncp7l8ab.md:0
+msgid "Chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:1
+msgid ""
+"At start, **Rolisteam** adds automatically several chatroom.\n"
+"Every chatrooms are listed in the *Chat messaging* panel.\n"
+"The first one is always the *global* chatroom."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:3
+msgid "![chatrooms]({static}/images/tuto/02_ChatList_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:5
+msgid "Global chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:6
+msgid ""
+"This chatroom brings together everyone. When new person connect to the "
+"server it is automatically added to the global chatroom."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:8
+msgid "One to One chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:9
+msgid ""
+"**Rolisteam** prepares one to one chatrooms. When you want to chat with "
+"only one person is the best way to do it."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:11
+msgid "Display chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:12
+msgid "<!--Two ways to do it:-->"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:16
+msgid "Check the chatroom on the *Chat messaging* panel"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:17
+msgid "<!--* Click on the chatroom name on the `sub-windows` menu.-->"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:21
+msgid "Hide chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:22
+msgid "<!--//Two ways to do it:-->"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:26
+msgid "Uncheck the chatroom on the *Chat messaging* panel"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:27
+msgid "<!--//* Click on the chatroom name on the `sub-windows` menu.-->"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:31
+msgid "Flicking Chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:32
+msgid "Flicking Chatroom (green to red) means there are unread message."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:34
+msgid "Add chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:35
+msgid ""
+"Just click on `Add a chat` and select every one who should attend to this "
+"chatroom.\n"
+"Chatroom may have 1 or several participants."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:37
+msgid "![add chatroom]({static}/images/tuto/15_nouveauChat_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:39
+msgid "Delete chatroom"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:40
+msgid "Select the chatroom to remove and click on `Delete a Chat`."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:42
+msgid ""
+"Enough about the chatroom, lets take a look at what we can do with "
+"ChatWindow."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:44
+msgid "Chatwindow"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:45
+msgid "![images]({static}/images/tuto/25_tchat_commun_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:47
+msgid ""
+"Message starts with its sender's name in the sender's color.\n"
+"Url links are clickable. They open with you default web browser.\n"
+"The top zone displays the conversation and the bottom text zone is the "
+"writing zone."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:49
+msgid "Write message"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:50
+msgid ""
+"Select the bottom zone on chatroom. Then write the text.\n"
+"To send multiline text, paste your text inside the writing zone."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:52
+msgid "Send message"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:53
+msgid "Press `Enter` to send the message."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:55
+msgid "Resend an old message"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:56
+msgid "Press `up` or `down` to navigate in the history of sent messages."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:58
+msgid "Send message with your character"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:59
+msgid ""
+"Change the selected person in the sender list from your player identity to "
+"your character."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:61
+msgid "Send dice command"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:62
+msgid "Start with `!` and the command."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:64
+msgid "Example:"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:67
+msgid "!1d20"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:70
+msgid "Every one in the chatroom sees the result."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:72
+msgid ""
+"To roll secret dice command, start with *&* (instead of !)\n"
+"To display the result only to the GM, start commands with *#* (instead of !)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:74
+msgid ""
+"More details about dice rolls: please read [dice "
+"roller]({filename}21_dice_roller.md) page."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:76
+msgid "Send command"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:77
+msgid "*Chatwindow* supports *emote* command."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:79
+msgid ""
+"Start your text with `/me`.\n"
+"Example:"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:82
+msgid "/me leaves the castle."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:85
+msgid "result (assuming Kallice is the selected person):"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:88
+msgid "Kallice leaves the castle."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:92
+msgid "Save conversation"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:93
+msgid ""
+"Click on ![icons]({static}/images/pictos/chat_save.png)\n"
+"Conversation are saved in *html*."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:95
+msgid "Show contextual menu"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:96
+msgid "![menu]({static}/images/panel/chat_contextual_menu.jpg)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:98
+msgid ""
+"There are two different context in chatwindow.\n"
+"One for writing zone, it is really simple and provides standard text action "
+"(copy, paste etc.)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:100
+msgid "On the conversation zone, there are more features."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:102
+msgid "Timestamps"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:103
+msgid ""
+"Show contextual menu.  \n"
+"Click on `Display time`.  \n"
+"New messages start with time of arrival.  "
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:105
+msgid ""
+"Set this behaviour as default, see "
+"[Preferences]({filename}22_preferences.md) page."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:107
+msgid "Change background color"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:108
+msgid ""
+"Show contextual menu. \n"
+"Click on `Background color` \n"
+"Color selector dialog appears.  \n"
+"Select the color.  \n"
+"Click on `Ok`  "
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:110
+msgid "Word Warp"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:111
+msgid ""
+"By default, **Word warp** is enabled.\n"
+"When text is longer than the window width. **Rolisteam** tries to split the "
+"text between two words (a new line instead of space)."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:113
+msgid ""
+"When dice commands with a lot dice are rolled, the result displays no space "
+"between two rolled values. It may cause some slowness.\n"
+"Disable **word wrap** prevent that slowness."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:115
+msgid "Detach the view"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:116
+msgid ""
+"Show contextual menu.\n"
+"Click on `Detach the view`\n"
+"The *chatwindow* disappears from **Rolisteam** workspace and it appears "
+"somewhere on you screen."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:118
+msgid "Reattach"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:119
+msgid ""
+"Show contextual menu.\n"
+"Click on `Detach the view`\n"
+"The *chatwindow* appears inside **Rolisteam** workspace."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:121
+msgid "Change Font size"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:122
+msgid ""
+"Press `Ctrl+mouse wheel`.\n"
+"The text size changes directly."
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:124
+msgid "To make this parameter permanent, see [theme]({filename}23_look_and_feel.md)"
+msgstr ""
+
+#: /tmp/tmpncp7l8ab.md:126
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/connected.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/resources.html\">Next</a></p>"
+msgstr ""

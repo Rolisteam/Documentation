@@ -1,0 +1,287 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpxlodbc3o.md:0
+msgid ""
+"Please discuss with us, so we can share the effort to make new features and "
+"your work will fulfill **Rolisteam** needs and goals.\n"
+"Please take a look at our "
+"[roadmap](https://docs.google.com/spreadsheets/d/18jDGViuOm6KjqEAumW1RU2"
+"qccQQ4-TxiXPtAg0X_M2o/edit#gid=900739263)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:2
+msgid "Get Source code"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:3
+msgid "The way to get source code changes given your objectives."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:5
+msgid "I want to compile stable version"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:6
+msgid ""
+"To get the source, just [download the zip "
+"archive](http://www.rolisteam.org/download.html)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:8
+msgid "I want to take part in **Rolisteam** development"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:9
+msgid "Git"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:10
+msgid ""
+"**Rolisteam** manages its source code with **Git**.\n"
+"So, first learn how to use it and install it.\n"
+"[Git](https://git-scm.com/)\n"
+"[Learn Git](https://try.github.io/levels/1/challenges/1)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:12
+msgid ""
+"The rest of the documentation git commands are given as command line but "
+"there are many GUI application to manage git repository."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:14
+msgid "Github"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:15
+msgid "Github is a platform which stores rolisteam's git repository."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:17
+msgid ""
+"Those following steps are not mandatory but it definitely speeds up "
+"integration.\n"
+"To explain it a bit, those steps create a copy of **Rolisteam** and its "
+"dependencies into your github account.\n"
+"Then, it allows you to do whatever you want.\n"
+"To share your work, just make a pull request (github does it very well)."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:21
+msgid "Create your [github account](https://github.com)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:24
+msgid "Go to [Rolisteam organisation page](https://github.com/Rolisteam)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:27
+msgid ""
+"Fork ![rolisteam]({static}/images/pictos/fork.png) the wanted project and "
+"its dependencies."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:30
+msgid ""
+"**Rolisteam** project is the source code of **Rolisteam** and "
+"**Roliserver**. It needs **DiceParser**, **RCharacterSheet**, **RPlugins** "
+"and **common**"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:33
+msgid ""
+"**RCSE** project is the charactersheet editor. Its needs "
+"**RCharacterSheet**."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:36
+msgid "**Dice** brings together all tools to roll dice."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:41
+msgid ""
+"Then those git repositories should appear in your github account: "
+"https://github.com/Your\\_Login"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:44
+msgid ""
+"For **Rolisteam** and **rcse**, it is better to change the file "
+"`.gitmodules` before clone the repository:  "
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:45
+msgid ""
+"<pre>\n"
+"[submodule \"client/diceparser\"]\n"
+"  path = client/diceparser\n"
+"  url = https://github.com/Rolisteam/DiceParser.git\n"
+"  pushURL = git@github.com:Rolisteam/DiceParser.git\n"
+"[submodule \"client/widgets/gmtoolbox\"]\n"
+"  path = client/widgets/gmtoolbox\n"
+"  url = https://github.com/Rolisteam/RPlugins.git\n"
+"  pushURL = git@github.com:Rolisteam/RPlugins.git\n"
+"[submodule \"client/charactersheet\"]\n"
+"  path = client/charactersheet\n"
+"  url = https://github.com/Rolisteam/RCharacterSheet.git\n"
+"  pushURL = git@github.com:Rolisteam/RCharacterSheet.git\n"
+"[submodule \"client/common\"]\n"
+"  path = client/common\n"
+"  url = https://github.com/Rolisteam/common.git\n"
+"  pushURL = git@github.com:Rolisteam/common.git\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:49
+msgid ""
+"Change every **Rolisteam** by **your github username**.  \n"
+"This file describes where git should retrieve dependencies (submodules). We "
+"make sure it retrieves them from your github account.\n"
+"Make this only if you plan to work on dependencies too."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:53
+msgid ""
+"For **Rcse** makes the same operation. The `.gitmodules` file is shorter "
+"than **Rolisteam** one."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:56
+msgid "Install git on windows or [github desktop](https://desktop.github.com/)"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:59
+msgid "Clone **rolisteam**:  "
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:60
+msgid "`git clone --recursive git@github.com:Your_login/rolisteam.git`"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:64
+msgid "Congrats, the **Rolisteam** source code is on your computer."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:66
+msgid "I have a github account but I don't want to fork so many repositories"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:67
+msgid ""
+"Then, just clone the project from the main repository  \n"
+"`git clone --recursive https://github.com/Rolisteam/rolisteam.git`"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:69
+msgid ""
+"The source code comes on your computer.\n"
+"You won't be able to integrate your work in **Rolisteam**, until we give "
+"you permission to do so.\n"
+"To do it, we have to accept you in **Rolisteam** organization. [Give "
+"us]({filename}26_contactUs.md) your github username."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:71
+msgid "Of course, you can send us patch. But it's less pratical this way."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:73
+msgid "I don't want to create github account"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:74
+msgid ""
+"Then, just clone the project from the main repository\n"
+"    > git clone --recursive https://github.com/Rolisteam/rolisteam.git"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:76
+msgid "Compile **Rolisteam**"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:77
+msgid "At this step, you are ready to compile."
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:79
+msgid ""
+"Open `rolisteam.pro` with `qtcreator`. Let qtcreator loads the project and "
+"then click on `Build (Ctrl+b)` and `run (F5)`.\n"
+"**Rolisteam** starts.  "
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:81
+msgid "Otherwise, these commands can be helpful:"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:83
+msgid ""
+"<pre>\n"
+" cd rolisteam\n"
+" lrelease rolisteam.pro\n"
+" qmake -r rolisteam.pro\n"
+" make\n"
+"</pre>\n"
+"(make sure to use qt5 qmake)\n"
+"\n"
+"\n"
+"## start rolisteam\n"
+"\n"
+"In terminal, just run:\n"
+"`> rolisteam`\n"
+"\n"
+"It may be possible to find rolisteam on graphical user menu, depending of "
+"your system.\n"
+"\n"
+"Qt creator is able to start it.\n"
+"\n"
+"## FAQ\n"
+"### Having trouble with Qt4 and Qt5\n"
+"If qt4 and qt5 are both installed on your computer, that may cause "
+"troubles.\n"
+"While you compile Rolisteam v1.7.X (or higher), you must use qt5.\n"
+"So you may need to run:\n"
+"<pre>\n"
+"  lrelease-qt5 rolisteam.pro\n"
+"  qmake-qt5 rolisteam.pro\n"
+"  make\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:85
+msgid "How to make the installer"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:88
+msgid "Copy/paste rolisteam.app into packaging/MacOs"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:91
+msgid "Run installZlib.sh"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:94
+msgid "appdmg  nodedmg.json rolisteam_v1.7.1-MacOsX_setup.dmg"
+msgstr ""
+
+#: /tmp/tmpxlodbc3o.md:98
+msgid ""
+"<pre>\n"
+"install_name_tool -change \"/usr/lib/libz.1.dylib\" "
+"\"@executable_path/../Frameworks/libz.framework/libz.1.dylib\" rolisteam\n"
+"\n"
+"appdmg  ../../rolisteam/packaging/MacOS/nodedmg.json "
+"rolisteam_v1.7.1-MacOsX_setup.dmg\n"
+"</pre>"
+msgstr ""

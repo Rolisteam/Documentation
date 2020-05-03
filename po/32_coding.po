@@ -1,0 +1,783 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpbclyhju7.md:0
+msgid ""
+"Please take a look here to compile it on "
+"[windows]({filename}27_compileWindow.md), on "
+"[Linux]({filename}29_compileLinux.md), on "
+"[MacOsX]({filename}28_compileMacOs.md).\n"
+"The page should have all needed information."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:2
+msgid ""
+"Don't hesitate to contact us to speak about your intensions. So we can "
+"support your effort."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:4
+msgid ""
+"To know what to do on **Rolisteam**, there is a [development "
+"roadmap](https://docs.google.com/spreadsheets/d/18jDGViuOm6KjqEAumW1RU2"
+"qccQQ4-TxiXPtAg0X_M2o/edit#gid=769324568)."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:6
+msgid "Coding Rules To respect"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:7
+msgid ""
+"This page is made for helping rolisteam developers to improve the quality "
+"of their work. \n"
+"So, We need to respect few rules to prevent any troubles. Please, read this "
+"attentively!"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:9
+msgid "Rule 0"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:10
+msgid "Write it in English!"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:12
+msgid "Style"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:13
+msgid "Rule 1.1: class"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:14
+msgid ""
+"Each word of class name, structures, typedef and enum identifier must start "
+"with uppercase letter. \n"
+"Example: *class GameServer*"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:16
+msgid "Rule 1.2: variable"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:17
+msgid ""
+"The first word starts with lowercase letter. All other words start with "
+"uppercase letter.\n"
+"Example: *int documentCount=0*"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:19
+msgid ""
+"<font color=\"f00\">Do not use the "
+"[http://en.wikipedia.org/wiki/Hungarian_notation Hungrarian notation]</font>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:21
+msgid "Rule 1.3 : template"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:22
+msgid ""
+"No templates should be implemented in the project. If you have no choice, "
+"discuss it on the mailing list first."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:24
+msgid "Rule 1.4 : member"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:25
+msgid ""
+"All class members must have `m_` as prefix.  \n"
+"Example: _int m_clientId = 0_"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:27
+msgid "Rule 1.5 : global variable"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:28
+msgid ""
+"Please, do not use global variables. If you can't do by another way use the "
+"`g_` prefix."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:30
+msgid "Rule 1.6 : line length"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:31
+msgid "Source lines should be equal or lesser than 180 characters."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:33
+msgid "Rule 1.7 : readability"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:34
+msgid ""
+"One instruction per line.\n"
+"One new line between two functions."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:36
+msgid ""
+" void foo()\n"
+" {\n"
+" }\n"
+"\n"
+" void bar()\n"
+" {\n"
+" }"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:37
+msgid "Rule 1.8 : indentation"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:38
+msgid "Indentation step is four spaces. Do not use \"tabs\"."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:40
+msgid "Rule 1.9 : space"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:43
+msgid "Assignment:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:44
+msgid ""
+"It must have a space between the left variable and the assignment sign, "
+"same thing between the right variable.  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:45
+msgid "var1 = var2  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:46
+msgid "var1 += var2  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:47
+msgid "var1 *= var2  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:50
+msgid "Unary operators:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:51
+msgid "No space.  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:52
+msgid "*cp  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:53
+msgid "&cp  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:54
+msgid "-n  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:57
+msgid "Bi/ternary operators:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:58
+msgid ""
+"All binary and ternary operators must have space around them, except for "
+"the semicolon in a for."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:59
+msgid "if (a % 10)  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:60
+msgid "return (cp ? cp : DEFAULT_STRING)  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:61
+msgid "for (int i = 0, int j = -1; i++; j >= 42)  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:64
+msgid "Bracket:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:65
+msgid ""
+"It must have a space between a keyword and a bracket. No space between a "
+"function name and a bracket."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:66
+msgid "if (truc)  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:67
+msgid "while (machin)  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:68
+msgid "int fonction();  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:69
+msgid "int Classe::method(char toto, const std::string &tutu);  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:72
+msgid "Function parameters:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:73
+msgid "It must have a space after the comma, no space before."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:76
+msgid "Chevron:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:77
+msgid "Same as bracket.  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:78
+msgid "int toto = static_cast<int>(5.4);  "
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:82
+msgid "Rule 1.10 : relevance"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:83
+msgid "Please, use relevant identifier names. And use full English word."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:85
+msgid "Rule 1.11 : Public, protected and private section"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:86
+msgid ""
+"The class definition start with the public section, followed by the "
+"protected one and at last, the private one. \n"
+"Example:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:88
+msgid ""
+"<pre>\n"
+" class Person\n"
+" {\n"
+" public:\n"
+"    Person();\n"
+" protected:\n"
+"    // Somethings..\n"
+" private:\n"
+"   QString m_name;\n"
+" }\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:90
+msgid "Rule 1.12 : Comments"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:91
+msgid ""
+"All Comments are one a line by themselves. \n"
+"Example:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:93
+msgid ""
+"<pre>\n"
+" int result = rand(); //bad\n"
+" //good\n"
+" int result = rand();\n"
+"</pre>\n"
+"### Rule 1.13 : instruction block\n"
+"The braces must be placed in the same column, on separate lines directly "
+"before and after the block. (Allman/BSD style)\n"
+"Example:\n"
+"<pre>\n"
+" if (varName  name)\n"
+" {\n"
+" }\n"
+" else\n"
+" {\n"
+" }\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:95
+msgid "Rule 1.14 : Qt"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:96
+msgid ""
+"Use Qt's classes as much as you can. Qt provides container classes, so use "
+"them.\n"
+"Do not use C-style code. Rolisteam is a Qt/C++ application: no C-array, use "
+"QList or QVector instead."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:98
+msgid "Rule 1.15: Other libraries"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:99
+msgid ""
+"No libraries should be included in the project. If you have no choice, "
+"discuss it on the mailing list first.\n"
+"Any third part library shoult be cross-platform."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:101
+msgid "Code Size and Complexity"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:102
+msgid "Rule 2.1 : function size"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:103
+msgid "Any one function must contain no more than 200 instruction lines."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:105
+msgid "Rule 2.2 : Function path"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:106
+msgid "Any one function can contain 20 different path or less."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:108
+msgid "Example: this function has two different path."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:110
+msgid ""
+"<pre>\n"
+" void DrawWindows::DrawScene\n"
+" {\n"
+"    if(this->visible())\n"
+"    {\n"
+"         //do something\n"
+"    }\n"
+"    else\n"
+"    {\n"
+"        //do something else\n"
+"    }\n"
+" }\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:112
+msgid "Header Files"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:113
+msgid "Rule 3.1 : misc"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:114
+msgid ""
+"Header files contain the declarations only.\n"
+"Do not include unnecessary files."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:116
+msgid "Rule 3.2 : multiple inclusions"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:117
+msgid "Header files must prevent multiple inclusions of themselves."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:119
+msgid "Rule 3.4 : forward declarations"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:120
+msgid ""
+"Use forward declarations for any member which is either a reference or "
+"pointer."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:122
+msgid "Rule 3.5 : naming files"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:123
+msgid "Hearder files have the \".h\" extension."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:125
+msgid "Rule 3.6 : license text"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:126
+msgid "Header files must start with license instructions."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:128
+msgid "Rule 3.7 : #include"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:129
+msgid ""
+"System include first, personal include after.\n"
+"Include must be in alphabetical order."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:131
+msgid ""
+"<pre>\n"
+" #include <bar>\n"
+" #include <foo>\n"
+" #include \"barbar.h\"\n"
+" #include \"foofoo.h\"\n"
+"</pre>\n"
+"## Class files\n"
+"\n"
+"### Rule 4.1 : constructor\n"
+"The first function definitions have to be the constructors (the default in "
+"first).\n"
+"Followed by the destructor. \n"
+"\n"
+"### Rule 4.2 : naming files\n"
+"Class files have the .cpp extension and they have to keep the same name "
+"that the header file.\n"
+"File are written with lowercase letters, because it's the default behavior "
+"of Qt Creator.\n"
+"Example:  \n"
+"class Person  \n"
+"person.h  \n"
+"person.cpp  \n"
+"\n"
+"### Rule 4.3 : license text\n"
+"cpp files must start with license instructions.\n"
+"\n"
+"## Comments\n"
+"\n"
+"### Rule 5.1 : Doxygen \n"
+"Each functions must be commented in the header file. Please, use Doxygen "
+"Tags as follow:\n"
+"\n"
+"<pre>\n"
+" /\\*\\*\n"
+"  \\* @brief Hide an internal window.\n"
+"  \\* \n"
+"  \\* @param windowHandle the identifier of the window to be hide.\n"
+"  \\* @return Whether or not the windows was successfully hidden.\n"
+"  \\*/\n"
+" bool Workspace::HideWindows(int windowHandle)\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:133
+msgid "PS: Add @param line per parameter."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:135
+msgid "Rule 5.2 : class"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:136
+msgid ""
+"Each class have a comment section as follow:\n"
+"Example:"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:138
+msgid ""
+"<pre>\n"
+" /\\*\\*\n"
+"  \\* @brief Manage the workspace\n"
+"  \\* @date 01/01/2010\n"
+"  \\*/\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:140
+msgid "Rule 5.3 : informations for others"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:141
+msgid ""
+"Feel free to add bug, warning or Todo items, in the class/function comment "
+"section."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:143
+msgid "Example :"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:147
+msgid "@bug SegFault when ...."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:150
+msgid "@warning Make sure ...."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:153
+msgid "@todo Refactoring in two functions."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:157
+msgid "Example"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:158
+msgid "Keep in mind: comments in header file explain \"what the class does\""
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:160
+msgid ""
+"<pre>\n"
+" /**************************************************************************"
+"*\n"
+" *    Copyright (C) 2007 by Romain Campioni                  *\n"
+" *    Copyright (C) 2009 by Renaud Guezennec                             *\n"
+" *                                                                         "
+"*\n"
+" *                                                                         "
+"*\n"
+" *   rolisteam is free software; you can redistribute it and/or modify     "
+"*\n"
+" *   it under the terms of the GNU General Public License as published by  "
+"*\n"
+" *   the Free Software Foundation; either version 2 of the License, or     "
+"*\n"
+" *   (at your option) any later version.                                   "
+"*\n"
+" *                                                                         "
+"*\n"
+" *   This program is distributed in the hope that it will be useful,       "
+"*\n"
+" *   but WITHOUT ANY WARRANTY; without even the implied warranty of        "
+"*\n"
+" *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         "
+"*\n"
+" *   GNU General Public License for more details.                          "
+"*\n"
+" *                                                                         "
+"*\n"
+" *   You should have received a copy of the GNU General Public License     "
+"*\n"
+" *   along with this program; if not, write to the                         "
+"*\n"
+" *   Free Software Foundation, Inc.,                                       "
+"*\n"
+" *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             "
+"*\n"
+" ***************************************************************************"
+"/\n"
+" #ifndef DISPLAY_DISK_H\n"
+" #define DISPLAY_DISK_H\n"
+" #include <QWidget>\n"
+" /**\n"
+"  *\n"
+"  * @brief Display a disk\n"
+"  * @version 1.0\n"
+"  * @date 10/01/2009\n"
+"  *                                                     \n"
+"  */\n"
+" class DisplayDisk : public QWidget\n"
+" {\n"
+"    Q_OBJECT\n"
+"    public :\n"
+"        /**\n"
+"         * @brief Constructor \n"
+"         * \n"
+"         * @param parent its parent widget\n"
+"         * @param fill the disk must be filled or not.\n"
+"         * @param minimum set the minimum diameter\n"
+"         */\n"
+"        DisplayDisk(QWidget *parent = 0, bool fill = true, int minimum = "
+"1);\n"
+"    public slots :\n"
+"        /**\n"
+"         * @brief Change the diameter of the disk and call to redraw it\n"
+"         * \n"
+"         * @param newDiameter the new diameter\n"
+"         */\n"
+"        void changeDiameter(int newDiameter);\n"
+"    protected:\n"
+"        /**\n"
+"         * @brief Overwriting the paintevent. To draw the disk. \n"
+"         * \n"
+"         * @param event gathering many details about the event.\n"
+"         */\n"
+"        void paintEvent(QPaintEvent *event);\n"
+"    private :\n"
+"        /**\n"
+"         * store the current diameter\n"
+"         */\n"
+"        int m_currentDiameter;\n"
+"        /**\n"
+"         * store the minimum diameter\n"
+"         */\n"
+"        int m_minimumDiameter;\n"
+"        /**\n"
+"         * store fill state\n"
+"         */\n"
+"        bool m_fill;\n"
+" };\n"
+" #endif\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:162
+msgid "Rule 5.3 : Cpp files"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:163
+msgid ""
+"Feel free to add comments where you want, to explain complex instructions. "
+"Do not repeat header comment. Use Cpp comment fashion: // cool. Do not use "
+"Doxygen tags in cpp file, except if you notice a bug or any troubles.\n"
+"Keep in mind, comments in cpp files explain \"how it works\"."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:165
+msgid "Commit on Git"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:166
+msgid "Rule 6.1: comment"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:167
+msgid ""
+"All commits have to be sent with description (The description must be in "
+"english).\n"
+"The description must give the list of modifications, the ID for each bug "
+"fixed: ( issue #18) and the name of the branch: 2.0.0 or 1.0.0. It will "
+"help to generate the ChangeLog file.\n"
+"Example:\n"
+"[branch 2.0.0]\n"
+"-Adding feature on the permission management\n"
+"-Fix the issue #24 for crash when cat jumps on the keyboard\n"
+"-Adding Doxygen Tag for the coffeemaker.h and coffeemaker.cpp files"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:169
+msgid "Rules for about creation of new file"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:170
+msgid "Rule 7.1 : header"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:171
+msgid ""
+"add this header to all new files:\n"
+"  <pre>\n"
+"  /*************************************************************************"
+"**"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:175
+msgid "Copyright (C) $year by $name                           *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:178
+#: /tmp/tmpbclyhju7.md:181
+#: /tmp/tmpbclyhju7.md:196
+#: /tmp/tmpbclyhju7.md:211
+msgid "*"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:184
+msgid "rolisteam is free software; you can redistribute it and/or modify     *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:187
+msgid "it under the terms of the GNU General Public License as published by  *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:190
+msgid "the Free Software Foundation; either version 2 of the License, or     *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:193
+msgid "(at your option) any later version.                                   *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:199
+msgid "This program is distributed in the hope that it will be useful,       *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:202
+msgid "but WITHOUT ANY WARRANTY; without even the implied warranty of        *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:205
+msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:208
+msgid "GNU General Public License for more details.                          *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:214
+msgid "You should have received a copy of the GNU General Public License     *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:217
+msgid "along with this program; if not, write to the                         *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:220
+msgid "Free Software Foundation, Inc.,                                       *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:223
+msgid "59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:224
+msgid "***************************************************************************/"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:225
+msgid "</pre>"
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:229
+msgid ""
+"Don't forget to replace:\n"
+"$year by the current year\n"
+"$name by your complete name."
+msgstr ""
+
+#: /tmp/tmpbclyhju7.md:231
+msgid ""
+"PS: please, use the [[Rolisteam_mailing_list|mailing list]] to  discuss "
+"about these rules."
+msgstr ""

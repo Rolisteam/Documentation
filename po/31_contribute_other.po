@@ -1,0 +1,60 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp5wtys5co.md:0
+msgid "Welcome to **Rolisteam** adventure."
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:2
+msgid "Contact us"
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:3
+msgid ""
+"You want to help but don't know how? \n"
+"If your skills or your knowledge don't fit any described kind of "
+"contribution, please [contact us]({filename}26_contactUs.md) and tell us "
+"what you want to do about **Rolisteam**."
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:5
+msgid "Bug Report and Improvement Request"
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:6
+msgid ""
+"It is important to tell us all your thoughts on **Rolisteam**.\n"
+"what you like, what you don't like and what is annoying you.\n"
+"It helps a lot to improve usability."
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:10
+#: /tmp/tmp5wtys5co.md:19
+msgid "[contact us]({filename}26_contactUs.md)"
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:14
+msgid "Promotion"
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:15
+msgid ""
+"Promoting **Rolisteam** is a good way to help us. \n"
+"Promotion can be writing tutorials, documentation, making video, anything.\n"
+"Don't hesitate to contact us to explain your initiative. We will be glad to "
+"help you in anyway we can."
+msgstr ""
+
+#: /tmp/tmp5wtys5co.md:23
+msgid "[Back]({filename}30_TakePart.md)"
+msgstr ""

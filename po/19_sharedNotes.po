@@ -1,0 +1,102 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp83i2gr1d.md:0
+msgid "How to use"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:1
+msgid "Open a new shared editor or load a file [details]({filename}05_menus.md)"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:3
+msgid "![shared editor]({static}/images/en/shared_note_editor.jpg)"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:5
+msgid ""
+"The first panel is the text editor.\n"
+"Write text inside."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:7
+msgid "Permission panel"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:8
+msgid ""
+"The second panel is only visible for the editor's owner.\n"
+"He is in charge of permission management.\n"
+"By default, all the others have no permission.\n"
+"The owner may gives **read** permission.\n"
+"The shared editor appears on player's screen. He can now read the text."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:10
+msgid ""
+"The owner may gives **write** permission.\n"
+"then user may write on the document."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:12
+msgid ""
+"The owner may remove permission.\n"
+"Having no permission means the editor disappears from user's screen."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:14
+msgid "Markdown Syntax"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:15
+msgid "[Markdown syntax](https://en.wikipedia.org/wiki/Markdown)"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:17
+msgid ""
+"**Rolisteam** treats markdown file as any text file. Its syntax highlight "
+"should help you to easily read file.\n"
+"Add titles and subtitles.\n"
+"Markdown file can be transform in any kind of document: webpage, pdf and "
+"many more."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:19
+msgid "A lot of online tools may help you to do that."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:21
+msgid "Limitations"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:22
+msgid ""
+"For the moment only plain text is supported.\n"
+"Rich text is scheduled for future released."
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:24
+msgid "Authors"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:25
+msgid "The shared notes editor is based on cahootseditor. Which was written by"
+msgstr ""
+
+#: /tmp/tmp83i2gr1d.md:27
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/minutes.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/charactersheet.html\">Next</a></p>"
+msgstr ""

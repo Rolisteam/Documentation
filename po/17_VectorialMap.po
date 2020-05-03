@@ -1,0 +1,910 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp3fpco3to.md:1
+msgid ""
+"One of the biggest new features is the vectorial map. The main\n"
+"difference between this new plan and the older maps is that new plans\n"
+"allow to add items and modify them. For example, you can add a rectangle\n"
+"and change its size, rotate it or move it. All items can manage these\n"
+"kinds of transformation."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:3
+msgid "Features"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:6
+msgid "Z Positioning : each item is added above the previous ones."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:9
+msgid "Infinite Plan Size"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:12
+msgid "Zooming Up"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:15
+msgid "Zooming Down"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:18
+msgid "Move the camera on the plan"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:21
+msgid "Amend item on map (Add, upsize, downsize, move, rotate, delete)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:24
+msgid "Management of Character Token"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:27
+msgid "These token can show a picture of character."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:30
+msgid "Add images"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:33
+msgid "These images can be animated (gif…)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:36
+msgid "Management of collision"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:39
+msgid "Item can be placed into set (ground, object or character)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:42
+#: /tmp/tmp3fpco3to.md:190
+msgid "Opacity"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:45
+msgid "others…"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:49
+msgid "Make a new vectorial map"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:50
+msgid ""
+"You just have to go on **file** menu then to go in the **new** submenu\n"
+"then **Vectorial Map** A dialog opens:"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:52
+msgid "![new vmap]({static}/images/tuto/13_newVMap_en.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:56
+msgid "The title appears at the top of the map frame. It makes easier to"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:57
+msgid "find it in your workspace."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:60
+msgid "The background color is used as global color of the map (default:"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:61
+msgid "white)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:64
+msgid "The visibility defines how your players see the map. Hidden means"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:65
+msgid "they see nothing. Fog Of War hides all map's elements (you can amand"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:66
+msgid "the fog to make visible some elements). Visible, all map items can"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:67
+msgid "be seen by the players. You can change the visibility at any moment"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:68
+msgid "in the game)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:71
+msgid "Permission Mode describes which actions players can do. You can"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:72
+msgid "change it at any moment."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:75
+msgid "Grid scheme defines the shape of the grid: ne scheme (no grid),"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:76
+msgid "square grid, hexagonal grid."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:79
+msgid "You can change the Grid color."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:82
+msgid "The size set how many pixels one single grid scheme is."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:85
+msgid "The scale defines in the unit of your choice the size of one grid"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:86
+msgid "scheme."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:90
+msgid "Open Vectorial map"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:91
+msgid ""
+"You have to click on **File &gt; Open &gt; Vectorial Map**. Open file\n"
+"dialog appears. You must find the map on your computer. The extension\n"
+"for vectorial map is **.vmap**."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:93
+msgid "Graphic Item available"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:94
+msgid "Tool box"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:95
+msgid "![toolbox vmap]({static}/images/tuto/ToolBox_009.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:97
+msgid "Color selector"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:98
+msgid ""
+"The first square is the current color. Double-click on it causes the\n"
+"appearance of a color selector dialog. By clicking on the multi-color\n"
+"square, you can select the hue of the current color. You can make it\n"
+"darker or lighter with the last slide bar."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:100
+msgid "Edition Mode"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:101
+msgid "There are three edition modes."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:105
+msgid "Normal to paint on the map"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:108
+msgid "Veil to hide some part of the map with fog of war."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:111
+msgid "Unveil to make visible some part of the map by cutting the fog of"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:112
+msgid "war."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:116
+msgid ""
+"After changing the mode, you just have to use regular painting tools.\n"
+"Given the mode, painting has effect on the right element (map or fog of\n"
+"war)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:118
+msgid "Pen"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:119
+msgid "![pen]({static}/images/pictos/pen.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:121
+msgid ""
+"You can paint line which follow your mouse.\n"
+"The diameter selector defines the width of the line.\n"
+"You can move the item but changing its curve is not supported."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:123
+msgid "Straight Line"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:124
+msgid "![pen]({static}/images/pictos/line.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:126
+msgid ""
+"You must define two points to add straight line to the map: the starting\n"
+"point and the ending point.\n"
+"The diameter selector defines the width of the line.\n"
+"You can move the item and change the position of starting point or\n"
+"ending point."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:128
+msgid "Empty Rectangle"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:129
+msgid "![pen]({static}/images/pictos/emptyrectangle.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:131
+msgid ""
+"You can add empty rectangle on the map.\n"
+"The diameter selector defines the width of the border.\n"
+"You can move the rectangle and change its size by moving its corner."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:133
+msgid "Filled Rectangle"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:134
+msgid "![pen]({static}/images/pictos/filledrectangle.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:136
+msgid ""
+"You can add Filled rectangle on the map.\n"
+"You can move the rectangle and change its size by moving its corner."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:138
+msgid "Empty Ellipse"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:139
+msgid "![pen]({static}/images/pictos/emptyellipse.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:141
+msgid ""
+"You can add empty ellipse on the map.\n"
+"The diameter selector defines the width of the border.\n"
+"You can move the rectangle and change its size by moving its two\n"
+"handles."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:143
+msgid "Filled Ellipse"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:144
+msgid "![pen]({static}/images/pictos/filledellipse.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:146
+msgid ""
+"You can add Filled ellipse on the map.\n"
+"You can move the rectangle and change its size by moving its two\n"
+"handles."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:148
+#: /tmp/tmp3fpco3to.md:361
+msgid "Text"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:149
+msgid "![pen]({static}/images/pictos/text.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:151
+msgid ""
+"Add text element on the map. The text can be changed. The border defines\n"
+"the maximum width of the text. The text is wrapped automatically. The\n"
+"zone height adapts itself given the number of line. It is possible to\n"
+"add blank line manually to improve the readability. The text item\n"
+"manages HTML. To make it possible, you may paste webpage, the formatting\n"
+"is the same or directly you can edit the text thank of the rich text\n"
+"editor.\n"
+"![Text editor]({static}/images/panel/RichTextEditor.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:153
+msgid ""
+"This editor allows modifications of properties of the text: Color, size,\n"
+"font, underline, italic… It supports the copy/paste. You can create a\n"
+"list. It is also possible to edit html code."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:155
+msgid "Handle"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:156
+msgid "![pen]({static}/images/pictos/hand.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:158
+msgid ""
+"This tool allows to catch items on the map and move them. It is also\n"
+"useful to catch control square to make bigger or rotate the item (Ctrl +\n"
+"Mouse motion) It is also possible to move the item the whole map by\n"
+"keeping pressed the Shift pressed and clicking on the map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:160
+msgid "Rule"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:161
+msgid "![pen]({static}/images/pictos/rule.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:163
+msgid ""
+"This tool gets the distance between two points on the map given the\n"
+"current defined scale."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:165
+#: /tmp/tmp3fpco3to.md:350
+msgid "Path"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:166
+msgid "![pen]({static}/images/pictos/path.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:168
+msgid ""
+"Path is several lines. It can be closed and filled (right-click on the\n"
+"path) and each point can be moved individually."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:170
+msgid "Anchor"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:171
+msgid "![pen]({static}/images/pictos/insert-link-2.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:173
+msgid ""
+"It is possible to make a item anchored on another. This defines a\n"
+"parenthood relationship. If A is anchored on B. B is the parent of A. If\n"
+"B is moved, A is moved as well. If A is moved, B does not move."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:175
+msgid ""
+"This feature makes easier any vehicles. You can move the vehicle, which\n"
+"means you move all passengers."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:177
+msgid "Color Picker"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:178
+msgid "![pipette]({static}/images/pictos/pipettecursor.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:180
+msgid "Click on any item. Its color becomes the current color."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:182
+msgid "Diameter Tool"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:183
+msgid ""
+"Many items such as path, empty rectangle, empty ellipse, line and pen\n"
+"use the diamter value to paint itself. The value can not be change\n"
+"dynamically. When the item is created, it reads the value and keep it."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:185
+msgid "NPC"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:186
+msgid "![NPC]({static}/images/pictos/add.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:188
+msgid ""
+"You can add PNJ, you can define the NPC name. The Plus symbol is the\n"
+"tool to add NPC on map. The NPC number est increase after adding NPC on\n"
+"map. It is possible to reset that number by clicking on the counter\n"
+"button."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:191
+msgid ""
+"This tool allows you to define the opacity of the current item. It can\n"
+"be changed dynamically."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:193
+msgid "Tool bar"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:194
+msgid "![tool bar]({static}/images/pictos/)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:196
+msgid "To show/hide the tool bar, you can press F9 key."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:198
+msgid "Background Color"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:199
+msgid "![pen]({static}/images/en/vectorial_map_toolbar.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:201
+msgid "You can change the current color of the map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:203
+msgid "Grid"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:204
+msgid "![pen]({static}/images/pictos/grid.png)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:206
+msgid ""
+"There is all you need to control the grid. First, the button to\n"
+"show/hide the grid. Then, you can chose the grid scheme: no scheme,\n"
+"square or hexagon. if the current scheme is no scheme, the grid will not\n"
+"be visible. You can change the size of grid scheme or its unit."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:208
+msgid "Permission"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:209
+msgid ""
+"The permission defines the action that player can do on the map. There\n"
+"are 3 permission modes."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:213
+msgid "Only GM: in this mode, players have no rights."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:216
+msgid "Character: players can move their character items."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:219
+msgid "All : players can do whatever they want."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:223
+msgid "Visibility"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:224
+msgid "There are 3 visibility mode:"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:228
+msgid "Hidden: all items are hidden. Only the GM can see them all."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:231
+msgid "Fog of war: Item are under the fog of war, the GM can erase the fog"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:232
+msgid "of war to show part of the map (details see edition mode)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:235
+msgid "Visible : all items are visible."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:239
+msgid "Contextual Menu (right-click)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:240
+msgid "![pen]({static}/images/panel/menu_vmap.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:242
+msgid ""
+"From the contextual menu on vectorial map, you can control many aspects "
+"from the map or selected items.\n"
+"All actions are reachable from the menu. At the top of it, there are "
+"actions for selected items.\n"
+"The second part is dedicated to amend properties of map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:246
+msgid "Change current layer."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:249
+msgid "Change the visibility."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:252
+msgid "Zoom in makes items bigger."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:255
+msgid "Zoom out allows you to see more items on the map (they will appear"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:256
+msgid "smaller)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:259
+msgid "Zoom in Max makes items bigger at the maximum value."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:262
+msgid "Zoom normal set the zoom level to 1 meaning no zoom."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:265
+msgid "Zoom out Max makes the scene fit as much as possible the view."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:268
+msgid "Import image from your computer to the map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:271
+msgid "\"Properties\" displays dialog box with parameters for vectorial map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:272
+msgid "You can change parameters from it."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:276
+msgid "SubMenu: Overlapping [Item]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:277
+msgid "![layers]({static}/images/panel/submenu_vmap_overlapping.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:279
+msgid ""
+"Selected Items can be the lowest, the highest, or just lower or higher than "
+"their current position."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:281
+msgid "SubMenu: Rotation [Item]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:282
+msgid "![layers]({static}/images/panel/submenu_vmap_item_rotation.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:284
+msgid "Rotate selected Items (the center of rotation is the item center)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:286
+msgid "SubMenu: Layers [Item]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:287
+#: /tmp/tmp3fpco3to.md:297
+msgid "![layers]({static}/images/panel/submenu_vmap_layer.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:289
+msgid "Put item in a specific layer."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:291
+msgid "SubMenu: Resize [Item]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:292
+msgid "![layers]({static}/images/panel/submenu_vmap_resize.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:294
+msgid "Resize selected items given rules."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:296
+msgid "SubMenu: Layers [Maps]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:299
+msgid "Set the current layer. Only items in this layer can be edited."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:301
+msgid "SubMenu: Visibility [Maps]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:302
+msgid "![layers]({static}/images/panel/submenu_vmap_visibility.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:304
+msgid "Define how players see the map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:306
+#: /tmp/tmp3fpco3to.md:311
+msgid "SubMenu: Roll initiative [Maps]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:307
+#: /tmp/tmp3fpco3to.md:312
+msgid "![layers]({static}/images/panel/submenu_vmap_roll_init.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:309
+msgid "Roll initiative."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:314
+msgid "Unset initiative value."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:316
+msgid "SubMenu: Zoom [Maps]"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:317
+msgid "![layers]({static}/images/panel/submenu_vmap_zoom.jpg)"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:319
+msgid "Zoom in or out."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:321
+msgid "Item"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:324
+msgid "Down puts current item under items below it."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:327
+msgid "Up puts current item above all items which hide it."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:330
+msgid "Bottom puts the current item under all others."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:333
+msgid "Top puts current item above all others."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:336
+msgid "Delete the current item (You can also select an item and press the"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:337
+msgid "key **Del**)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:340
+msgid "Duplicate creates a copy of the current item (same color and size)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:343
+msgid "Rotate allows you to select precisely the angle of rotation."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:346
+msgid "Change the layer where current item belongs to."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:353
+msgid "**Close the path** closes the path geometry (line between the last"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:354
+msgid "point to the first one)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:357
+msgid "**Fill the path** fill the path with its color."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:364
+msgid "**Edit the text…** opens the text editor"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:367
+msgid "**Adapt to content** makes the item to shape itself close to its"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:368
+msgid "content."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:371
+msgid "**Font Size** allows you to increase or decrease the font size."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:375
+msgid "Several Items"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:378
+msgid "**Delete** removes current items supprime (press key **Del**)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:381
+msgid "**Down** puts current items under items below them."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:384
+msgid "**Up** puts current items above items which hide them."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:387
+msgid "**Bottom** puts current items under all others."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:390
+msgid "**Top** puts current items above all others."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:393
+msgid "**Lock up** prevents item to change size."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:396
+msgid "**Rotate** allows you to define the rotation angle precisely on all"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:397
+msgid "current items."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:400
+msgid "**Current layer** set all current items into another layer."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:403
+msgid "**Normalize size** changes the size of the selection to fit one of"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:404
+msgid "these rules: as the smallest, as the biggest, as average or as the"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:405
+msgid "one under the mouse."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:409
+msgid "Layers management"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:410
+msgid ""
+"Layers are set of items. There are dedicated to define interactions you\n"
+"can have with them. We recommend to add first ground items, then to put\n"
+"object items and at the end, add character into the map."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:412
+msgid ""
+"Warning, layers do not manage the overlapping of items. You can control\n"
+"it thank of the contextual menu."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:414
+msgid ""
+"**Each item belongs to one and only one layer**. You can change the\n"
+"layer of item with the contextual menu. You can define the current layer\n"
+"of the map. Which means new items will be added at this layer. By\n"
+"default, it is the ground. You can only edit item from the current\n"
+"layer."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:416
+msgid "To make it simple, it is possible to use only one layer."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:418
+msgid "Ground"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:419
+msgid ""
+"Items belongs to the ground and character token cannot enter in\n"
+"collision with them."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:421
+msgid "Object"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:422
+msgid ""
+"Items inside this layer can enter in collision with character token (if\n"
+"Collision is enable of course)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:424
+msgid "Characters"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:425
+msgid ""
+"Item inside this layer can enter in collision with item from Object\n"
+"layer (if Collision is enable of course)."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:427
+msgid "Fog of war"
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:428
+msgid ""
+"The fog of war can be enable from the toolbar. It hides the map under\n"
+"black screen. This black screen is fully opaque for players but\n"
+"half-transparent for the GM. To modify the fog of war to make appear\n"
+"items, you have to set the proper edition mode and select any tool from\n"
+"the toolbox."
+msgstr ""
+
+#: /tmp/tmp3fpco3to.md:430
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/map.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/minutes.html\">Next</a></p>"
+msgstr ""

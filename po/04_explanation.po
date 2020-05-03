@@ -1,0 +1,89 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpuhiksmya.md:0
+msgid ""
+"**Rolisteam** is virtual Tabletop software.\n"
+"Each player can customize the software or its content. To hide or show "
+"relevant images, maps, chatrooms and any media. "
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:2
+msgid "Rolisteam Goals"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:3
+msgid "**Rolisteam** has several goals:"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:7
+msgid "Provide a serious alternative to play role-playing games with free software."
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:10
+msgid "Help its users to keep their privacy and their data"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:13
+msgid "Decentralize the Internet (by using it, the way it has been designed)"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:16
+msgid "Technological watch over Qt/C++, and other domains"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:20
+msgid "Free software"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:21
+msgid ""
+"**Rolisteam** and **Rcse** are under GPLv2 [read "
+"it](https://raw.githubusercontent.com/Rolisteam/rolisteam/master/COPYING."
+"txt).  \n"
+"**Website**, **packaging script**, **this documention** and **discord "
+"dicebot** are "
+"[GPLv3](https://github.com/Rolisteam/website/edit/master/LICENSE)."
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:25
+msgid "[website](https://github.com/Rolisteam/website)"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:28
+msgid "[Packaging](https://github.com/Rolisteam/packaging)"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:31
+msgid "[DiceDiscordBot](https://github.com/Rolisteam/DiceDiscordBot)"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:35
+msgid "Association"
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:36
+msgid ""
+"**Rolisteam** is the virtual tabletop software but around it. We create an "
+"association in France.\n"
+"The goal of this association is to promote Role playing game and free "
+"software and be a link between both communities."
+msgstr ""
+
+#: /tmp/tmpuhiksmya.md:38
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/firststeps.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/menus.html\">Next</a></p>"
+msgstr ""

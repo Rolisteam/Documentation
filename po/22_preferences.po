@@ -1,0 +1,180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmplkrnst4r.md:0
+msgid ""
+"Preferences are splited in 5 tabs. Each tab brings together settings about "
+"commun subject."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:2
+msgid "General"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:3
+msgid "This tab has many settings to customize some behaviours."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:5
+msgid "![general]({static}/images/panel/rolisteam_Preferences_en_030.png)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:7
+msgid "Maps"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:8
+msgid "Those settings applay on all maps (Maps and vectorial maps)."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:12
+msgid "Define the Fog of War color."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:15
+msgid "Define the opacity of FOW"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:18
+msgid ""
+"Define default permission for map. It is possible to override this settings "
+"when maps are added into **Rolisteam**."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:22
+msgid "Behaviour"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:25
+msgid "Enable/disable the check for updates (Default: Enabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:28
+msgid "Start heartbeat feature. (default: disabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:31
+msgid "Heartbeat frequency (default: 60seconds)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:34
+msgid "Make subwindow title shorter when in tab mode (Default: Disabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:37
+msgid "Select maximum lenght for subwindow title (Default: 10)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:40
+msgid ""
+"Enable/disable the feature \"fit on windows\" for pictures (Default: "
+"enabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:43
+msgid ""
+"Define the path to the translation file you wants. It will be used for the "
+"next starting."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:46
+msgid "Start rolisteam in full screen (Default: selected)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:50
+msgid "Chatwindow"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:53
+msgid "Show timestamps in chatwindows (Default: disabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:56
+msgid "Color of timestamps (Default: black)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:59
+msgid "Hide long dice command (Default: disabled)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:62
+msgid "Treshold for long dice command (Default: 100)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:66
+msgid "Themes"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:67
+msgid "![theme]({static}/images/panel/rolisteam_Preferences_en_029.png)"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:69
+msgid "This part is well-described on the [theme]({filename}18_theme.md) page."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:71
+msgid "Application Path"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:72
+msgid ""
+"![path]({static}/images/panel/rolisteam_Preferences_en_031.png)\n"
+"Defines directory where **Rolisteam** should load/save its content.  \n"
+"**Rolisteam** deals with many file formats (pictures, maps, texts, "
+"character sheet...).  \n"
+"So, there are several paths to define. Rolisteam manages changes these path "
+"after each save.  \n"
+"Change directly this paths should be required in rare cases.  "
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:74
+msgid "Rule set"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:75
+msgid ""
+"![theme]({static}/images/panel/rolisteam_Preferences_en_032.png)\n"
+"Thanks to this panel, it is possible to define new aliases in the dice\n"
+"system.  \n"
+" If you think the syntax is a bit to complicated.  \n"
+"Aliases are dedicated to make it really easier. You may add, modify aliases "
+"or\n"
+"change their priority.  \n"
+"All aliases from the GM are automatically shared\n"
+"to players."
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:77
+msgid "Diagnostic"
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:78
+msgid ""
+"![diag]({static}/images/panel/rolisteam_Preferences_en_033.png)\n"
+"This panel is dedicated to perform diagnostic of the host system.  \n"
+"It gathers information regarding fonts, supported audio file formats and "
+"supported image file format.\n"
+"When reporting issue about **Rolisteam**, please provide us a diagnostic "
+"output.  \n"
+"Moreover when the problem is about unability to read or play some file "
+"formats.  "
+msgstr ""
+
+#: /tmp/tmplkrnst4r.md:80
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/diceroller.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/look.html\">Next</a></p>"
+msgstr ""

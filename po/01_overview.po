@@ -1,0 +1,282 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpp9xexoaj.md:0
+msgid "Presentation"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:1
+msgid ""
+"**Rolisteam** is a free software (under GNU/GPL2.0). It's dedicated to role "
+"play gamers who wish to play despite the distance. \n"
+"It provides all required features to play a game. \n"
+"Thank to Rolisteam, you will be able to share maps, draw on the fly, add "
+"comments, mask some parts of the map, place characters , roll the dices, "
+"talk to each others. \n"
+"Anyways, players can be all over the world or just around the corner, "
+"rolisteam can help you to play."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:3
+msgid ""
+"**Rolisteam** provides enough features to play in text mode.  \n"
+"Many people use audio conference software additionnaly with Rolisteam (such "
+"as Mumble, Teamspeak, Discord, Matrix or Skype)."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:5
+msgid "![image]({static}/images/charactersheet2.jpg)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:7
+msgid "Features"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:8
+msgid "**Rolisteam** has those following features:"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:12
+msgid "Game hosting/Join game [more…]({filename}03_firststeps.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:15
+msgid "Image sharing [more…]({filename}15_images.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:18
+msgid "Instant messaging [more…]({filename}09_chat.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:21
+msgid "Public and privates chat allowing users to talk to each others"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:24
+msgid "Draw and share map [more…]({filename}16_maps.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:27
+msgid "Draw and share Vectorial map [more…]({filename}17_VectorialMap.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:30
+msgid "Import images in map as background or item. "
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:33
+msgid "Multiple drawing tools to draw or annotate maps"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:36
+msgid "Fog of war on map, the GM can hide parts from maps"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:39
+msgid "Character tokens"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:42
+msgid "Charactersheet management [more…]({filename}20_charactersheet.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:45
+msgid "Dice roller [more…]({filename}21_dice_roller.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:48
+msgid "Dice Alias [more…]({filename}22_preferences.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:51
+msgid "Permission management : Game Master (GM) or Playable Character (PC)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:54
+msgid "Distinction between player and character"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:57
+msgid "Character avatar [more…]({filename}08_connected_players.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:60
+msgid "Dynamic character states [more…]({filename}22_preferences.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:63
+msgid "Resource manager [more…]({filename}10_resources.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:66
+msgid "Stored Preferences [more…]({filename}22_preferences.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:69
+msgid ""
+"User Interface Customization (Look and feel) "
+"[more…]({filename}23_look_and_feel.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:72
+msgid "Save/Load data as individual file (image, map, character sheet)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:75
+msgid "Save/Load data into one file called \"scenario\" (.sce)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:78
+msgid "Update the workspace after new player connection."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:81
+msgid ""
+"Minutes editor to keep tracks about your game "
+"[more…]({filename}18_minutes_editor.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:84
+msgid ""
+"Shared Text Editor to share the effort taking notes "
+"[more…]({filename}19_sharedNotes.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:87
+msgid "3 tracks Background music player [more…]({filename}14_music.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:90
+msgid "Dice Bookmark [more…]({filename}13_dicebookmark.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:93
+msgid "Unit convertor [more…]({filename}12_unitConverter.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:96
+msgid "Name generator [more…]({filename}11_namegenerator.md)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:100
+msgid "Tutorials"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:103
+msgid "[Let's get started](http://www.rolisteam.org/tutorial01.html)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:107
+msgid "Abbreviations"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:108
+msgid ""
+"Following abbreviations are used in the whole documentation. Well known\n"
+"by Role playing gamers (Rolists), we wrote this page as a reminder:"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:112
+msgid "**GM**: game master."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:115
+msgid "**PC**: playable character. Is is interpreted by a player."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:118
+msgid "**NPC**: non playable character. It is interpreted by the GM."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:122
+msgid "Licensing"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:123
+msgid ""
+"Rolisteam is free software; you can redistribute it and/or modify it\n"
+"under the terms of the GNU General Public License as published by the\n"
+"Free Software Foundation; either version 2, or (at your option) any\n"
+"later version."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:125
+msgid "Authors"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:126
+msgid ""
+"**Rolisteam** is developed by *Renaud Guezennec*. His purpose is to help "
+"people to play to role playing games.\n"
+"**Rolisteam** is based on rolistik 1.1 developed by *Romain Campioni*."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:128
+msgid "Contributors list:"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:131
+msgid "Renaud Guezennec"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:134
+msgid "Joseph Boudou."
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:137
+msgid "[Milan Irigoyen](https://github.com/m-irigoyen)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:140
+msgid "[IBPX](https://github.com/IBPX)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:143
+msgid "[Vladar4](https://github.com/Vladar4)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:146
+msgid "[Greg](https://github.com/g76r)"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:149
+msgid "Romain Campioni who made rolistik, the code base of rolisteam"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:153
+msgid "Configuration"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:154
+msgid "**Rolisteam** works under"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:158
+msgid "Windows"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:161
+msgid "MacOS"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:164
+msgid "Linux"
+msgstr ""
+
+#: /tmp/tmpp9xexoaj.md:168
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/install.html\">Next</a></p>"
+msgstr ""

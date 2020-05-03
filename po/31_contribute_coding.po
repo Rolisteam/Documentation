@@ -1,0 +1,312 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp8bdcowsa.md:0
+msgid ""
+"Don't hesitate to [contact us]({filename}26_contactUs.md) and tell us what "
+"you want to do."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:2
+msgid "Rolisteam Roadmap"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:3
+msgid ""
+"Please, take a look at the [Rolisteam "
+"roadmap](https://docs.google.com/spreadsheets/d/18jDGViuOm6KjqEAumW1RU2"
+"qccQQ4-TxiXPtAg0X_M2o/edit#gid=769324568) before writing any code."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:5
+msgid "Source code"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:6
+msgid ""
+"**Rolisteam** is written in C++(11) and it is based on Qt5 framework. Its "
+"source code is managed on github. We use git."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:8
+msgid "[Official Rolisteam Page](https://github.com/Rolisteam/rolisteam)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:10
+msgid "Getting the source code"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:11
+msgid ""
+"Depending on how deep you want to be in **Rolisteam** development, there is "
+"two main ways to contribute."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:13
+msgid "One task or few tasks (oneshot)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:14
+msgid ""
+"This approach is great for people who want to implement one feature, fix "
+"few stuffs or test current development tools.\n"
+"The workflow is simple:"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:18
+#: /tmp/tmp8bdcowsa.md:40
+msgid "Get a github account"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:21
+msgid ""
+"Fork rolisteam and its submodules (common, diceparser, charactersheet, "
+"RPlugins), all projets appears on your github profile"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:24
+msgid "clone those git project on your computer."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:27
+msgid "Write the modification"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:30
+msgid "Test the modification"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:33
+msgid "Make \"pull request\""
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:37
+msgid "Be part of the project"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:43
+msgid "Ask to be part of Rolisteam's team"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:46
+msgid ""
+"When its granted you can clone official rolisteam repositories (and its "
+"subproject)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:49
+msgid "Write your code and commit your change."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:53
+msgid ""
+"To show your motivation is a good start to contribute several times as "
+"programmer. Then ask to be part of the team."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:55
+msgid "Git"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:56
+msgid ""
+"**Rolisteam** manages its source code with **Git**.\n"
+"So, first learn how to use it and install it.\n"
+"[Git](https://git-scm.com/)\n"
+"[Learn Git](https://try.github.io/levels/1/challenges/1)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:58
+msgid ""
+"The rest of the documentation git commands are given as command line but "
+"there are many GUI application to manage git repository."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:60
+msgid "Github"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:61
+msgid "Github is a platform which stores rolisteam's git repository."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:63
+msgid ""
+"Those following steps are not mandatory but it definitely speeds up "
+"integration.\n"
+"To explain it a bit, those steps create a copy of **Rolisteam** and its "
+"dependencies into your github account.\n"
+"Then, it allows you to do whatever you want.\n"
+"To share your work, just make a *pull request* (github is a good friend for "
+"that)."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:67
+msgid "Create your [github account](https://github.com)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:70
+msgid "Go to [Rolisteam organisation page](https://github.com/Rolisteam)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:73
+msgid ""
+"Fork ![rolisteam]({static}/images/pictos/fork.png) the wanted project and "
+"its dependencies."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:76
+msgid ""
+"**Rolisteam** project is the source code of **Rolisteam** and "
+"**Roliserver**. It needs **DiceParser**, **RCharacterSheet**, **RPlugins** "
+"and **common**"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:79
+msgid ""
+"**RCSE** project is the charactersheet editor. Its needs "
+"**RCharacterSheet**."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:82
+msgid "**Dice** brings together all tools to roll dice."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:87
+msgid ""
+"Then those git repositories should appear in your github account: "
+"https://github.com/Your\\_Login"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:90
+msgid ""
+"For **Rolisteam** and **rcse**, it is better to change the file "
+"`.gitmodules` before clone the repository:  "
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:91
+msgid ""
+"<pre>\n"
+"[submodule \"client/diceparser\"]\n"
+"  path = client/diceparser\n"
+"  url = https://github.com/Rolisteam/DiceParser.git\n"
+"  pushURL = git@github.com:Rolisteam/DiceParser.git\n"
+"[submodule \"client/widgets/gmtoolbox\"]\n"
+"  path = client/widgets/gmtoolbox\n"
+"  url = https://github.com/Rolisteam/RPlugins.git\n"
+"  pushURL = git@github.com:Rolisteam/RPlugins.git\n"
+"[submodule \"client/charactersheet\"]\n"
+"  path = client/charactersheet\n"
+"  url = https://github.com/Rolisteam/RCharacterSheet.git\n"
+"  pushURL = git@github.com:Rolisteam/RCharacterSheet.git\n"
+"[submodule \"client/common\"]\n"
+"  path = client/common\n"
+"  url = https://github.com/Rolisteam/common.git\n"
+"  pushURL = git@github.com:Rolisteam/common.git\n"
+"</pre>"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:95
+msgid ""
+"Change every **Rolisteam** by **your github username**.  \n"
+"This file describes where git should retrieve dependencies (submodules). We "
+"make sure it retrieves them from your github account.\n"
+"Make this only if you plan to work on dependencies too."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:99
+msgid ""
+"For **Rcse** makes the same operation. The `.gitmodules` file is shorter "
+"than **Rolisteam** one."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:102
+msgid "Install git on windows or [github desktop](https://desktop.github.com/)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:105
+msgid "Clone **rolisteam**:"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:107
+msgid "git clone --recursive git@github.com:Your_login/rolisteam.git"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:111
+msgid "Congrats, the **Rolisteam** source code is on your computer."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:113
+msgid "I have a github account but I don't want to fork so many repositories"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:114
+#: /tmp/tmp8bdcowsa.md:121
+msgid ""
+"Then, just clone the project from the main repository\n"
+"    > git clone --recursive https://github.com/Rolisteam/rolisteam.git"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:116
+msgid ""
+"The source code comes on your computer.\n"
+"You won't be able to integrate your work in **Rolisteam**, until we give "
+"you permission to do so.\n"
+"To do it, we have to accept you in **Rolisteam** organization. [Give "
+"us]({filename}26_contactUs.md) your github username."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:118
+msgid "Of course, you can send us patch. But it's less pratical this way."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:120
+msgid "I don't want to create github account"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:123
+msgid "Technical help"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:124
+msgid ""
+"In order to work on **Rolisteam**, you need to set up a working environment "
+"and be able to compile **Rolisteam**.\n"
+"It requires installation of several tools."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:128
+msgid "[windows]({filename}27_compileWindow.md)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:131
+msgid "[Linux]({filename}29_compileLinux.md)"
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:134
+msgid "[MacOsX]({filename}28_compileMacOs.md)."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:138
+msgid "The page should have all needed information."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:140
+msgid ""
+"Don't hesitate to contact us to speak about your wishes. So we can support "
+"your effort."
+msgstr ""
+
+#: /tmp/tmp8bdcowsa.md:142
+msgid "[Back]({filename}30_TakePart.md)"
+msgstr ""

@@ -1,0 +1,167 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp36kascyl.md:0
+msgid "Introduction"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:3
+msgid "[Overview]({filename}01_overview.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:6
+msgid "[Install]({filename}02_install.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:9
+msgid "[First start and connection]({filename}03_firststeps.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:12
+msgid "[Getting help]({filename}26_contactUs.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:16
+msgid "Detailed Description"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:19
+msgid "[Explanations]({filename}04_explanation.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:22
+msgid "[Main Menus]({filename}05_menus.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:25
+msgid "[Side panels]({filename}06_dockwidgets.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:28
+msgid "[Install Server]({filename}02_1_server.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:32
+msgid "Panels"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:35
+msgid "[Notifications]({filename}07_notifications.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:38
+msgid "[Connected Players]({filename}08_connected_players.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:41
+msgid "[Instant messaging]({filename}09_chat.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:44
+msgid "[Resources Manager]({filename}10_resources.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:47
+msgid "[Name Generator]({filename}11_namegenerator.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:50
+msgid "[Unit Converter]({filename}12_unitConverter.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:53
+msgid "[Npc Maker]({filename}13_NpcMaker.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:56
+msgid "[Dice Bookmark]({filename}13_dicebookmark.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:59
+msgid "[Music]({filename}14_music.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:63
+msgid "Media"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:66
+msgid "[Images]({filename}15_images.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:69
+msgid "[Maps]({filename}16_maps.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:72
+msgid "[Vectorial maps]({filename}17_VectorialMap.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:75
+msgid "[Minutes Editor]({filename}18_minutes_editor.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:78
+msgid "[Shared Notes]({filename}19_sharedNotes.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:81
+msgid "[Character Sheet]({filename}20_charactersheet.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:84
+msgid "[WebPage]({filename}20_webpage.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:87
+msgid "[Pdf file]({filename}20_pdf.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:91
+msgid "Modules"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:94
+msgid "[Dice Roller]({filename}21_dice_roller.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:97
+msgid "[Preferences]({filename}22_preferences.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:100
+msgid "[Look and feel]({filename}23_look_and_feel.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:103
+msgid "[Translation]({filename}24_translation.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:107
+msgid "Get involved"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:110
+msgid "Step by step: [Get involved]({filename}30_TakePart.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:113
+msgid ""
+"Compilation: [Windows]({filename}27_compileWindow.md), "
+"[MacOsX]({filename}28_compileMacOs.md), "
+"[GNU/Linux]({filename}29_compileLinux.md)"
+msgstr ""
+
+#: /tmp/tmp36kascyl.md:116
+msgid "Coding Rules: [Rules]({filename}32_coding.md)"
+msgstr ""

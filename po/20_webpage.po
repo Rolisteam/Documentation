@@ -1,0 +1,75 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpkx4itpct.md:0
+msgid "Web Page"
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:1
+msgid ""
+"Player and GM can open up a webpage. This webpage viewer provides basic "
+"browsing features such as previous page, Go forward, url path."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:3
+msgid "![image]({static}/images/panel/webpage_blank.jpg)"
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:5
+msgid ""
+"It also provides, to the GM, features for sharing the page to others. There "
+"is two kind of sharing the page."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:7
+msgid "Normal Share"
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:8
+msgid "This is the usual way to share webpage with other. It only send the url."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:10
+msgid ""
+"If you want to show content from website with login. Every player should "
+"log in."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:12
+msgid "Share as html"
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:13
+msgid ""
+"This is another way to share webpage. It is perfect for local html code (if "
+"html page are stored on your computeur)."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:15
+msgid "Mask Url"
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:16
+msgid ""
+"As it is common now to record his games, it can be risky to show the url of "
+"your current webpage.\n"
+"So, we add a button to mask the web page url."
+msgstr ""
+
+#: /tmp/tmpkx4itpct.md:18
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/charactersheet.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/pdf.html\">Next</a></p>"
+msgstr ""

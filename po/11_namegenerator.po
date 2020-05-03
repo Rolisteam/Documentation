@@ -1,0 +1,117 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:56+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp_akwdjks.md:0
+msgid ""
+"Improving NPC is always needed in role playing game. Generate name may help "
+"to keep the mood of your game."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:2
+msgid "![name generator]({static}/images/en/name_generator.jpg)"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:4
+msgid "Features"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:5
+msgid "**Rolisteam** can generate name from several countries or universes."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:9
+msgid "French"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:12
+msgid "English"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:15
+msgid "Japanese"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:18
+msgid "Chinese"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:21
+msgid "Elves"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:24
+msgid "Star Wars"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:27
+msgid "Russian"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:31
+msgid ""
+"![name generator]({static}/images/en/all_sets "
+"supported_by_name_generator.jpg)"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:33
+msgid ""
+"French, English, Russian names are selected from list.\n"
+"All the others are generated."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:35
+msgid ""
+"For French and English names, **Rolisteam** may provide complexe names "
+"which means first name and last name.\n"
+"Any other kinds, **Rolisteam** provides only first names."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:37
+msgid "Use it"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:38
+msgid "Select where the names should come from."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:40
+msgid "Select gender: [Male or Female]"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:42
+msgid ""
+"Check `Complexe name` for generating First name and last name at once (only "
+"available for english and french)"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:44
+msgid "Need more universe ?"
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:45
+msgid "It is easy for us to add new universes or countries."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:47
+msgid ""
+"Please [contact us]({filename}26_contactUs.md) and provides us textfiles "
+"(one text file per gender) with one name per line."
+msgstr ""
+
+#: /tmp/tmp_akwdjks.md:49
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/resources.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/units.html\">Next</a></p>"
+msgstr ""

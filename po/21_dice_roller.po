@@ -1,0 +1,959 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpuh2u3uuf.md:0
+msgid ""
+"[![Logo](https://raw.githubusercontent.com/Rolisteam/rolisteam/master/"
+"resources/logo/1000-rolisteam.png)](http://www.rolisteam.org)"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:2
+msgid "DiceParser : What is it ?"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:3
+msgid ""
+"DiceParser is a software component dedicated to roll dice through simple "
+"commands. This software component is available on different platform.  \n"
+"Such as: Irc bot, discord bot, included in Rolisteam, web server, on "
+"twitter etc."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:5
+msgid ""
+"Each platform has its own limitations.\n"
+"Let's take a look about it:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:7
+msgid "Roll dice on each platform"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:8
+msgid ""
+"Please, remember it is important to prefix all you command by `!`. This "
+"will allow the system to identify your command. To clarify the "
+"documentation, the `!` is not repeated before all commands."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:11
+msgid "Known Limitations"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:13
+msgid ""
+"We can't set some aliases for any platform but It has to be labelled with "
+"game's name."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:15
+msgid "How to roll a die"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:16
+msgid "It is real simple. you have to call:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:19
+#: /tmp/tmpuh2u3uuf.md:26
+msgid "1d6"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:22
+msgid ""
+"The first number is the count of dice you want to roll. The second number "
+"should be die's faces count."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:24
+#: /tmp/tmpuh2u3uuf.md:474
+msgid "Examples"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:29
+msgid "Roll one six-faced die."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:32
+msgid "1d10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:35
+msgid "Roll one ten-faced die."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:38
+msgid "5d10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:41
+msgid "Roll five ten-faced die."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:44
+msgid "777d6"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:47
+msgid "Roll 777 six-faced die."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:49
+msgid ""
+"Thanks of several operations and options, you can tune a bit your rolling "
+"command."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:51
+msgid "List of operator"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:54
+msgid "k : Keep"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:57
+msgid "K : Keep And Explose"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:60
+msgid "s : Sort"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:63
+msgid "c : Count"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:66
+msgid "r : Reroll"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:69
+msgid "e : Explose"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:72
+msgid "a : Reroll and add"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:75
+msgid "@ : Backward Jump"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:78
+msgid "p : Paint dice"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:81
+msgid "m : Merge"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:84
+msgid "i : if"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:87
+msgid "g : Group"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:90
+msgid "w : Write"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:94
+msgid "Keep"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:96
+msgid "kX"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:99
+msgid "The option sorts the resulting die list and select the X higher dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:101
+msgid "Keep And Explose"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:103
+msgid "KX"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:106
+msgid ""
+"Dice explose if their value are at the die maximum, the option sorts the "
+"resulting die list, the it selects the X higher dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:108
+msgid "Keep Lower dice"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:110
+msgid "klX"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:113
+msgid ""
+"Dice explose if their value are at the die maximum, the option sorts the "
+"resulting die list, the it selects the X lowest dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:115
+msgid "Sorting"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:117
+msgid "3D10s"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:120
+msgid "The dice list is sorted in descending order."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:123
+msgid "10d6sl"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:126
+msgid "Roll 6 dice at 6 faces and then sort them ascendingly"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:128
+msgid "Counter"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:130
+msgid "3D10c[Validator]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:133
+msgid ""
+"Count how many dice respect the condition and display the number (See "
+"Validator for more details about syntax)"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:135
+msgid "Reroll"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:137
+msgid "3D10r[Validator]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:140
+msgid ""
+"Reroll the die if the previous value fits the validator (See Validator for "
+"more details about syntax)."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:142
+msgid "Explose"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:144
+msgid "3D10e[Validator]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:147
+msgid ""
+"Explose while the value fits the Validator (See Validator for more details "
+"about syntax)."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:149
+msgid "Add"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:151
+msgid "3D10a[Validator]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:154
+msgid ""
+"Reroll the die if its value fits the Validator and add the new value to the "
+"previous one. It does that only once."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:156
+msgid "Roll dice in Range"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:158
+msgid "4d[-1-1]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:161
+msgid "Rolling 4 dice with value between -1 to 1. (Fudge/Fate system)"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:164
+msgid "3d[0-9]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:167
+msgid "Rolling 3 dice with 10 faces starting at 0."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:170
+msgid "3d[-20--9]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:173
+msgid "Rolling 3 dice, values ars between -20 and -9."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:175
+msgid "Backward Jump"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:176
+msgid ""
+"This operator is dedicated to apply its next operator to the second to last "
+"result.\n"
+"For example:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:179
+#: /tmp/tmpuh2u3uuf.md:542
+msgid "8D10c[>=7]+@c[=10]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:182
+msgid ""
+"c[=10] in this command is counting the number of 10 in the result of 8D10.\n"
+"Removing the @ makes it try to count the number of 10 in the result of "
+"c[>=7]. The result of c[>=7] is a scalar number.  \n"
+"it is not dice list."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:184
+msgid "Painter"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:186
+msgid "8D10p[1:blue]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:189
+msgid "Paint the first die in the list in blue"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:192
+msgid "8d10p[2:blue]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:195
+msgid "Paint the two first dice in the list in blue."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:197
+msgid "https://gist.github.com/obiwankennedy/62101383d411e55d205e44df78aa5299"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:199
+msgid ""
+"The amount of color is depending of client application of DiceParser.\n"
+"With Rolisteam, you may set any Qt color's name or set the Hexcode of your "
+"color: #ff28AC.\n"
+"The cli application supports few colors."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:201
+msgid "Merge"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:202
+msgid ""
+"Merge operator is used for gathering several dice rolls from different die "
+"type into one dice result and then you may apply any kind of operator."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:205
+msgid "1d6;1d8mk1"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:208
+msgid ""
+"This command merges together the result from the d6 and the d8. Then, it "
+"applied the k operator on both result to keep the best."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:210
+msgid "if"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:211
+msgid ""
+"If operator means to allow you to do one thing if some conditions are true.\n"
+"The if operator has 2 mandatory parameters:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:215
+msgid "The condition (see validator)"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:218
+msgid "the instruction to do when it is true."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:222
+msgid "There is also 2 optional parameters"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:226
+msgid "the compare method"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:229
+msgid "the instruction to do when it is false."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:234
+msgid "i*[]{}{}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:239
+msgid "\\* : the compare method"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:242
+msgid "[] : the validator"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:245
+msgid "{} : the true instruction"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:248
+msgid "{} : the false instruction"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:252
+msgid "Compare method"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:253
+msgid "There are 3 different methods."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:257
+msgid ""
+"**On Each** : the condition is tested on each die from the previous part of "
+"the command. \\[Default method\\]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:260
+msgid ""
+"**All Of Them** : All dice must fit the condition to trigger the true "
+"instruction. If all dice do not fit the condition the false instruction is "
+"run."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:263
+msgid ""
+"**One Of Them** : at least one die must fit the condition to trigger the "
+"true instruction. If no dices fit the condition the false instruction is "
+"run."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:266
+msgid ""
+"**On Scalar** : the condition is evaluated on the scalar result of the dice "
+"roll."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:270
+msgid ""
+"To switch the operator to act in **All Of Them** method you must add "
+"```*``` character as compare method position.  \n"
+"To switch the operator to act in **One Of Them** method you must add "
+"```.``` character as compare method position.  \n"
+"To switch the operator to act in **On Scalar** method you must add ```:``` "
+"character as compare method position.  "
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:272
+msgid ""
+"If you plan to use if operator to display text message. You must surround "
+"text with ```\"```. Example available below."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:274
+msgid "Group"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:276
+msgid "5d10g10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:279
+msgid "Roll 5 dice and then try to group them to make group of 10 [7th sea system]."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:281
+msgid "Write"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:283
+msgid "4d10;$2c[>6];$2c[<2];$2-$3;w{\"Success count: $4"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:286
+msgid "example:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:288
+msgid " 1d6i[<4]{3}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:291
+msgid ""
+"If the value of the die is less than 4, the die value is 3. (So 1, 2 , 3 "
+"become 3)."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:294
+msgid " 4d6e6i[=4]{-4}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:297
+msgid "If die has 4 as value, it remove it. \\[Kuro System\\]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:300
+msgid "4d6i.[=6]{+1d6}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:303
+msgid ""
+"if at least one die is equal to 6, then roll another d6 and add it to the "
+"result."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:306
+msgid "4d6i*[=6]{+1d6}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:309
+msgid "if all dice are equal to 6, then roll another d6 and add it to the result."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:312
+msgid "2d10i:[>15]{\"Success\"}{\"Fail\"}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:315
+msgid ""
+"if the sum of two dice is greater than 15, It displays \"Success\", "
+"override it displays \"Fail\"."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:318
+msgid "2d10i:[>15]{\"Success %1 \"}{\"Fail %1\"}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:321
+msgid "Same as above, but the final result is displayed beside Success or Fail."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:324
+msgid "2d10i:[>15]{\"Success %1 [%2]\"}{\"Fail %1 [%2]\"}"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:327
+msgid ""
+"Same as above, but the result of each die is displayed inside square "
+"brackets."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:329
+msgid "Arithmetic"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:330
+msgid ""
+"Rolisteam Dice Parser is able to compute primary arithmetic operation such "
+"as: +, -, /, * and it also manages those operator priority and it can also "
+"manage parenthesis."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:333
+#: /tmp/tmpuh2u3uuf.md:518
+msgid "8+8+8"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:336
+msgid "Result: 24"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:339
+msgid "24-4"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:342
+msgid "Result: 20"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:345
+msgid "(3+4)\\*2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:348
+msgid "Result: 14"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:351
+msgid "7/2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:354
+msgid "Result: 3.5"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:357
+msgid "(3+2D6)D10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:360
+msgid ""
+"Roll 2 dice and add 3 to the sum of those dice. Then the result is used for "
+"rolling dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:362
+msgid "Arithmetic and Dice"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:363
+msgid ""
+"It is possible to use arithmetic opearation on dice. Please pay attention "
+"that the default operation to translate a\n"
+"dice list to scalar is the sum. So if you roll `3d6`, the result will be a "
+"list with 3 values {2, 5 ,1}. Now, we\n"
+"change a bit the command `3d6+4`: It is resolved like this: {2, 5 ,1} = 8; "
+"8+4 = 12. The final result is 12."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:366
+msgid "3d6+4"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:369
+msgid "Roll 3 dice; sum the result; and add 4"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:372
+msgid "10D10-2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:375
+msgid "Roll 10 dice; sum the result; and then substract 2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:378
+msgid "87-1D20"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:381
+msgid "Substract the result of 1 die to 87"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:384
+msgid "(6-4)D10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:387
+msgid "Substract 4 to 6 and then roll two dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:390
+msgid "1D10/2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:393
+msgid "Divide by 2 the result of 1 die."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:396
+msgid ""
+"(2+2)^2\n"
+"Result: 16"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:400
+msgid "1d10^2"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:403
+msgid "Roll two (or more) kinds of dice at once."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:404
+msgid "To make it, you have to separate all dice commands by `;`"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:407
+msgid "1d10;1d6"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:410
+msgid "or"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:413
+msgid "5d6;1d10;4d100;3d20"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:416
+msgid "Validator"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:417
+msgid ""
+"There are three kind of Validator:\n"
+"-Scalar\n"
+"-Range\n"
+"-Boolean expression"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:419
+msgid ""
+"Any operator which requires validator (such as `a,r,e,c`) can use those "
+"three kind."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:421
+msgid "Scalar"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:422
+msgid ""
+"The scalar value sets the validator on eguality between the dice value and "
+"the validator"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:425
+msgid "4d10e10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:428
+msgid "This command means : roll 4 dice and they explose on 10."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:430
+msgid "Range"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:431
+msgid ""
+"The range is defined as two bounds. You have to use square brackets and the "
+"two bounds are separated by `-`."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:434
+msgid "4d10c[8-10]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:437
+msgid "Boolean Condition"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:438
+msgid "The command counts how many dice have values between >=8 and <=10."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:441
+msgid "4d10c[>7]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:444
+msgid "The command counts how many dice are aboved 7."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:446
+msgid "Logic Operator"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:447
+msgid "The Rolisteam Dice Parser allows you to use several logic operator:"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:451
+msgid "Egual : ="
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:454
+msgid "Greater or egual :  >="
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:457
+msgid "Lesser or egual : <="
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:460
+msgid "Lesser : <"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:463
+msgid "Greater : >"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:467
+msgid "Select value from List"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:468
+msgid ""
+"The L operator (meaning list) can offer you the opportunity to pick up "
+"value from list."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:471
+#: /tmp/tmpuh2u3uuf.md:524
+msgid "1L[sword,bow,knife,gun,shotgun]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:476
+msgid "3D100"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:479
+msgid "Roll 3 dice with 100 faces"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:482
+msgid "10D10e[=10]s"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:485
+msgid "Roll 10 dice with 10 faces, 10 exploses, and sort the result."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:488
+msgid "100291D66666666s"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:491
+msgid "Roll 100291 dice with 66666666666 faces and sort result"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:494
+msgid "15D10c[>7]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:497
+msgid "roll 15 dice with 10 faces and it counts number of dice which are above 7"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:500
+msgid "1D8+2D6+7"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:503
+msgid "roll 1 die with 8 faces and add the result to 2 dice with 6 faces and add 7."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:506
+msgid "D25"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:509
+msgid "roll 1 die with 25 faces"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:512
+msgid "88-1D20"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:515
+msgid "88 minus the value of 1 die of 20 faces"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:521
+msgid "compute: 24"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:527
+msgid "One of this word will be picked."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:530
+msgid "8D10c[Validator1]-@c[validator2]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:533
+msgid ""
+"Roll 8 dice with 10 faces then it counts how many dice respect the "
+"condition Validator1 and substract the number of dice which respect the "
+"validator2 and display the number (See Validator for more details about "
+"syntax)"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:536
+msgid "8D10c[>=6]-@c[=1]"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:539
+msgid "Old World in darkness system."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:545
+msgid "Exalted 2nd edition system."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:547
+msgid "Best Practices"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:548
+msgid ""
+"As DiceParser provides more and more features, you may find several ways to "
+"do the same thing. We want here to explain the difference between those "
+"several approaches. Then you will be able to use the right one."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:550
+msgid "Roll several kind of dice and sum them"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:551
+msgid "`Bad`"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:554
+msgid "2d8;2d10m"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:557
+msgid "`Good`"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:560
+msgid "2d8+2d10"
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:563
+msgid ""
+"The merge operator is useful when you want to use dice operator on all "
+"rolled dice."
+msgstr ""
+
+#: /tmp/tmpuh2u3uuf.md:565
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/pdf.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/preferences.html\">Next</a></p>"
+msgstr ""

@@ -1,0 +1,234 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpustjp2t8.md:0
+msgid ""
+"First, it is important to know what to install.  \n"
+"Rolisteam mow means 3 different programs.  "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:4
+#: /tmp/tmpustjp2t8.md:14
+msgid "Rolisteam"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:7
+#: /tmp/tmpustjp2t8.md:17
+msgid "Rolisteam Character Sheet Editor (RCSE)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:10
+#: /tmp/tmpustjp2t8.md:20
+msgid "Roliserver"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:15
+msgid ""
+"The first one is the main program.   \n"
+"It is the virtual table software. It provides every features   \n"
+"for hosting games or joining games and play."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:18
+msgid ""
+"RCSE is dedicated to create and edit Character sheet.  \n"
+"It provides features to make character sheet looks like official paper ones."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:21
+msgid ""
+"It is useful for communities which want to provide rolisteam as service to "
+"their members.  \n"
+"Prepare a home sweet home for your community's.  "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:23
+msgid ""
+"Roliserver runs on any computer but it is designed to be operate on distant "
+"server.  \n"
+"There is no Graphical User Interface and the configuration is made though a "
+"configuration file.  "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:25
+msgid "More information available [here]({filename}02_1_server.md)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:27
+msgid "Windows"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:28
+msgid "![image]({static}/images/logo/windows_logo.jpg)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:30
+msgid "Get Rolisteam"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:31
+msgid ""
+"Get **Rolisteam** on the [download](http://www.rolisteam.org/download.html) "
+"page."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:33
+#: /tmp/tmpustjp2t8.md:68
+msgid "Start installation"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:34
+msgid "Double click on *Rolisteam-v1.8.2-setup.exe*  "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:36
+msgid "The installation wizard appears:  "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:40
+msgid "Agree to license"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:43
+msgid "Choice where to install"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:46
+msgid "Let the installation go"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:49
+msgid "Install shortcut to start rolisteam"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:52
+msgid "Start Rolisteam."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:56
+msgid ""
+"**Attention:** It appears some features does not work when rolisteam has "
+"been started at the end of installation (such as drag and drop).\n"
+"It is recommanded to close it and start it again from desktop shortcut."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:58
+msgid "Mac Os X"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:59
+msgid "![image]({static}/images/logo/maxoslogo.png)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:61
+msgid "Get Rolisteam and RCSE"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:62
+msgid ""
+"Get **Rolisteam** and **RCSE** on the "
+"[download](http://www.rolisteam.org/download.html) page.\n"
+"Pay attention that there are two different packages."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:64
+msgid "Homebrew"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:65
+msgid ""
+"You can install rolistream and rsce with Homebrew cask, using the commands "
+"below:"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:67
+msgid ""
+"brew cask install rolistream\n"
+"brew cask install rcse"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:69
+msgid ""
+"Double click on **Rolisteam-v1.8.2-setup.dmg**  \n"
+"The installation wizard appears then, copy **Rolisteam** to the app folder."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:71
+msgid ""
+"Double click on **RCSE-v1-setup.dmg**  \n"
+"The installation wizard appears then, copy **RCSE** to the app folder."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:73
+msgid "GNU/Linux"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:74
+msgid "![image]({static}/images/logo/linux-logo.jpg)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:76
+msgid ""
+"Distribution may provide **Rolisteam** as package.  \n"
+"Check if the rolisteam package is up-to-date.  \n"
+"Please, contact the package maintener to ask update."
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:78
+msgid "on Ubuntu"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:79
+msgid "Run these commands:"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:81
+msgid ""
+"    sudo add-apt-repository ppa:rolisteam/ppa\n"
+"    sudo apt-get update\n"
+"    sudo apt-get upgrade\n"
+"    sudo apt-get install rolisteam rcse diceparser"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:82
+msgid "Compilation"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:83
+msgid ""
+"The last way, to get rolisteam is to compile it.\n"
+"[compilation]({filename}29_compileLinux.md)"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:85
+msgid "Issues"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:86
+msgid "On Windows, Rolisteam does not start due to missing MSVCP140.DLL"
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:87
+msgid ""
+"You have to install [Visual C++ Redistributable for Visual Studio "
+"2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) from "
+"Microsoft: "
+msgstr ""
+
+#: /tmp/tmpustjp2t8.md:89
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/overview.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/firststeps.html\">Next</a></p>"
+msgstr ""

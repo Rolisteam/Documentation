@@ -1,0 +1,312 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmparbqp2c8.md:0
+msgid "Tutorials"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:1
+msgid ""
+"As an introduction of what rolisteam can do and how to use rolisteam, this "
+"tutorial should answer many of your questions."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:5
+msgid "[Let's get started](http://www.rolisteam.org/tutorial01.html)"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:9
+msgid "The gathering"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:10
+msgid ""
+"To play together with **Rolisteam**. All participants must join the same "
+"virtual place.\n"
+"There are two ways to do so:"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:14
+msgid "Online rolisteam server."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:17
+msgid "Host the game."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:21
+msgid "Join online server"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:22
+msgid ""
+"Player/RPG communities can now install rolisteam server on remote server. "
+"Just like any video game server.\n"
+"Please go to the [server list](http://www.rolisteam.org/serverList.html) to "
+"know online servers. Not all of them are listed there.\n"
+"[Contact us]({filename}26_contactUs.md) to add your server to the list."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:24
+msgid ""
+"If you want to install rolisteam server for your community, find "
+"[instruction here]({filename}02_1_server.md)"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:26
+msgid "Host the game"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:27
+msgid ""
+"Game can be hosted with rolisteam on any computer.\n"
+"Please follow these step."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:29
+msgid "Step 0 : Decide who should host the game"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:30
+msgid "To select the best candidate for hosting, please keep in mind these points:"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:34
+msgid "Good network bandwidth"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:37
+msgid "Stable computer"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:40
+msgid "Reliable Person"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:44
+msgid "Step 1 : Start **Rolisteam**"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:45
+msgid "![images]({static}/images/en/connection_dialog.jpg)"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:47
+msgid "Step 2 : Make profile"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:50
+msgid "Fill up your name, select a color.  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:53
+msgid "Select a port (default: 6660)  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:56
+msgid "Ensure the `host the game` checkbox is checked.  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:59
+msgid "Define a password if you want of let it blank.  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:62
+msgid "Then, click on `Ok`.  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:66
+msgid "The address field becomes disable when `host the game` is checked."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:68
+msgid "[more details]({filename}03_firststeps.md) about Connection profile"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:70
+msgid ""
+"The profile selection dialog disappears and then, Rolisteam is waiting for "
+"other players to join. In the notification panel, **Rolisteam** gives you "
+"all informations required to join your game. Players must have those "
+"information ( ip address to join and port).  \n"
+"Don't forget to give them the password as well."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:72
+msgid "Step 3 : Connectivity test"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:73
+msgid ""
+"We strongly recommand to test the connection before your first game.\n"
+"So we developed a [connection "
+"test](http://www.rolisteam.org/php/test_ip.php) to know if your network let "
+"incomming connections reach **Rolisteam**."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:75
+msgid "Set the ip address and port on the webpage and click on `Test`."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:77
+msgid ""
+"The response should be **Good News ! Connection succeed!**.  \n"
+"Any other response means it does not work."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:79
+msgid "Connection failed ? don't worry"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:80
+msgid ""
+"The most frequent cause about connection issue is the separation between "
+"your local network and the internet.  \n"
+"In this case, the device on the internet is not your computer but it's your "
+"network device (modem/router/...).  \n"
+"So the incoming connection reaches your network device but it does not know "
+"what to do with it.  "
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:82
+msgid ""
+"Settings rule to forward incoming connection to your computer fixes it. But "
+"at First, we must be sure your computer has always the same address inside "
+"your local network."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:84
+msgid ""
+"The configuration must be made once. When it had worked it should work "
+"until you change your network device or erase its memory."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:86
+msgid ""
+"There are plenty of tutorials online, just search for **port forwarding** "
+"and the name of your **ISP**."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:88
+msgid "Fixed Ip address"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:89
+msgid ""
+"The process here is highly network device dependent or ISP dependent.  \n"
+"On the network device configuration page, you must look for **dhcp**, "
+"**local network rule** or **Lan**.\n"
+"Set your computer to have always the same local Ip address (commonly "
+"192.168.0.XXX or 192.168.1.XXX)"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:91
+msgid ""
+"To make sure it works, unplug and replug your computer several times or "
+"restart it and check that the local ip address does not change."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:93
+msgid "Forwarding Connection"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:94
+msgid ""
+"This configuration steps are highly dependent of your network device.  \n"
+"The goal here is to define a rule. This rule says: \"when an incoming "
+"connection using the port 6660 reaches you (network device). Please forward "
+"it to my computer's ip local address (previous step)\"."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:96
+msgid ""
+"Test your connection with the tool described ealier in this document. \n"
+"When the connection works, you should give information to the other players."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:98
+msgid "Join remote game"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:99
+msgid ""
+"Your group has a working solution to host the game.\n"
+"So players must join. \n"
+"Ensure you have all needed data.\n"
+"-Connection address (or hostname)\n"
+"-Port number\n"
+"-Password (if necessary)"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:101
+msgid "Step  : Join game"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:104
+msgid "Start **Rolisteam**"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:107
+msgid ""
+"fulfill your profile: player Name, player color, character name, character "
+"color, character avatar (square image are better), connection adress, port "
+"and password."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:110
+msgid ""
+"Ensure the ```GM``` checkbox state is revelent to your role in the game to "
+"come."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:113
+msgid "Ensure ```host the game``` is not checked"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:116
+msgid "then click on ```Ok```"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:120
+msgid "The connection dialog disappears when is connection with the server is set."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:122
+msgid "**Congratulations!! Game on!**"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:124
+msgid "Test alone"
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:125
+msgid ""
+"It is strongly recommended to test **Rolisteam** before playing with it. \n"
+"To test it, start rolisteam twice and on the first one, select an hosting "
+"profile (GM/Host).\n"
+"On the second, set address to **localhost** and connect as client/Player."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:127
+msgid ""
+"Now, you can play around with **Rolisteam** and see how it will appears to "
+"your player's screens."
+msgstr ""
+
+#: /tmp/tmparbqp2c8.md:129
+msgid ""
+"<p style=\"text-align: left; width:49%; display: inline-block;\"><a "
+"href=\"/install.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/explanation.html\">Next</a></p>"
+msgstr ""

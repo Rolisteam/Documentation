@@ -1,0 +1,68 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmp8gsexwmo.md:1
+msgid ""
+"As you may noticed, **Rolisteam** is translated in several languages.  \n"
+"When you start **Rolisteam**, it automatically recognizes the language of "
+"your system.  \n"
+"It loads the appropriated translation file, when available.  "
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:3
+msgid "Change the language"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:4
+msgid ""
+"You may force rolisteam to load one specific file. To do that, you have\n"
+"two ways:"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:6
+msgid "Through Preferences:"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:8
+msgid "`  Preferences > Translation File > [...] `"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:10
+msgid ""
+"Browse to the translation file, then press OK and restart the\n"
+"application."
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:12
+msgid "Parameter at start up:"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:14
+msgid "`  ./rolisteam -t /path/to/translation/path`"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:16
+msgid "Translate Rolisteam"
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:17
+msgid "For more details, please review [this page]({filename})."
+msgstr ""
+
+#: /tmp/tmp8gsexwmo.md:19
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/look.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/contactus.html\">Next</a></p>"
+msgstr ""

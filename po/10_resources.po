@@ -1,0 +1,336 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpm6b8a1_f.md:0
+msgid "Goals"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:1
+msgid "![image]({static}/images/en/resources_explorer.jpg)"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:3
+msgid ""
+"The *Resource manager* is new way to see all assets required in your game.\n"
+"It keeps track of every loaded files to offer an quick and easy way to "
+"(re)-open them the next session.\n"
+"It is more than a way to restore **Rolisteam's** state. It provides way to "
+"order resources."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:5
+msgid "Chapter is like a directory which can accepts resources."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:7
+msgid "Supported ressources are :"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:11
+msgid "Map"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:14
+msgid "Vectorial Map"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:17
+msgid "Picture"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:20
+msgid "Charactersheet"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:23
+msgid "Note"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:26
+msgid "Shared note"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:29
+msgid "Audio Playlist"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:32
+msgid "NPC"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:35
+msgid "PDF file"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:38
+msgid "Web page (url)"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:42
+msgid "Columns"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:43
+msgid "Each *Resource* have properties which describes its current status."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:45
+msgid "Name"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:46
+msgid ""
+"Obviously, the first column is the *resource* name.\n"
+"Edit the cell to rename the *resource*."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:48
+msgid "Loading mode"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:49
+msgid ""
+"This property defines how the **resource manager** keeps track of this "
+"resource."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:51
+msgid "Understand the flow"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:52
+msgid "New Media"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:53
+msgid ""
+"New created media (```File > new > ...```) have no path. By default, their "
+"loading mode is *Internal*.\n"
+"If you try to save it (any internal media) by ```Ctrl+S```. It will in fact "
+"save the scenario (and this new media in it)."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:55
+msgid ""
+"To save the media only, you must use ```Save as...``` action. It defines "
+"the resources path and set its loading mode to linked."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:57
+msgid "Opened Media"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:58
+msgid "Opened Media are stored as linked by default."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:60
+msgid "Exception about PDF"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:61
+msgid ""
+"PDF file are always managed as linked. They can't be internal due to "
+"heaviness of RPG pdf files."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:63
+msgid "There are two values."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:65
+msgid "Linked"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:66
+msgid ""
+"Only the path is saved inside the scenario file.\n"
+"It makes the file small and don't dupplicate any data.\n"
+"If original data are deleted or moved, the **resource manager** won't be "
+"able to access it."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:68
+msgid "Internal"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:69
+msgid ""
+"Data are saved inside scenario file.\n"
+"It makes the scenario heavier but it becomes a standalone file. So, it can "
+"be shared.\n"
+"The original data can be deleted. It is stored inside the .sce file."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:71
+msgid "Displayed"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:72
+msgid "Shown"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:73
+msgid ""
+"The resource is displayed on your workspace. It can be shown or hidden to "
+"all the other participants.\n"
+"The shown status in *resources manager* means displayed or minimized."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:75
+msgid "Hidden"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:76
+msgid ""
+"The resource is hidden. It can be displayed through the `Sub-windows` menu.\n"
+"It can be shown or hidden to all other participants."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:78
+msgid "Unloaded"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:79
+msgid ""
+"The resource isn't loaded. The scenario offers a quick way to open it (and "
+"show it)."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:81
+msgid "Path"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:82
+msgid ""
+"The path is the fill path to the file.  \n"
+"If the file does not exist anymore (relocated, renammed or deleted), the "
+"line appears red."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:84
+msgid "Save/Restore"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:85
+msgid "Saving the scenario is in fact, saving the *resources manager*."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:87
+msgid "Context Menu"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:88
+msgid "![menu]({static}/images/panel/resources_manager_contextual_menu.jpg)"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:92
+msgid "Change loading mode"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:95
+msgid "Add chapter"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:98
+msgid "Remove chapter or resources"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:101
+msgid "Show/hide loading mode"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:104
+msgid "Show/hide displayed mode"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:107
+msgid "Show/hide full path"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:111
+msgid "Example:"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:112
+msgid "![manager with data]({static}/images/panel/resouces_manager_with_data.jpg)"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:114
+msgid ""
+"In this case, we have 3 folders (rules, NPC and places). Each of them "
+"contains medias.\n"
+"The icon gives information to the type. The resource manager lists PDF, "
+"images, map, vectorial map, charactersheet, notes.\n"
+"*Linked* medias have been dropped on the application, when `Sake House` is "
+"a new document (make it `internal`).  "
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:116
+msgid "Use cases"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:117
+msgid "Share media once but Don't keep tracks of the image."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:118
+msgid "To forget a media, just remove it from the **resources manager**."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:120
+msgid "Close media to every one but keep it in **resources manager**"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:121
+msgid "Ensure the media, you want to close is the current one."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:123
+msgid "Menu: ```File > close```"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:125
+msgid "Some medias have red background, what does it mean ?"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:126
+msgid ""
+"It means the media has never been saved, and **Rolisteam** does not know "
+"where to save it (no path).\n"
+"Saving the document or the scenario will fix it."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:128
+msgid "Close media and forget it"
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:129
+msgid ""
+"Menu: ```File > close```\n"
+"then, just remove it from the **resources manager**."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:131
+msgid ""
+"In one action, you can use the context menu on the resource to close and "
+"remove it."
+msgstr ""
+
+#: /tmp/tmpm6b8a1_f.md:133
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/chat.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/namegenerator.html\">Next</a></p>"
+msgstr ""

@@ -1,0 +1,218 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmplcplew7f.md:0
+msgid ""
+"It is useful to show things to players such as characters, places, venues, "
+"landmarks and so on."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:2
+msgid ""
+"Images can not be modified. It is impossible to paint over Images.\n"
+"[Map]({filename}16_maps.md) or [Vectorial "
+"map]({filename}17_VectorialMap.md) is the right answer for that."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:4
+msgid "Identify Image from other kind of window"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:5
+msgid ""
+"All image subwindows have the same icon:  \n"
+"![image]({static}/images/pictos/image.png)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:7
+msgid "All image subwindows title is ended by the text: `(image)`."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:9
+msgid "Supported formats"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:10
+msgid ""
+"**Rolisteam** accepts many standard formats such as: `*.jpg`,`*.png` and "
+"`*.bmp`."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:12
+msgid ""
+"It may supports many other formats depending of the platform. The whole "
+"list is available in the [diagnostic tab]({filename}22_preferences.md) in "
+"the preferences panel."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:14
+msgid "Open image"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:15
+msgid ""
+"**Rolisteam** can not create new images. They must be opened (`File > Open "
+"Image`).\n"
+"Then, the opened image is sent to all users."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:17
+msgid "Save Image"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:18
+msgid ""
+"A image can only be saved as part of a scenario (`File` menu then `Save "
+"scenario`)."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:20
+msgid "Contextual Menu"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:21
+msgid "![images]({static}/images/panel/menu_image1.jpg)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:23
+msgid ""
+"By default, `fit window` is enabled. In this configuration, **Rolisteam** "
+"ensure the whole image is visible.\n"
+"It is really useful for huge image.\n"
+"If you want to zoom in a particular part of the picture, you must disable "
+"it."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:25
+msgid "Zoom in/out"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:26
+msgid ""
+"Sometime it's useful to manage zoom level manually. To get access to zoom "
+"level feature, just show the contextual menu and click on `Fit window` to "
+"unselect this mode."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:28
+msgid "You can activate all these feature throught the contextual menu:"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:30
+msgid "![images]({static}/images/panel/menu_image_2.jpg)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:34
+msgid "zoom up, zoom down (the minimun value is 0.2)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:37
+msgid "Fit the image window in the workspace"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:40
+msgid "Fit the image to its window (keeping the ratio) (Default)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:43
+msgid "Level of Zoom: Little, normal, Big"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:47
+msgid "Load Image From Internet"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:48
+msgid ""
+"You may load images from the Internet.\n"
+"The dedicated dialog box is reachable at `file > Open > Online Image`.  "
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:50
+msgid "The following dialog appears:"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:52
+msgid "Step 1"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:53
+msgid "  ![image]({static}/images/en/oponline_image.jpg)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:55
+msgid ""
+"  When the Url is set, **Rolisteam** downloads automatically the image and "
+"displays it in the preview panel. It may be required to click on `download` "
+"to make **Rolisteam** get the image faster."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:57
+msgid "Step 2"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:58
+msgid "![image]({static}/images/tuto/07_load_image_from_internet2_en.jpg)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:60
+msgid ""
+"In this state, it is possible to change the image's title. When it is done. "
+"You can click on `Ok`\n"
+"Then, the image will appears as a regular image."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:62
+msgid "Step 3"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:63
+msgid "![image]({static}/images/en/show_image.jpg)"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:65
+msgid "Hide Image"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:66
+msgid ""
+"There are two ways to hide the image. You may click on the cross on the "
+"subwindows or you may click on image's name in the `subwindows` menu.\n"
+"The image is hidden. To show it again, just click on its name again in the "
+"`subwindows` menu."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:68
+msgid ""
+"Either ways, the image is hidden only for you. All other players may still "
+"see the image."
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:70
+msgid "Close Image"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:71
+msgid ""
+"The **GM** or the owner of the image may close it.\n"
+"This means the image will disappear from every player's workspace.\n"
+"To do so, Inside the `file` menu, click on `Close Map/image`"
+msgstr ""
+
+#: /tmp/tmplcplew7f.md:73
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/music.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/map.html\">Next</a></p>"
+msgstr ""

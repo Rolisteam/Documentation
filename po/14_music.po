@@ -1,0 +1,256 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-03 21:57+0000\n"
+"Plural-Forms: \n"
+
+#: /tmp/tmpnr64r76x.md:1
+msgid "Overview"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:2
+msgid "![MusicSolo]({static}/images/en/3_audio_players.jpg)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:4
+msgid "Please pay attention to all action buttons (from left to right):"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:8
+msgid "Play"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:11
+#: /tmp/tmpnr64r76x.md:45
+msgid "Pause"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:14
+#: /tmp/tmpnr64r76x.md:48
+msgid "Stop"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:17
+msgid "Playing mode: one file (and stop playing at the end)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:20
+msgid "Playing mode: playing the file again and again."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:23
+msgid ""
+"Add: You may open audio files (one or many), Playlist files, remote stream "
+"url, or load the playlist from [tabletopaudio.com](http://tabletopaudio.com)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:26
+msgid "Save your playlist with any kind of media (local file or stream)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:29
+msgid "Remove media : remove one media or all."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:33
+msgid "Actions"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:34
+msgid "![Menu contextuel]({static}/images/tuto/27_music_contextual_menu_en.jpg)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:36
+msgid ""
+"The contextual menu shows all actions. Some of them have shorcuts, offering "
+"direct access to this actions."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:38
+msgid "It is possible to hide one, two or all players (any of them)."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:42
+msgid "Play current file"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:51
+msgid "Add file"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:54
+msgid "Add Stream"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:57
+msgid "Open Playlist"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:60
+msgid "Load TableTopAudio.com playlist"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:63
+msgid "Save playlist"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:66
+msgid "Clean list"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:69
+msgid "Remove file from the list"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:73
+msgid "Open file, playlist or URL"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:74
+msgid ""
+"Audio players in rolisteam may open file from user's computer. They can "
+"also load playlist. They can also load stream or remote file."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:76
+msgid "Example:"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:79
+msgid "remote file: http://myOwnWebServer.com/music/village.mp3"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:82
+msgid "Local file: c:\\My Documents\\audio\\village.mp3"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:85
+msgid "Local Playlist: c:\\My Documents\\audio\\rpg_playlist.m3u"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:89
+msgid "Drag and Drop"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:90
+msgid ""
+"It is possible to drag and drop files onto player widgets. The files are "
+"added to the list. The items are put at your cursor position.\n"
+"Horizontal line appears. You may also directly drop file in the main "
+"window. Then, they are added to the first player."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:92
+msgid "Three tracks at the same time"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:93
+msgid ""
+"By default, rolisteam has 3 music players.\n"
+"They are completely seperated to one another. It allows you to have "
+"background music, sound effects and environment sounds at the same time.\n"
+"The goal is to improve the experience."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:95
+msgid "Streaming music"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:96
+msgid ""
+"Rolisteam is not streaming any audio files. It send stream information "
+"(such as URL) or filename to play. If you want to play your own audio "
+"files.\n"
+"You must send them to each of your players. Your players must put them into "
+"one directory and then, set the directory as music directory in audio "
+"player.\n"
+"Each audio player has it own directory."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:98
+msgid ""
+"Rolisteam can not be used as streaming server. So, music files are not\n"
+"transferred to each players. There are two reasons for that:"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:102
+msgid "Bandwidth issue"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:105
+msgid ""
+"This feature would make rolisteam a piracy software according to french "
+"laws."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:109
+msgid "Play music from TableTopAudio.com"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:110
+msgid ""
+"Rolisteam provides a playlist with many background music from "
+"[TableTopAudio.com](TableTopAudio.com).\n"
+"This playlist can be loaded from the contextual menu."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:112
+msgid "![TableAudio.com]({static}/images/)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:114
+msgid "Music Player when I'm a player (no GM)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:115
+msgid ""
+"When rolisteam is in player mode (instead of GM), The music player shows "
+"lesser elements.\n"
+"It provides a text field to indicate error message. When there is no error, "
+"it hides the filename.\n"
+"A folder button is available to define the root directory to check. And "
+"player user can also manage the volume."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:117
+msgid "File format ?"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:118
+msgid ""
+"Rolisteam uses platform specific backend to play sound file. Which means "
+"the supported file formats are the same as default audio player."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:120
+msgid "Windows"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:121
+msgid ""
+"On windows, it is recommended to install: "
+"[https://xiph.org/dshow/](https://xiph.org/dshow/)"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:123
+msgid "Linux"
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:124
+msgid "Please install gstreamer backend for QtMultimedia."
+msgstr ""
+
+#: /tmp/tmpnr64r76x.md:126
+msgid ""
+"<p style=\"text-align: left; width:49%;  display: inline-block;\"><a "
+"href=\"/npcmaker.html\">Previous</a></p>\n"
+"<p style=\"text-align: right; width:50%;  display: inline-block;\"><a "
+"href=\"/images.html\">Next</a></p>"
+msgstr ""
